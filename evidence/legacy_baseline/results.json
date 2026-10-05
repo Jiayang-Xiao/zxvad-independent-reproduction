@@ -1,0 +1,34 @@
+{
+  "scope": "legacy_run_evidence_not_a_fresh_run_of_this_package",
+  "version": "legacy_v1",
+  "legacy_study": "ZXVAD_MNA_V1_baseline_arm",
+  "legacy_publication_commit": "056cdb69a6732f80f688455e143eb561d6c67837",
+  "metric": "per-video-minmax pooled frame AUROC",
+  "rows": [
+    {
+      "target": "ped1",
+      "AUROC": 0.7404233708134975,
+      "frames": 7056,
+      "videos": 36
+    },
+    {
+      "target": "ped2",
+      "AUROC": 0.9322106707096961,
+      "frames": 1962,
+      "videos": 12
+    },
+    {
+      "target": "avenue",
+      "AUROC": 0.7371757489775154,
+      "frames": 15240,
+      "videos": 21
+    }
+  ],
+  "macro_AUROC": 0.803269930166903,
+  "paper_SHT_SHT_AUROC": {
+    "ped1": 0.7614,
+    "ped2": 0.9578,
+    "avenue": 0.8228
+  },
+  "paper_comparison_status": "provisional_until_full_evaluation_alignment"
+}

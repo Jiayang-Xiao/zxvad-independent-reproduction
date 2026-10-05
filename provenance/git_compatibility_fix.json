@@ -1,0 +1,27 @@
+{
+  "fix_id": "ZXVAD_PUBLICATION_GIT_COMPAT_1",
+  "status": "APPLIED",
+  "date": "2026-10-05",
+  "scope": "publication and reply generation only; no model/loss/data/evaluation change",
+  "reason": "server Git rejects git init -b; remove other newer Git CLI flags proactively",
+  "changes": {
+    "scripts/publish_initial.sh": {
+      "before_sha256": "2e85da5282f15f9eab495a7a8de0a347a9d401cdb5ed8c955096e22573fc6820",
+      "after_sha256": "0e0b931239697f0b1d55da3beb27722578b8e185aa9624bb8df4f242d535dcd7"
+    },
+    "scripts/publish_run.sh": {
+      "before_sha256": "0dbfb3cfb519bb760f86d51aaaeac4d92b05f79798b05d458ac0f921ea733dc6",
+      "after_sha256": "847d3a9a45e7611f66b0509273464346f4d835ed71259c68516f291610d47a25"
+    },
+    "scripts/render_reply.py": {
+      "before_sha256": "ca932136f7c4a96c9cc1080df69b6bda56b884a430f28aa18f2798d6cdd9903d",
+      "after_sha256": "82b3a3e8fbdd5804cda9c1d4196af215e2b586894c70ed3b5644031a5640b59f"
+    }
+  },
+  "replacement_commands": [
+    "git init + unborn HEAD symbolic-ref",
+    "git symbolic-ref -q HEAD",
+    "git config --get remote.origin.url",
+    "subprocess cwd instead of git -C"
+  ]
+}

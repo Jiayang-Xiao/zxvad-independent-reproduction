@@ -1,0 +1,112 @@
+{
+  "study": "ZXVAD_MNA_V1",
+  "variant": "baseline",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "source_metadata_sha256": "4c7cbcda3b03d800edf34016682f30b226ff773ffe08fe23f214341e88e94393",
+  "code_sha256": {
+    "baseline_zxvad.py": "1a0198267e9ff5d92e82b5cded112a5e446bdfa8cb61275ccf1084e4e2a0e64e",
+    "common.py": "8dc0135f86023aa600e465a104d889d6490cadffdae8efeb65c1e5dc78a92656",
+    "evaluate.py": "c03c05a96e24e58c73dc835938885407a543afb03d3fefd722fe03331c743d07",
+    "export_results.py": "b36b179e99b5d2ca616efea0a342f90385a7b56d8a5f0dd67fc60fa20a726174",
+    "metrics.py": "341af345f201e53db8bf65e2708982af92974a15d2c297bf78c829edf1235ad8",
+    "normal_attention.py": "4de171d215e78028c6767b42205acdf11a64e0ca195d4370dfc35ea722973c78",
+    "preflight.py": "1c37f91c648a211c949895bf985e3ff74bd1f073e0d316b5661f1d45f651ae75",
+    "report.py": "8ff82e1abbb611d82cae347a41f45a19d3d5dea9c3ad71ba122f9b63a505e002",
+    "train.py": "b54e3bba7cd28b1958f0c411132ea111c7d6cbb581976780f3f6c9b34595b6ac",
+    "upstream_train_zxvad.py": "c38e526d9e6e44cc82bddc4ef388620c510be1370d892e1be4c9211db9aeb3a1",
+    "verify_package.py": "7b3020a0158f57edc5160db66f037abe4f453e27c12f97c883dd959db7a07325"
+  },
+  "recipe": {
+    "study": "ZXVAD_MNA_V1",
+    "plan_id": "ZXVAD-MNA-10",
+    "baseline": "zxVAD SHT/SHT independent reimplementation",
+    "upstream_commit": "ae1cd89ab46b8463f25190bb987fc4fa2e644040",
+    "source": "ShanghaiTech normal training videos, all 330 videos",
+    "targets": [
+      "ped1",
+      "ped2",
+      "avenue"
+    ],
+    "seed": 17,
+    "variants": [
+      "baseline",
+      "motion",
+      "shifted"
+    ],
+    "primary_variant": "motion",
+    "primary_contrast": "motion-baseline",
+    "primary_metric": "equal-target macro per-video-minmax pooled frame AUROC (N)",
+    "iterations": 5000,
+    "batch_size": 8,
+    "input_frames": 4,
+    "image_size": 256,
+    "memory_items": 2000,
+    "lr_g": 0.0002,
+    "lr_d": 2e-05,
+    "lr_n": 2e-05,
+    "betas": [
+      0.5,
+      0.999
+    ],
+    "changed_loss": "0.5 MSE(A_normal, ones) replaced by 0.5 MSE(A_normal, source-motion soft target)",
+    "inference": "unchanged full-frame negative PSNR, no weighting or fusion",
+    "training_runs": 3,
+    "target_rows": 9,
+    "bootstrap": {
+      "unit": "whole video",
+      "repeats": 2000,
+      "seed": 20261004
+    },
+    "target_selection": false,
+    "target_adaptation": false,
+    "target_observation_status": "development-observed",
+    "wall_clock_cap": null,
+    "gpu_hour_cap": null,
+    "extra_seeds_scheduled": false,
+    "status": "DESIGNED_NOT_RUN",
+    "changed_component": "Normal term target of N attention affirmation loss only",
+    "performance_policy": {
+      "only_metric": "AUROC",
+      "primary": "macro N",
+      "routine_report": "N, delta N, per-target N; no bootstrap intervals",
+      "bootstrap": "internal archive only, not a performance gate"
+    },
+    "fits_reused": 0,
+    "additional_pretraining": "none",
+    "motion_weighting": false,
+    "context_skips": false,
+    "paired_normalcy": false,
+    "boundary_feathering": false,
+    "baseline_deviations": [
+      "Independent implementation uses raw-dot memory addressing; paper specifies cosine",
+      "Independent implementation uses ResNet18 scalar normalcy classifier; paper specifies PatchGAN for N and D"
+    ],
+    "memory_query_regularization": false,
+    "design_independent_of_pending_results": true,
+    "design_after_review_commit": "706c56c2515d9f29474ff71ce1087ce281dbf50e",
+    "source_clip_appearance_augmentation": false,
+    "joint_normalcy_batching": false,
+    "pending_round_at_design": "ZXVAD-NGW-09",
+    "normal_attention_target": {
+      "input": "first four source normal frames only; fifth target not used",
+      "motion": "Mean absolute adjacent RGB difference over three temporal transitions and channels; 32x32 nonoverlapping average pooling gives 8x8",
+      "centering": "u=relu(s-lower_spatial_median(s)); stable sort values, index31 of64",
+      "baseline": "ones",
+      "motion_target": "T=0.5+0.5*u/max(u); if max(u)<=1e-6 use all ones",
+      "shifted_target": "roll(T, shifts=(4,4), dims=(-2,-1))",
+      "background_floor": 0.5,
+      "epsilon": 1e-06,
+      "gradient": "target detached, no gradient through motion proxy",
+      "loss": "L_AA=0.5*MSE(A_hat,T)+0.5*MSE(A_tilde,paste_mask)",
+      "control_matching": "Per-sample target histogram, min/max/mean and Lp norms; not loss/gradient magnitude or equal overlap.",
+      "parameter_selection": "fixed source-only heuristic, no target selection or sweeps"
+    }
+  },
+  "recipe_sha256": "992116b21c6009633fa1f7002597d9184f735b60c465d7542a19bcc22c8efcfa",
+  "torch": "2.4.1",
+  "cuda": "12.1",
+  "numpy": "2.2.6",
+  "device": "NVIDIA GeForce RTX 3090"
+}

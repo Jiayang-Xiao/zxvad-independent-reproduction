@@ -1,0 +1,23 @@
+{
+  "scope": "publication_host_current_environment_not_historical_run",
+  "python": "3.10.20",
+  "system": "Linux",
+  "machine": "x86_64",
+  "packages": {
+    "torch": "2.4.1",
+    "torchvision": "0.19.1",
+    "numpy": "2.2.6",
+    "Pillow": "12.2.0",
+    "kornia": null
+  },
+  "torch_cuda_build": "12.1",
+  "cuda_available": true,
+  "devices": [
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "nvidia_smi": [
+    "NVIDIA GeForce RTX 3090, 580.178.04",
+    "NVIDIA GeForce RTX 3090, 580.178.04"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "prior_repository": "Jiayang-Xiao/strict-zs-cross-domain-vad",
+  "prior_result_commit": "056cdb69a6732f80f688455e143eb561d6c67837",
+  "prior_baseline_anchor": "ae1cd89ab46b8463f25190bb987fc4fa2e644040",
+  "legacy_review_bundle_sha256": "7e674aa12ea5373fb68a670e6805cf125264b45a158dc3d47107a85bfa8ce4d6",
+  "original_runtime_sha256": {
+    "baseline_zxvad.py": "1a0198267e9ff5d92e82b5cded112a5e446bdfa8cb61275ccf1084e4e2a0e64e",
+    "common.py": "8dc0135f86023aa600e465a104d889d6490cadffdae8efeb65c1e5dc78a92656",
+    "evaluate.py": "c03c05a96e24e58c73dc835938885407a543afb03d3fefd722fe03331c743d07",
+    "metrics.py": "341af345f201e53db8bf65e2708982af92974a15d2c297bf78c829edf1235ad8",
+    "train.py": "b54e3bba7cd28b1958f0c411132ea111c7d6cbb581976780f3f6c9b34595b6ac"
+  },
+  "transforms": [
+    "strip model docstrings",
+    "specialize baseline one_update branch",
+    "restrict variants to baseline",
+    "remove log-only motion diagnostics",
+    "rename study/protocol provenance",
+    "replace preflight and AUROC report wrappers"
+  ],
+  "gpu_replay_performed_locally": false,
+  "author_confirmation_received": false
+}

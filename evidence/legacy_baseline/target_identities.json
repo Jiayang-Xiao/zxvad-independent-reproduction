@@ -1,0 +1,26 @@
+{
+  "ped1": {
+    "frame_metadata_sha256": "0cb9c45cc95ee4c145d39943530fa0a28e486c1fa9c8b3a106ade83fec92eb34",
+    "label_sha256": "4c648b7c5aef3c0bda992b2d631be52648264165ffee1fba3cce27f5fbd25277",
+    "counts": [
+      36,
+      7056
+    ]
+  },
+  "ped2": {
+    "frame_metadata_sha256": "97cc879d5f078ccc1b87c922c2085c041550f1059725719878f0b6234610bc8b",
+    "label_sha256": "229b1561a7b45f6dd694bae837820e92171c97e18243ec8d9693518bc0f33c22",
+    "counts": [
+      12,
+      1962
+    ]
+  },
+  "avenue": {
+    "frame_metadata_sha256": "1d83ddaf4ec33d7ebd3ba8ea426d346a0a449ebc6e2a3912c69482782e939050",
+    "label_sha256": "72df559ad321e9a06892cd41f4e6731031d9a8a51c06685f0497bc6b9d3ef5c6",
+    "counts": [
+      21,
+      15240
+    ]
+  }
+}

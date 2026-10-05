@@ -1,0 +1,12 @@
+{
+  "baseline_zxvad.py": "4218502812dddbb17cdcf23dea21ac4c3d7f784adc2b976bc4da6cd614c2b6a4",
+  "common.py": "9a1a1361341969ecdb938b1717546c2ce4e5eb1db404e4929b5b10581fd71786",
+  "design_freeze.json": "678d712e6bcc0ad2bf9260a2e2ceec80be6015e03bb1cae6f13f53fdc590fca5",
+  "evaluate.py": "4749a16c9c1f67803e3c41d4458fd9320c7ba9d820ccd25f35aaeb62ec818cf7",
+  "metrics.py": "1d31eae3ea9d45bde5476a8adb8da209cd2d44d1ca27c85f5844f5dcebaffa69",
+  "preflight.py": "bba220c77fd9f61939eceaefabdb1f571183de69ab30a5ab860e578bf5d39f59",
+  "protocol.json": "b7c986b00c3b579608d26ec6a922f1d3686fdccbcd6c5e5bb4ef7a90a031d9f6",
+  "report.py": "9840361783e672f35732dc562abf3fc2c929af7845544df1d93cf612281e27dd",
+  "train.py": "af57857ee1ecacc1e7f048cfc02e13f57a0a601ea2c43d4d7e6c1cd54f7e9e7c",
+  "verify_package.py": "7b3020a0158f57edc5160db66f037abe4f453e27c12f97c883dd959db7a07325"
+}

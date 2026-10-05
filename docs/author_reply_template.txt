@@ -1,0 +1,39 @@
+Subject: Re: Request for Official Code and Reproduction Details for zxVAD
+
+Dear Dr. Aich,
+
+Thank you for your reply and your offer to help. I understand the restriction on releasing the original code. A description, layer list, or pseudocode for the points below would already be very helpful; please share only what you are permitted to share.
+
+My independent PyTorch implementation runs successfully, but I would like to align it with the SHT/SHT experiment in Table 4 before investigating further modifications. I have made the implementation, configuration, baseline loss log, raw frame scores, evaluation code, and a detailed review document available here:
+
+Repository: @@REPO_URL@@
+Snapshot: @@COMMIT_URL@@
+Implementation and questions: @@REVIEW_URL@@
+Model: @@MODEL_URL@@
+Training: @@TRAIN_URL@@
+Evaluation: @@EVAL_URL@@
+
+Current baseline frame-level AUROCs are 74.04% on Ped1, 93.22% on Ped2, and 73.72% on Avenue, compared with 76.14%, 95.78%, and 82.28% in the reported SHT/SHT row. My scores use negative full-frame PSNR, per-video min-max normalization, and pooled frame-level AUROC within each target dataset. I exclude each video's first four frames, use the final 5000-step generator, and apply no temporal smoothing. I have not established that all these evaluation details match your implementation.
+
+Training uses all 330 normal ShanghaiTech training videos and no target training or adaptation. Frames are decoded as RGB, resized bilinearly to 256x256, and normalized to [-1,1]. Each update samples eight consecutive five-frame clips, with four inputs predicting the fifth frame. The seed is 17, with 5000 updates and Adam: G=2e-4, D=N=2e-5, betas=(0.5,0.999). These settings match the supplementary material. The audited run used PyTorch 2.4.1, CUDA 12.1, NumPy 2.2.6, and an RTX 3090; the original torchvision/Pillow versions were not recorded. Targets have been observed during earlier development experiments, so I do not claim a previously untouched evaluation set.
+
+I have identified four differences to correct: N currently uses a randomly initialized ResNet18 trunk with a scalar output rather than PatchGAN; memory addressing uses an unnormalized dot product rather than cosine similarity; augmentation uses torchvision rather than Kornia; and paste boxes are moved entirely inside the image rather than clipping their corners. The published snapshot preserves these choices and the corresponding baseline evidence so that you can inspect exactly what produced the reported scores. It is labeled an independent implementation with known deviations, not official code or a validated reproduction.
+
+Could you clarify the following reproduction details? They are grouped by component, with our current choices documented at the links above.
+
+1. Architecture and memory. What are the exact layer configurations of G, D, and especially PatchGAN N? Which N tensor provides SCDA attention: the final score map or preceding features? What are its channels/spatial size and the ArcFace input dimension? Is memory inserted only at the U-Net bottleneck, and what are its slot count, feature dimension, initialization, and cosine-softmax scale or temperature? Our current G has channels 64/128/256/512 and a 2000x512 bottleneck memory.
+
+2. Attention and losses. Are SCDA features summed with or without absolute values, and how are maps normalized before the 0.1 object threshold and attention losses? How is the pasted binary mask resized to the attention grid? How are PatchGAN logits averaged in the relative-normalcy loss: over batch, spatial positions, or both? Do all MSE terms use mean reduction? Our implementation uses generator loss MSE+(1-SSIM)+gradient+0.0025*memory_entropy+0.05*L_G_adv+0.5*L_N_guide, and classifier loss L_N+0.01*L_RN+L_AA+L_AR. Is this weighting and the SSIM implementation/range correct? Are ArcFace's two class centres learned with N, and is the embedding the flattened attention map with scale 64 and margin 28.6 degrees?
+
+3. Pseudo anomalies and augmentation. Is the frozen, randomly initialized ResNet50 O kept in eval mode, including BatchNorm, and does it receive [-1,1] RGB without ImageNet normalization? Are donor/base frames sampled independently, including from different source videos? We currently use the first input as the base and a shared randomly selected input-frame index as donor within each clip. Is the whole masked donor resized into the clipped paste rectangle, or is its foreground bounding box cropped first? For Kornia, what version, input range, interpolation/padding defaults, and sampling unit are used: separate draws per image or shared draws across a batch/clip?
+
+4. Optimization. Is the update order G, D, then N? Is G's prediction regenerated after the G update for N training? During G guidance, are N/D parameters frozen, and do their BatchNorm layers remain in train mode? Which frames supply N's normal and augmented-normal examples: predicted frames or real source frames? Our update reuses the pre-G-update prediction, detaches it for N training, derives augmented-normal examples from it, and makes five N forwards per step, including an unused pseudo forward. The review document includes the exact equations and forward sequence so that these implementation choices are explicit.
+
+5. Sampling and evaluation. Are videos sampled uniformly followed by a uniform clip start, or are all source clips sampled uniformly? Are clips consecutive with temporal stride one? Does the reported evaluation use the final 5000-step checkpoint, discard the first four frames, pool all scored frames after individual video normalization, and omit temporal smoothing? Are there any dataset-specific frame extraction, color conversion, label alignment, or boundary-frame conventions needed to match the SHT/SHT row?
+
+The first priority is the N layer configuration and SCDA tensor, followed by the loss/update and evaluation conventions. Answers to any subset would help. I have included the other details now so that you do not need a separate follow-up request to inspect our implementation. I will record confirmed settings and corrections in the repository and keep the original snapshot identifiable.
+
+Thank you again for your time.
+
+Best regards,
+Jiayang Xiao

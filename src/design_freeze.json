@@ -1,0 +1,8 @@
+{
+  "version": "legacy_v1",
+  "recipe_sha256": "b7c986b00c3b579608d26ec6a922f1d3686fdccbcd6c5e5bb4ef7a90a031d9f6",
+  "model_computation_preserved": true,
+  "baseline_update_computation_preserved": true,
+  "paper_alignment_corrections_implemented": false,
+  "prior_result_commit": "056cdb69a6732f80f688455e143eb561d6c67837"
+}

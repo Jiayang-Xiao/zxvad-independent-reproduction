@@ -1,0 +1,13 @@
+outputs/
+data/
+.private/
+.publication_payload.tar.gz
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*
+.astra-cache/
+.codex/

@@ -1,0 +1,5 @@
+# Code provenance
+
+original_runtime holds exact audited model/train/common/evaluate/metrics files from the prior MNA review bundle at commit056cdb69a6732f80f688455e143eb561d6c67837. They are archival source evidence, not standalone entry points. Historical comments claiming a faithful implementation or saying N architecture is unspecified are incorrect; see docs/author_review.md.
+
+The public src model removes only docstrings, including these old overclaims. Baseline one_update is specialized by selecting the baseline branch; its executable AST matches the archived branch. Preprocessing/sampling and scorer computations are preserved. The entry points restrict VARIANTS to baseline, remove nonbaseline log-only diagnostics, and replace the study/recipe provenance. New preflight/report/environment/publication wrappers are declared packaging changes. Training still uses the original initialization, update, optimizer and RNG behavior. No author-confirmed correction is yet applied. The publication is not official code and no licensed/private author source is included.

@@ -1,0 +1,54 @@
+{
+  "version": "legacy_v1",
+  "study": "ZXVAD_INDEPENDENT_LEGACY_V1",
+  "status": "KNOWN_DEVIATIONS_AUTHOR_REVIEW",
+  "official_code": false,
+  "paper_validated_reproduction": false,
+  "baseline_only": true,
+  "variants": [
+    "baseline"
+  ],
+  "source": "All 330 ShanghaiTech normal training videos; G and O=SHT",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "input_frames": 4,
+  "target_frame": 5,
+  "image_size": 256,
+  "color": "RGB",
+  "range": [
+    -1,
+    1
+  ],
+  "sampler": "uniform video then uniform consecutive clip start; seed17*1000003+zero_based_step",
+  "memory_items": 2000,
+  "memory_features": 512,
+  "memory_addressing": "raw_dot_known_deviation",
+  "shrink": 0.0005,
+  "normalcy_classifier": "random ResNet18 scalar_known_deviation",
+  "object_network": "random frozen eval ResNet50",
+  "augmentation": "torchvision_known_deviation",
+  "paste_boundary": "whole_box_relocation_known_deviation",
+  "lr_g": 0.0002,
+  "lr_d": 2e-05,
+  "lr_n": 2e-05,
+  "betas": [
+    0.5,
+    0.999
+  ],
+  "metric": "per-video-minmax pooled frame AUROC; equal-target macro",
+  "only_performance_metric": "AUROC",
+  "targets": [
+    "ped1",
+    "ped2",
+    "avenue"
+  ],
+  "target_training": false,
+  "target_adaptation": false,
+  "target_checkpoint_selection": false,
+  "targets_development_observed": true,
+  "bootstrap": "private archive only; no intervals or performance gates",
+  "known_unconfirmed_details_document": "docs/author_review.md",
+  "prior_result_commit": "056cdb69a6732f80f688455e143eb561d6c67837",
+  "fresh_packaged_run_executed_at_publication": false
+}

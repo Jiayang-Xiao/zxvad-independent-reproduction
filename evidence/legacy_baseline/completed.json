@@ -1,0 +1,8 @@
+{
+  "status": "TRAINED",
+  "step": 5000,
+  "seed": 17,
+  "config_hash": "5cd4a985ed3d07acc0b9e410ffc7bc3ac8cdd37b2309199ff8afc9e950cd3776",
+  "checkpoint_sha256": "538d23d4516dd019d81ba031ef8dcc5f8df25005ec73fb5fcdc7e0b7f1005e20",
+  "elapsed_seconds": 1543.2108872425742
+}
