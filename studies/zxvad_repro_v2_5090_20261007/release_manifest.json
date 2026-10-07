@@ -1,0 +1,27 @@
+{
+  "identity": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+  "author_confirmed": false,
+  "files": {
+    ".gitignore": "d935018a476d7ffdbf6c45a06ff25f3fefed57884f4384a0535aac87b4c1d899",
+    "docs/local_validation.json": "6b289a61ef470a8014db0bade102cb6477a9b03f4388c9fd6ac03efc9e30d6a6",
+    "docs/reproduction_ledger.md": "c78d43a5526fc5caac94a58faff2a374875f3d76709c14bb7485ee564f714b02",
+    "protocol.json": "71b04735712452f0dc07b831b6489afd1a29063bc2598ba290acf616d879a1e1",
+    "README.md": "89e05cacf1486844ff956ec10fce70292790737013eaef4052ff7dd536328318",
+    "requirements.txt": "bae198e6b83878c2fc8cd95772001774635a97ee12129ad48395941250bbad5e",
+    "scripts/check_gpu.py": "c50d41fb13fd9cd12335b0bd1f97ba82e0aea5d722c5fb06072af7dedd697cb8",
+    "scripts/configure_data.py": "f755abb7455e7b35d3ea207863dbd1e7982115ed879469fc8c8e37862fa95135",
+    "scripts/export_results.py": "ef68a2c95966f82f4a45114a6d18519c28266c9ca46a2dfb0309a0bb51ac0ec8",
+    "scripts/inventory.py": "c8b6c0cdcec402d47411fc548f7a82287cbcf60ec07a342ae5354a0eb4c83f36",
+    "scripts/launch.sh": "4a111596e36724060e5a42f000ff490f575d0168733df62afa7aeeb344137e66",
+    "scripts/materialize_public.py": "8a974d014e41b1bb811f609c88cfff85f1bb30855e542aefd665a25f1552b7d7",
+    "scripts/progress.sh": "af13136d116b9181ab688e8dbd35223cf3118a8abca5b9b84f4b0a0383eee076",
+    "scripts/publish.sh": "7275975bbc266ef54b78e77498dce7eb086c6992c110cff5f56add71d6487341",
+    "scripts/run.sh": "4df9352c63eef41b1a674e053338012f3f9d5aff8fa96e28c8b8a278f010ed70",
+    "scripts/state.py": "b9558bc11e0d076c40ed17aab879ee0d0341c32eb20b92855c8dead992363c87",
+    "scripts/verify_release.py": "4dd218773f59e5c43970e830c81acfd859a0b8c6522c794b6310bc1a40105a54",
+    "src/common.py": "9df48d39e3775e3317a27f8dacd600a06b934988a5728701194f1cf82c6beff5",
+    "src/model.py": "1274e8aa71cf2c72f3a9bad055c552aa7ca63531d63dcaef637cf05aa2e19443",
+    "src/pipeline.py": "a32fc97d0287f0733cb5f6bd267d881921c651c3dfae217fbe978b055e7c04d8",
+    "src/report.py": "fbaf4bba19f0fc9ed32588350402f83891e211e38dc816c116ce67b44a0445b8"
+  }
+}

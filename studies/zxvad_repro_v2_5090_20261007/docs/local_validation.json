@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "Disposable local CPU validation only; actual CUDA and data/results must pass on server",
+  "checks": [
+    "Python compilation and Bash syntax",
+    "Generator parameter count",
+    "Cosine/dot memory oracle, shrink normalization and gradients",
+    "Attention scaling and zero-map behavior",
+    "Clipped paste locality, determinism and full-budget uint32 seeds",
+    "Shared source/donor plan, final valid clip start and resume prefix",
+    "SSIM identity and independent NumPy SAME-gradient boundary oracle",
+    "Full256 CPU update, gradient/detach/O/BN checks c01",
+    "Full256 CPU update, gradient/detach/O/BN checks c02",
+    "Full256 CPU update, gradient/detach/O/BN checks c03",
+    "Full256 CPU update, gradient/detach/O/BN checks c04",
+    "Shared initial networks and candidate intervention isolation",
+    "Actual optimizer/model/RNG save-load continuation is bit-identical on CPU",
+    "AUROC ties vs sklearn oracle and per-video constant-score handling"
+  ],
+  "runtime": {
+    "torch": "2.4.1+cpu",
+    "torchvision": "0.19.1+cpu",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "scope": "Disposable CPU checks; no research AUROC or actual server CUDA test"
+  },
+  "delivery_validation": {
+    "Embedded payload hash/member identity and every delivered Bash command syntax": "PASS",
+    "Canonical-size synthetic12-row report/export with checkpoints and datasets excluded": "PASS",
+    "Changed checkpoint and duplicate/misaligned scored frames rejected": "PASS",
+    "Public materialization identity, harmless repeat and tamper rejection": "PASS",
+    "Missing source data waits and testing split is refused as training source": "PASS",
+    "scope": "CPU synthetic/export fixtures only. Not research AUROC, not actual CUDA, no network push."
+  },
+  "git_publication_validation": {
+    "status": "PASS",
+    "scope": "Local bare Git repo, fake authentication and materialization; no network publish",
+    "new_branch_push": true,
+    "main_unchanged": true,
+    "failed_push_retry_preserves_local_commit": true,
+    "idempotent_retry": true,
+    "source_publish_script_sha256": "7275975bbc266ef54b78e77498dce7eb086c6992c110cff5f56add71d6487341"
+  }
+}

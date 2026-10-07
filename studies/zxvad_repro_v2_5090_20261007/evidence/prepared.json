@@ -1,0 +1,61 @@
+{
+  "release": "a2013034a118241db5e9b7313ea9f6dba75d76b312c5144d8ed9906142d51a2a",
+  "protocol_sha256": "71b04735712452f0dc07b831b6489afd1a29063bc2598ba290acf616d879a1e1",
+  "data": {
+    "source_frames": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/shanghaitech/training/frames",
+    "source_metadata_sha256": "839f71b99eee86a13d47db6f81cf2b9dceeee50116b923f2c2c6aef07b820b6e",
+    "source_videos": 330,
+    "source_total_frames": 274515,
+    "targets": {
+      "ped1": {
+        "frame_root": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/ped1/testing/frames",
+        "label_path": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/frame_labels_ped1.npy",
+        "metadata_sha256": "418c16c01bc4a85306c338d4a0ebdca36160baea46494f99d39a3c92f44c88d0",
+        "labels_sha256": "537675d7333e23384ea232a0698e39a38be7b0a903fb5a4ea7279266ef2cc6bf",
+        "videos": 36,
+        "total_frames": 7200
+      },
+      "ped2": {
+        "frame_root": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/ped2/testing/frames",
+        "label_path": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/frame_labels_ped2.npy",
+        "metadata_sha256": "d5b592b2354068fe448361589a058a865afa14735e7a471a968f0781de6efa00",
+        "labels_sha256": "7600e878d28cdb2e0d6e3fb88ae523bb478820c65802efd7ee883b5dcd2e7fa5",
+        "videos": 12,
+        "total_frames": 2010
+      },
+      "avenue": {
+        "frame_root": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/avenue/testing/frames",
+        "label_path": "/home/featurize/work/zxvad-independent-reproduction-v2/data_view/frame_labels_avenue.npy",
+        "metadata_sha256": "a999085b1938f18e2da22cd8e66c3170be9d060cb2755407773526ab75d835d4",
+        "labels_sha256": "b654bb034fdbf669cbe7940c394fd1213248c4343954f544adf0a7b8449e83da",
+        "videos": 21,
+        "total_frames": 15324
+      }
+    }
+  },
+  "plan_sha256": "af3be5402ed16dc7d515bbf6033c58fc78ee19897bb65d43025e53181a23ec99",
+  "environment": {
+    "python": "3.11.8",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "cuda_build": "12.8",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "compiled_arch": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120",
+      "compute_120"
+    ]
+  },
+  "precision": "FP32; AMP/TF32 disabled",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8
+}

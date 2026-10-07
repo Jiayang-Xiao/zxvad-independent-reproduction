@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETED",
+  "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+  "author_confirmed": false,
+  "kind": "PREDECLARED_IMPLEMENTATION_AUDIT",
+  "metric": "AUROC only",
+  "candidate_order": [
+    "c01",
+    "c02",
+    "c03",
+    "c04"
+  ],
+  "rows": [
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c01",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7644309155370942,
+      "paper_AUROC": 0.7614,
+      "delta_pp": 0.30309155370942253
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c01",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8775557721464154,
+      "paper_AUROC": 0.9578,
+      "delta_pp": -8.024422785358453
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c01",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8396664480771933,
+      "paper_AUROC": 0.8228,
+      "delta_pp": 1.6866448077193286
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c02",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7561753367984472,
+      "paper_AUROC": 0.7614,
+      "delta_pp": -0.5224663201552793
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c02",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9143283878420331,
+      "paper_AUROC": 0.9578,
+      "delta_pp": -4.347161215796691
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c02",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8404990163473699,
+      "paper_AUROC": 0.8228,
+      "delta_pp": 1.7699016347369922
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c03",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7708776842520743,
+      "paper_AUROC": 0.7614,
+      "delta_pp": 0.9477684252074292
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c03",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8986129160349433,
+      "paper_AUROC": 0.9578,
+      "delta_pp": -5.918708396505668
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c03",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8388665628366668,
+      "paper_AUROC": 0.8228,
+      "delta_pp": 1.6066562836666853
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c04",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7713225667861553,
+      "paper_AUROC": 0.7614,
+      "delta_pp": 0.9922566786155329
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c04",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9155313695762038,
+      "paper_AUROC": 0.9578,
+      "delta_pp": -4.226863042379614
+    },
+    {
+      "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+      "candidate": "c04",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.845318855684107,
+      "paper_AUROC": 0.8228,
+      "delta_pp": 2.2518855684107053
+    }
+  ],
+  "macro_AUROC": {
+    "c01": 0.8272177119202343,
+    "c02": 0.8370009136626168,
+    "c03": 0.8361190543745615,
+    "c04": 0.8440575973488221
+  },
+  "paper_comparison_row": "Table4 G=SHT O=SHT",
+  "paper_macro_AUROC": 0.8473333333333333,
+  "freeze_sha256": "ceddcc19c971e94358fc2de66d47d8a54cde0c6f78e44f1dba70c80bece6da35",
+  "no_target_training_or_checkpoint_selection": true,
+  "interpretation": "All four candidates are development diagnostics. Numerical proximity does not identify or validate the unavailable authors implementation."
+}

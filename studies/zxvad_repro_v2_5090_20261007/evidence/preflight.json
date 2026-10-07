@@ -1,0 +1,314 @@
+{
+  "status": "PASS",
+  "prepared_sha256": "7a38a808efc735c0b4cfdd305ed0ca4db5d29f6b99f09627845225420865f4ef",
+  "release": "a2013034a118241db5e9b7313ea9f6dba75d76b312c5144d8ed9906142d51a2a",
+  "initial_shared_state_sha256": {
+    "G": "b2737c81d056c8cefea15e82b46083a369308391af457339f12ba1901f246971",
+    "D": "27b4bbe1d45bcb8b45b63452c0125e48ad046aeaf368e5e82878cb0f61f19d1e",
+    "N": "280d85b2eca33b6830a66368b95b32e0cd1cd1fde7d3051c0158978411a747ba",
+    "O": "8d8c275ccc473e01921d65693c352baa46c80262bc3ead5e8b87fe80e86c1622"
+  },
+  "candidates": {
+    "c01": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.862645149230957e-08,
+      "one_source_update_seconds": 1.4750806130032288,
+      "losses": {
+        "g": 0.8972355723381042,
+        "d": 0.7375785708427429,
+        "n": 29.0131893157959,
+        "normalcy": 0.4577583968639374,
+        "relative_normalcy": 1.1941375732421875,
+        "attention_affirmation": 0.540446937084198,
+        "relative_attention": 28.003042221069336,
+        "mse": 0.14081747829914093,
+        "ssim_loss": 0.426858127117157,
+        "gradient": 0.09796606004238129,
+        "memory_entropy": 6.899134635925293,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.20000289380550385,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "c02": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.862645149230957e-08,
+      "one_source_update_seconds": 0.18110450099629816,
+      "losses": {
+        "g": 0.8972355723381042,
+        "d": 0.7375785708427429,
+        "n": 29.423065185546875,
+        "normalcy": 0.4577583968639374,
+        "relative_normalcy": 1.1941375732421875,
+        "attention_affirmation": 0.4799196720123291,
+        "relative_attention": 28.473445892333984,
+        "mse": 0.14081747829914093,
+        "ssim_loss": 0.426858127117157,
+        "gradient": 0.09796606004238129,
+        "memory_entropy": 6.899134635925293,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.19108650088310242,
+        "n_attention_zero_fraction": 0.13486111164093018,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "c03": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.862645149230957e-08,
+      "one_source_update_seconds": 0.17809677599871065,
+      "losses": {
+        "g": 0.8972355723381042,
+        "d": 0.7375785708427429,
+        "n": 31.329496383666992,
+        "normalcy": 0.4577583968639374,
+        "relative_normalcy": 1.1941375732421875,
+        "attention_affirmation": 0.41861361265182495,
+        "relative_attention": 30.44118309020996,
+        "mse": 0.14081747829914093,
+        "ssim_loss": 0.426858127117157,
+        "gradient": 0.09796606004238129,
+        "memory_entropy": 6.899134635925293,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.27148717641830444,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "c04": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.862645149230957e-08,
+      "one_source_update_seconds": 0.17754118599987123,
+      "losses": {
+        "g": 0.8972741365432739,
+        "d": 0.7375785708427429,
+        "n": 31.329496383666992,
+        "normalcy": 0.4577583372592926,
+        "relative_normalcy": 1.1941375732421875,
+        "attention_affirmation": 0.41861361265182495,
+        "relative_attention": 30.44118309020996,
+        "mse": 0.14081747829914093,
+        "ssim_loss": 0.426858127117157,
+        "gradient": 0.09796606749296188,
+        "memory_entropy": 6.914593696594238,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.2714872360229492,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    }
+  },
+  "scope": "Disposable source-only update; discarded; research fits start fresh at step0"
+}

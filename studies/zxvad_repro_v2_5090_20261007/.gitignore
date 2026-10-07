@@ -1,0 +1,13 @@
+.venv/
+.private/
+.publish/
+data/
+data_config.json
+outputs/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.tar
+*.tar.gz
+*.zip

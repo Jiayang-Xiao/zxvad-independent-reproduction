@@ -1,0 +1,14 @@
+{
+  "study": "ZXVAD_INDEPENDENT_REPRO_V2_5090_20261007",
+  "candidate": "c01",
+  "choice": {
+    "attention": "final_raw",
+    "memory": "cosine"
+  },
+  "prepared_sha256": "7a38a808efc735c0b4cfdd305ed0ca4db5d29f6b99f09627845225420865f4ef",
+  "preflight_sha256": "1e5c5d482d51f009e97c076258fd37ed744b9cc10bbb31aa1ad63b6b5ad6bd56",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "release": "a2013034a118241db5e9b7313ea9f6dba75d76b312c5144d8ed9906142d51a2a"
+}
