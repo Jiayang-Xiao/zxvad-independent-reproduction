@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Frozen c04 model identity, Python compilation and Bash syntax",
+    "T scalar oracle, donor affine, static coherence, resume and no RNG side effects",
+    "Q independent oracle with ties/zeros, detached prototype and query gradient",
+    "Actual full256 direct c04 vs B updater/model/Adam/RNG exact parity",
+    "Actual full256 CPU update, gradients/BN/O/hook checks B",
+    "Actual full256 CPU update, gradients/BN/O/hook checks T",
+    "Actual full256 CPU update, gradients/BN/O/hook checks N",
+    "Actual full256 CPU update, gradients/BN/O/hook checks Q",
+    "Actual full256 CPU update, gradients/BN/O/hook checks TN",
+    "Actual full256 CPU update, gradients/BN/O/hook checks TQ",
+    "Actual full256 CPU update, gradients/BN/O/hook checks NQ",
+    "Actual full256 CPU update, gradients/BN/O/hook checks TNQ",
+    "N guidance coefficient and Q auxiliary isolation on identical source/start weights",
+    "TNQ actual model/Adam/RNG checkpoint continuation bit-identical on CPU",
+    "Unchanged source/donor sampler and resume prefix",
+    "AUROC ties/sklearn oracle and factorial interaction formula",
+    "Canonical video mapping, Avenue36-frame clip, scored labels and unknown first4",
+    "Full24-row report, fixed reference AUROC and altered-label rejection"
+  ],
+  "runtime": {
+    "torch": "2.4.1+cpu",
+    "torchvision": "0.19.1+cpu",
+    "numpy": "1.26.4",
+    "scope": "Disposable CPU only; actual pinned CUDA environment/source preflight required on server"
+  },
+  "scope": "Local disposable CPU checks only; server GPU parity/preflight mandatory",
+  "delivery_validation": {
+    "Embedded payload hash/member identity and every delivered Bash command syntax": "PASS",
+    "Canonical-size synthetic24-row report/export with checkpoints and datasets excluded": "PASS",
+    "Changed checkpoint and duplicate/misaligned scored frames rejected": "PASS",
+    "Public materialization identity, harmless repeat and tamper rejection": "PASS",
+    "Missing source data waits and testing split is refused as training source": "PASS",
+    "scope": "CPU synthetic/export fixtures only. Not research AUROC, not actual CUDA, no network push."
+  },
+  "publication_validation": {
+    "status": "PASS",
+    "scope": "Local bare Git repo, fake authentication and materialization; no network publish",
+    "new_branch_push": true,
+    "main_unchanged": true,
+    "failed_push_retry_preserves_local_commit": true,
+    "idempotent_retry": true,
+    "source_publish_script_sha256": "6dbd7e575508eaf39c437efd97863d52f506d86690e101f4faa8228850da1bdd"
+  }
+}

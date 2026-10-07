@@ -1,0 +1,17 @@
+{
+  "source_frames": "/home/xjy/zxvad-c04-combinations-v1/data_view/shanghai/training/frames",
+  "targets": {
+    "ped1": {
+      "frames": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped1/testing/frames",
+      "labels": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped1/testing/scored_labels.npy"
+    },
+    "ped2": {
+      "frames": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped2/testing/frames",
+      "labels": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped2/testing/scored_labels.npy"
+    },
+    "avenue": {
+      "frames": "/home/xjy/zxvad-c04-combinations-v1/data_view/avenue/testing/frames",
+      "labels": "/home/xjy/zxvad-c04-combinations-v1/data_view/avenue/testing/scored_labels.npy"
+    }
+  }
+}

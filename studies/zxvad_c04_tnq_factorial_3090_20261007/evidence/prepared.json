@@ -1,0 +1,65 @@
+{
+  "release": "a3123aa510c9263d9a0952add218208c8c2bbd767bf6236d79cc926eaa04eb51",
+  "view_record_sha256": "8e65891ced056b20a4b59f23bce28586f8b45c7e557bfa04c1e21e28c5c531ec",
+  "protocol_sha256": "708a214b8485e4b3e8e69ab6cd7e0bdd5efbf325ff89b438c99b0720f2faf18a",
+  "data": {
+    "source_frames": "/home/xjy/zxvad-c04-combinations-v1/data_view/shanghai/training/frames",
+    "source_metadata_sha256": "4c7cbcda3b03d800edf34016682f30b226ff773ffe08fe23f214341e88e94393",
+    "source_videos": 330,
+    "source_total_frames": 274515,
+    "targets": {
+      "ped1": {
+        "frame_root": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped1/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped1/testing/scored_labels.npy",
+        "metadata_sha256": "bf6a638805724150566b3a0aca5e10848cd08207c33a8c11849005e902924a32",
+        "labels_sha256": "920ecf117c2a86c5d282a27e8b4a5b56b1e2191751bdb373464ebcc342e12508",
+        "videos": 36,
+        "total_frames": 7200
+      },
+      "ped2": {
+        "frame_root": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped2/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-combinations-v1/data_view/ped2/testing/scored_labels.npy",
+        "metadata_sha256": "881526872e88cd0d2a1126b368b914c8c41e2d9f4b4c34f4930a08ef732c3101",
+        "labels_sha256": "11cacb382b40f2c05a703749d28b94ae1ca63819477f435688252e32594b87a9",
+        "videos": 12,
+        "total_frames": 2010
+      },
+      "avenue": {
+        "frame_root": "/home/xjy/zxvad-c04-combinations-v1/data_view/avenue/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-combinations-v1/data_view/avenue/testing/scored_labels.npy",
+        "metadata_sha256": "9abfcd2dfad5790c87cd299770b0ef449a74e0e2f24573b400c6d39e53037956",
+        "labels_sha256": "16b8ece2c035cd12c73476c62faf9154a36887293ac3746c6e670e71687fc58c",
+        "videos": 21,
+        "total_frames": 15324
+      }
+    }
+  },
+  "plan_sha256": "af3be5402ed16dc7d515bbf6033c58fc78ee19897bb65d43025e53181a23ec99",
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "cuda_build": "12.8",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "compiled_arch": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120",
+      "compute_120"
+    ],
+    "physical_gpu": 1,
+    "hardware_identity": "GPU-678b2aa6-2b47-9f89-eb64-a87a97e6cc05, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+    "platform": "Linux-5.13.0-30-generic-x86_64-with-glibc2.39"
+  },
+  "precision": "FP32; AMP/TF32 disabled",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8
+}

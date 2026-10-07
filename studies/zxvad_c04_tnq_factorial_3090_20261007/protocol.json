@@ -1,0 +1,80 @@
+{
+  "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+  "author_confirmed": false,
+  "baseline": "c04 at 3eb129ec5362ebd0575f9531d6ab178f4149e879",
+  "selection": "Development design informed by historical target AUROC. No target data enter training; no target-selected checkpoint or changes to this batch after observing its results.",
+  "arms": [
+    "B",
+    "T",
+    "N",
+    "Q",
+    "TN",
+    "TQ",
+    "NQ",
+    "TNQ"
+  ],
+  "factors": {
+    "T": {
+      "method": "coherent RGB affine",
+      "p": 0.5,
+      "gain": [
+        0.8,
+        1.2
+      ],
+      "offset_RGB_0_1": [
+        -0.1,
+        0.1
+      ],
+      "random": "PCG64 SeedSequence[17,6,zero_based_step], draw old5-frame array then take frame0",
+      "donor": "same recipient affine applied to independent source donor; declared c04 migration"
+    },
+    "N": {
+      "method": "constant normalcy guidance",
+      "multiplier": 0.9001,
+      "LG_coefficient": 0.45005,
+      "baseline_LG_coefficient": 0.5,
+      "N_training_unchanged": true
+    },
+    "Q": {
+      "method": "normalized-query compactness",
+      "coefficient": 0.1,
+      "prototype": "nearest cosine, detached normalized memory; lower-index tie",
+      "separation_loss": false,
+      "memory_forward_unchanged": true
+    }
+  },
+  "budget": {
+    "seed": 17,
+    "steps": 5000,
+    "batch_size": 8,
+    "arms": 8,
+    "total_updates": 40000,
+    "all_fit_before_target_eval": true,
+    "final_checkpoint_only": true,
+    "checkpoint_every": 250,
+    "evaluate_batch": 16,
+    "precision": "FP32 AMP/TF32 off",
+    "num_workers": 4
+  },
+  "source": "ShanghaiTech all330 normal training videos,274515 frames, shared frozen40000-clip plan per arm; no promise of exhaustive unique clips",
+  "targets": [
+    "ped1",
+    "ped2",
+    "avenue"
+  ],
+  "scored_frame_counts": [
+    7056,
+    1962,
+    15240
+  ],
+  "labels": "Audited V2 c04 labels/mapping; first4 explicitly missing(-1) and unscored; never legacy Avenue labels",
+  "scoring": "Unchanged c04 G-only negative PSNR, first4 excluded, per-video minmax then pooled frame AUROC; macro equal three targets",
+  "primary": "TNQ vs same-host B macro AUROC; retain all single/double/triple rows and domain tradeoffs",
+  "secondary": "Per-target AUROC, single factor differences, corner interactions on AUROC scale; no statistical significance claims from seed17",
+  "bootstrap": "Not a performance criterion; no routine interval report",
+  "GPU": "Default physical1, await idle; no kill/reconfigure running GPU0 jobs",
+  "O": "Random frozen ResNet50 object extractor, same threshold/paste; dense-mask finding remains disclosed and unmodified",
+  "portability": "Private runtime aligned to V2 package pins; Python3.10 on lab is distinct from V2Python3.11; new paired B necessary",
+  "historical_controls": "Preserve original identities; promote Nconstant/Qcompact only as prospective new functional candidates. SplitBN not included as a distinct function.",
+  "next": "After audit, freeze chosen recipe and run new paired seeds/untouched data before any final claim; no automatic target-driven recipe search."
+}

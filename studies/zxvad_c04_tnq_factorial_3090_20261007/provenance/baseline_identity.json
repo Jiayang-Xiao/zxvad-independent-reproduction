@@ -1,0 +1,22 @@
+{
+  "repository": "Jiayang-Xiao/zxvad-independent-reproduction",
+  "commit": "3eb129ec5362ebd0575f9531d6ab178f4149e879",
+  "branch": "repro-v2-5090-20261007",
+  "candidate": "c04",
+  "author_confirmed": false,
+  "baseline_model_sha256": "1274e8aa71cf2c72f3a9bad055c552aa7ca63531d63dcaef637cf05aa2e19443",
+  "original_src_sha256": {
+    "model.py": "1274e8aa71cf2c72f3a9bad055c552aa7ca63531d63dcaef637cf05aa2e19443",
+    "common.py": "9df48d39e3775e3317a27f8dacd600a06b934988a5728701194f1cf82c6beff5",
+    "pipeline.py": "a32fc97d0287f0733cb5f6bd267d881921c651c3dfae217fbe978b055e7c04d8",
+    "report.py": "fbaf4bba19f0fc9ed32588350402f83891e211e38dc816c116ce67b44a0445b8"
+  },
+  "reference_scores_sha256": {
+    "ped1": "9bf0e88b118410979e00a57f056c71cb37ebcb63569bae484dbef89ddc371e45",
+    "ped2": "644ec52972698918c048eb396b6ec1768a4673d5036483b5a899b2fdbfb59f72",
+    "avenue": "4a862c2ad8411e7965e621af5227e1d4897ccd543c05c42be209ef45ac44e43a"
+  },
+  "legacy_studies_commit": "056cdb69a6732f80f688455e143eb561d6c67837",
+  "selection_disclosure": "c04 and T/N/Q selected using prior target results; this is a development experiment, not a new blind zero-shot benchmark.",
+  "portability": "New paired c04 fit on RTX3090; no subtraction of RTX5090 or legacy results. Scored target labels are fixed to audited V2 c04. Source/video frame counts are checked, image bytes across hosts are not asserted equal."
+}

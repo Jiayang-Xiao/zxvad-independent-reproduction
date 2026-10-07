@@ -1,0 +1,17 @@
+{
+  "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+  "candidate": "Q",
+  "choice": {
+    "attention": "hidden_normalized",
+    "memory": "dot",
+    "T": false,
+    "N": false,
+    "Q": true
+  },
+  "prepared_sha256": "8b2bda49f66ce504c745d9e4ab077347c09a7a9d21df09a86b9f76358105d686",
+  "preflight_sha256": "36d2537c619b7cc713ba8c9a2f1e79abd3b49457574c9c96e55e1c0d41f72138",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "release": "a3123aa510c9263d9a0952add218208c8c2bbd767bf6236d79cc926eaa04eb51"
+}

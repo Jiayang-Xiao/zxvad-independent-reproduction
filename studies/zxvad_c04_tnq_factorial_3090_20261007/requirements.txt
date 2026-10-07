@@ -1,0 +1,7 @@
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+kornia==0.6.9
+pytorch-metric-learning==1.6.3
+scipy==1.13.1
+scikit-learn==1.5.2
+Pillow==10.4.0

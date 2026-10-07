@@ -1,0 +1,311 @@
+{
+  "status": "COMPLETED",
+  "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+  "author_confirmed": false,
+  "kind": "PREDECLARED_DEVELOPMENT_FACTORIAL",
+  "metric": "AUROC only",
+  "candidate_order": [
+    "B",
+    "T",
+    "N",
+    "Q",
+    "TN",
+    "TQ",
+    "NQ",
+    "TNQ"
+  ],
+  "rows": [
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "B",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7562972818041122,
+      "delta_vs_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "B",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9169455273987438,
+      "delta_vs_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "B",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.844874935594173,
+      "delta_vs_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "T",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.75163486868175,
+      "delta_vs_B_pp": -0.46624131223621523
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "T",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.913384412677785,
+      "delta_vs_B_pp": -0.3561114720958769
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "T",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8422603751932175,
+      "delta_vs_B_pp": -0.26145604009555345
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "N",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7513187195071034,
+      "delta_vs_B_pp": -0.49785622970087706
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "N",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9135468558226842,
+      "delta_vs_B_pp": -0.3398671576059553
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "N",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8434365075647571,
+      "delta_vs_B_pp": -0.14384280294159613
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "Q",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7562515626504122,
+      "delta_vs_B_pp": -0.0045719153699996795
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "Q",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9182225110100354,
+      "delta_vs_B_pp": 0.12769836112915822
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "Q",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8462713944447047,
+      "delta_vs_B_pp": 0.13964588505316344
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TN",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7564788907142926,
+      "delta_vs_B_pp": 0.01816089101804863
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TN",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9027498014583785,
+      "delta_vs_B_pp": -1.4195725940365334
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TN",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.844662712539229,
+      "delta_vs_B_pp": -0.02122230549440607
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7517318276382998,
+      "delta_vs_B_pp": -0.45654541658123327
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9089253483502996,
+      "delta_vs_B_pp": -0.8020179048444209
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8390041922338283,
+      "delta_vs_B_pp": -0.5870743360344766
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "NQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7384663211367336,
+      "delta_vs_B_pp": -1.7830960667378548
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "NQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8903075590210093,
+      "delta_vs_B_pp": -2.6637968377734467
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "NQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8344617780692304,
+      "delta_vs_B_pp": -1.0413157524942651
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TNQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7582226388653863,
+      "delta_vs_B_pp": 0.19253570612741688
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TNQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9154284889177676,
+      "delta_vs_B_pp": -0.1517038480976174
+    },
+    {
+      "study": "ZXVAD_C04_TNQ_FACTORIAL_3090_20261007",
+      "candidate": "TNQ",
+      "seed": 17,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8421577708557778,
+      "delta_vs_B_pp": -0.2717164738395228
+    }
+  ],
+  "macro_AUROC": {
+    "B": 0.8393725815990097,
+    "T": 0.8357598855175842,
+    "N": 0.8361006942981816,
+    "Q": 0.840248489368384,
+    "TN": 0.8346304682372999,
+    "TQ": 0.8332204560741424,
+    "NQ": 0.8210785527423244,
+    "TNQ": 0.8386029662129771
+  },
+  "macro_delta_vs_B_pp": {
+    "B": 0.0,
+    "T": -0.36126960814255593,
+    "N": -0.3271887300828169,
+    "Q": 0.08759077693742956,
+    "TN": -0.4742113361709821,
+    "TQ": -0.6152125524867325,
+    "NQ": -1.8294028856685296,
+    "TNQ": -0.0769615386032596
+  },
+  "primary_comparison": "TNQ versus paired B; report even if negative",
+  "primary_delta_pp": -0.0769615386032596,
+  "factorial_interaction_pp": {
+    "macro": {
+      "T_N": 0.21424700205439073,
+      "T_Q": -0.3415337212816061,
+      "N_Q": -1.5898049325231423,
+      "T_N_Q": 2.2409976744350413
+    },
+    "ped1": {
+      "T_N": 0.9822584329551409,
+      "T_Q": 0.014267811024981647,
+      "N_Q": -1.280667921666978,
+      "T_N_Q": 1.4453468411213644
+    },
+    "ped2": {
+      "T_N": -0.7235939643347011,
+      "T_Q": -0.5736047938777022,
+      "N_Q": -2.4516280412966496,
+      "T_N_Q": 4.16540321998411
+    },
+    "avenue": {
+      "T_N": 0.3840765375427435,
+      "T_Q": -0.46526418099208655,
+      "N_Q": -1.0371188346058324,
+      "T_N_Q": 1.1122429621996388
+    }
+  },
+  "freeze_sha256": "adfb61517a2f2810cf0d7c815d08759b14507422ab8153edd7ac292a1971e9ef",
+  "no_target_training_or_checkpoint_selection": true,
+  "prior_target_feedback_used_for_design": true,
+  "interpretation": "Seed17 development evidence only. Historical control labels preserved. Cross-domain target AUROC guided this prospective design; any winning arm requires fresh predeclared confirmation."
+}

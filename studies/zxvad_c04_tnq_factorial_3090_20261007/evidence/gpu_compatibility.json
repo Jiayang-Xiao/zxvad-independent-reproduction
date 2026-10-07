@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "cuda_build": "12.8",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "compiled_arch": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120",
+      "compute_120"
+    ],
+    "physical_gpu": 1,
+    "hardware_identity": "GPU-678b2aa6-2b47-9f89-eb64-a87a97e6cc05, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+    "platform": "Linux-5.13.0-30-generic-x86_64-with-glibc2.39"
+  },
+  "real_CUDA_forward_backward": true,
+  "synthetic_only_not_a_research_fit": true
+}

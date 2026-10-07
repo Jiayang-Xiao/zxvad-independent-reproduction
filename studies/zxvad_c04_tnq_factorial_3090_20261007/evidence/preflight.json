@@ -1,0 +1,641 @@
+{
+  "status": "PASS",
+  "prepared_sha256": "8b2bda49f66ce504c745d9e4ab077347c09a7a9d21df09a86b9f76358105d686",
+  "release": "a3123aa510c9263d9a0952add218208c8c2bbd767bf6236d79cc926eaa04eb51",
+  "baseline_wrapper_parity": {
+    "status": "PASS",
+    "scope": "Bit-identical direct c04 vs B wrapper on same runtime/device/source batch",
+    "state_sha256": "da960ecb6b820c958af3d1b0e330d2e2fddb6aec43c181210a825e8d5f1c50ea"
+  },
+  "initial_shared_state_sha256": {
+    "G": "b2737c81d056c8cefea15e82b46083a369308391af457339f12ba1901f246971",
+    "D": "27b4bbe1d45bcb8b45b63452c0125e48ad046aeaf368e5e82878cb0f61f19d1e",
+    "N": "280d85b2eca33b6830a66368b95b32e0cd1cd1fde7d3051c0158978411a747ba",
+    "O": "8d8c275ccc473e01921d65693c352baa46c80262bc3ead5e8b87fe80e86c1622"
+  },
+  "candidates": {
+    "B": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.3594318153336644,
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ],
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "T": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.35827587312087417,
+      "losses": {
+        "g": 0.8485269546508789,
+        "d": 0.7472267746925354,
+        "n": 31.27998924255371,
+        "normalcy": 0.46272507309913635,
+        "relative_normalcy": 1.2002689838409424,
+        "attention_affirmation": 0.42378854751586914,
+        "relative_attention": 30.381473541259766,
+        "mse": 0.1454637348651886,
+        "ssim_loss": 0.39565569162368774,
+        "gradient": 0.0749640017747879,
+        "memory_entropy": 6.9147210121154785,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.27005454897880554,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ],
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "N": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.35993607295677066,
+      "losses": {
+        "g": 0.8196713328361511,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_raw": 0.3658241927623749,
+        "guidance_coefficient": 0.4500499963760376,
+        "query_compact": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "Q": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.36133903078734875,
+      "losses": {
+        "g": 0.838275134563446,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_raw": 0.3658241927623749,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.003308609127998352,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "TN": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.3637024462223053,
+      "losses": {
+        "g": 0.8301593065261841,
+        "d": 0.7472267746925354,
+        "n": 31.27998924255371,
+        "normalcy": 0.46272507309913635,
+        "relative_normalcy": 1.2002689838409424,
+        "attention_affirmation": 0.42378854751586914,
+        "relative_attention": 30.381473541259766,
+        "guidance_raw": 0.36771994829177856,
+        "guidance_coefficient": 0.4500499963760376,
+        "query_compact": 0.0,
+        "mse": 0.1454637348651886,
+        "ssim_loss": 0.39565569162368774,
+        "gradient": 0.0749640017747879,
+        "memory_entropy": 6.9147210121154785,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.27005454897880554,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "TQ": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.36296358006075025,
+      "losses": {
+        "g": 0.8488578200340271,
+        "d": 0.7472267746925354,
+        "n": 31.27998924255371,
+        "normalcy": 0.46272507309913635,
+        "relative_normalcy": 1.2002689838409424,
+        "attention_affirmation": 0.42378854751586914,
+        "relative_attention": 30.381473541259766,
+        "guidance_raw": 0.36771994829177856,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.003308443818241358,
+        "mse": 0.1454637348651886,
+        "ssim_loss": 0.39565569162368774,
+        "gradient": 0.0749640017747879,
+        "memory_entropy": 6.9147210121154785,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.27005454897880554,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "NQ": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.3624077429994941,
+      "losses": {
+        "g": 0.8200021982192993,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_raw": 0.3658241927623749,
+        "guidance_coefficient": 0.4500499963760376,
+        "query_compact": 0.003308609127998352,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    },
+    "TNQ": {
+      "generator_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09,
+      "one_source_update_seconds": 0.36323255486786366,
+      "losses": {
+        "g": 0.8304901719093323,
+        "d": 0.7472267746925354,
+        "n": 31.27998924255371,
+        "normalcy": 0.46272507309913635,
+        "relative_normalcy": 1.2002689838409424,
+        "attention_affirmation": 0.42378854751586914,
+        "relative_attention": 30.381473541259766,
+        "guidance_raw": 0.36771994829177856,
+        "guidance_coefficient": 0.4500499963760376,
+        "query_compact": 0.003308443818241358,
+        "mse": 0.1454637348651886,
+        "ssim_loss": 0.39565569162368774,
+        "gradient": 0.0749640017747879,
+        "memory_entropy": 6.9147210121154785,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.27005454897880554,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 5,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "gradient_connections": "PASS",
+      "O_frozen_eval": "PASS"
+    }
+  },
+  "scope": "Disposable source-only update; discarded; research fits start fresh at step0"
+}
