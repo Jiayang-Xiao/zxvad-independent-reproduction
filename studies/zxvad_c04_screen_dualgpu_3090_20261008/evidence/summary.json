@@ -1,0 +1,1369 @@
+{
+  "status": "COMPLETED",
+  "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+  "author_confirmed": false,
+  "metric": "AUROC only",
+  "kind": "SINGLE_SEED_DEVELOPMENT_SCREEN",
+  "seeds": [
+    17
+  ],
+  "gpu_queues": {
+    "0": [
+      "B_s17",
+      "S25_s17",
+      "SR25_s17",
+      "C7_s17",
+      "R50_s17",
+      "G25_s17",
+      "CM7_s17",
+      "R100_s17",
+      "S12_s17",
+      "S50_s17",
+      "G00_s17"
+    ],
+    "1": [
+      "M20_s17",
+      "MR20_s17",
+      "U9_s17",
+      "QC03_s17",
+      "C3_s17",
+      "M10_s17",
+      "F9_s17",
+      "QC01_s17",
+      "C1_s17",
+      "M20W_s17",
+      "Tweak_s17"
+    ]
+  },
+  "cross_gpu_training_trajectory_identity_not_guaranteed": true,
+  "planned_fits": 22,
+  "completed_fits": 22,
+  "trained_arms": [
+    "B_s17",
+    "S25_s17",
+    "SR25_s17",
+    "C7_s17",
+    "M20_s17",
+    "MR20_s17",
+    "U9_s17",
+    "R50_s17",
+    "QC03_s17",
+    "G25_s17",
+    "C3_s17",
+    "CM7_s17",
+    "M10_s17",
+    "F9_s17",
+    "R100_s17",
+    "QC01_s17",
+    "S12_s17",
+    "S50_s17",
+    "C1_s17",
+    "M20W_s17",
+    "G00_s17",
+    "Tweak_s17"
+  ],
+  "candidate_order": [
+    "B_s17",
+    "S25_s17",
+    "SR25_s17",
+    "C7_s17",
+    "M20_s17",
+    "MR20_s17",
+    "U9_s17",
+    "R50_s17",
+    "QC03_s17",
+    "G25_s17",
+    "C3_s17",
+    "CM7_s17",
+    "M10_s17",
+    "F9_s17",
+    "R100_s17",
+    "QC01_s17",
+    "S12_s17",
+    "S50_s17",
+    "C1_s17",
+    "M20W_s17",
+    "G00_s17",
+    "Tweak_s17"
+  ],
+  "rows": [
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "B_s17",
+      "recipe": "B",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7562972818041122,
+      "delta_vs_paired_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "B_s17",
+      "recipe": "B",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9169455273987438,
+      "delta_vs_paired_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "B_s17",
+      "recipe": "B",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.844874935594173,
+      "delta_vs_paired_B_pp": 0.0
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S25_s17",
+      "recipe": "S25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7449131716391085,
+      "delta_vs_paired_B_pp": -1.1384110165003625
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S25_s17",
+      "recipe": "S25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.892335390946502,
+      "delta_vs_paired_B_pp": -2.461013645224175
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S25_s17",
+      "recipe": "S25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8433946671975269,
+      "delta_vs_paired_B_pp": -0.14802683966461672
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "SR25_s17",
+      "recipe": "SR25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7444015096971633,
+      "delta_vs_paired_B_pp": -1.189577210694881
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "SR25_s17",
+      "recipe": "SR25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8789275142588983,
+      "delta_vs_paired_B_pp": -3.801801313984554
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "SR25_s17",
+      "recipe": "SR25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8488087966649491,
+      "delta_vs_paired_B_pp": 0.393386107077609
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C7_s17",
+      "recipe": "C7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7524293923286531,
+      "delta_vs_paired_B_pp": -0.3867889475459019
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C7_s17",
+      "recipe": "C7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9049563208432604,
+      "delta_vs_paired_B_pp": -1.1989206555483412
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C7_s17",
+      "recipe": "C7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.850566701016441,
+      "delta_vs_paired_B_pp": 0.5691765422268014
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20_s17",
+      "recipe": "M20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7574989431023905,
+      "delta_vs_paired_B_pp": 0.1201661298278367
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20_s17",
+      "recipe": "M20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9153111688686737,
+      "delta_vs_paired_B_pp": -0.16343585300701013
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20_s17",
+      "recipe": "M20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8505975338423345,
+      "delta_vs_paired_B_pp": 0.5722598248161459
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "MR20_s17",
+      "recipe": "MR20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7461856608212943,
+      "delta_vs_paired_B_pp": -1.0111620982817815
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "MR20_s17",
+      "recipe": "MR20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.906157497653599,
+      "delta_vs_paired_B_pp": -1.0788029745144811
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "MR20_s17",
+      "recipe": "MR20",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8461741299358284,
+      "delta_vs_paired_B_pp": 0.12991943416553742
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "U9_s17",
+      "recipe": "U9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7546563813019947,
+      "delta_vs_paired_B_pp": -0.1640900502117404
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "U9_s17",
+      "recipe": "U9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9113863619955238,
+      "delta_vs_paired_B_pp": -0.555916540321999
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "U9_s17",
+      "recipe": "U9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8438499227130076,
+      "delta_vs_paired_B_pp": -0.10250128811654102
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R50_s17",
+      "recipe": "R50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7469725373467826,
+      "delta_vs_paired_B_pp": -0.9324744457329559
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R50_s17",
+      "recipe": "R50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8966284022814237,
+      "delta_vs_paired_B_pp": -2.031712511732009
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R50_s17",
+      "recipe": "R50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8446872335940794,
+      "delta_vs_paired_B_pp": -0.01877020000936591
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC03_s17",
+      "recipe": "QC03",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7476644996005912,
+      "delta_vs_paired_B_pp": -0.8632782203520928
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC03_s17",
+      "recipe": "QC03",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9087701249007292,
+      "delta_vs_paired_B_pp": -0.8175402498014628
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC03_s17",
+      "recipe": "QC03",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8431956297718862,
+      "delta_vs_paired_B_pp": -0.1679305822286814
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G25_s17",
+      "recipe": "G25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7528605345804057,
+      "delta_vs_paired_B_pp": -0.343674722370646
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G25_s17",
+      "recipe": "G25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.900025268933651,
+      "delta_vs_paired_B_pp": -1.692025846509282
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G25_s17",
+      "recipe": "G25",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8448580612675066,
+      "delta_vs_paired_B_pp": -0.0016874326666416195
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C3_s17",
+      "recipe": "C3",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7469097246275668,
+      "delta_vs_paired_B_pp": -0.938755717654538
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C3_s17",
+      "recipe": "C3",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8922740235362068,
+      "delta_vs_paired_B_pp": -2.4671503862537025
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C3_s17",
+      "recipe": "C3",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8492395662560307,
+      "delta_vs_paired_B_pp": 0.436463066185766
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "CM7_s17",
+      "recipe": "CM7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7503870383991,
+      "delta_vs_paired_B_pp": -0.5910243405012117
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "CM7_s17",
+      "recipe": "CM7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8915376146126633,
+      "delta_vs_paired_B_pp": -2.5407912786080455
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "CM7_s17",
+      "recipe": "CM7",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8518015832123285,
+      "delta_vs_paired_B_pp": 0.6926647618155424
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M10_s17",
+      "recipe": "M10",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7471167285238365,
+      "delta_vs_paired_B_pp": -0.9180553280275672
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M10_s17",
+      "recipe": "M10",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9045745794527471,
+      "delta_vs_paired_B_pp": -1.237094794599669
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M10_s17",
+      "recipe": "M10",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8505327767108529,
+      "delta_vs_paired_B_pp": 0.5657841116679885
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "F9_s17",
+      "recipe": "F9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7537158262616543,
+      "delta_vs_paired_B_pp": -0.2581455542457811
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "F9_s17",
+      "recipe": "F9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9251615406829832,
+      "delta_vs_paired_B_pp": 0.8216013284239376
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "F9_s17",
+      "recipe": "F9",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8295440301653473,
+      "delta_vs_paired_B_pp": -1.5330905428825758
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R100_s17",
+      "recipe": "R100",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7530092240641744,
+      "delta_vs_paired_B_pp": -0.32880577399377886
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R100_s17",
+      "recipe": "R100",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8946664500758068,
+      "delta_vs_paired_B_pp": -2.227907732293699
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "R100_s17",
+      "recipe": "R100",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8435306103330367,
+      "delta_vs_paired_B_pp": -0.13443252611363699
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC01_s17",
+      "recipe": "QC01",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7526109603451363,
+      "delta_vs_paired_B_pp": -0.368632145897585
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC01_s17",
+      "recipe": "QC01",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9140540394195364,
+      "delta_vs_paired_B_pp": -0.2891487979207352
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "QC01_s17",
+      "recipe": "QC01",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8500150124127593,
+      "delta_vs_paired_B_pp": 0.5140076818586303
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S12_s17",
+      "recipe": "S12",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7538230904299507,
+      "delta_vs_paired_B_pp": -0.2474191374161494
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S12_s17",
+      "recipe": "S12",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.8880432820734965,
+      "delta_vs_paired_B_pp": -2.890224532524732
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S12_s17",
+      "recipe": "S12",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8442630099770481,
+      "delta_vs_paired_B_pp": -0.06119256171249754
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S50_s17",
+      "recipe": "S50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7538238265165039,
+      "delta_vs_paired_B_pp": -0.24734552876082283
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S50_s17",
+      "recipe": "S50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9033165475416938,
+      "delta_vs_paired_B_pp": -1.3628979857050028
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "S50_s17",
+      "recipe": "S50",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8462287694974003,
+      "delta_vs_paired_B_pp": 0.13538339032272972
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C1_s17",
+      "recipe": "C1",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7528737841383653,
+      "delta_vs_paired_B_pp": -0.34234976657468996
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C1_s17",
+      "recipe": "C1",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.903866146848603,
+      "delta_vs_paired_B_pp": -1.3079380550140796
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "C1_s17",
+      "recipe": "C1",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8502745561853015,
+      "delta_vs_paired_B_pp": 0.5399620591128418
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20W_s17",
+      "recipe": "M20W",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.7496029426450355,
+      "delta_vs_paired_B_pp": -0.669433915907669
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20W_s17",
+      "recipe": "M20W",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9063370875749044,
+      "delta_vs_paired_B_pp": -1.060843982383941
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "M20W_s17",
+      "recipe": "M20W",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8483338680968664,
+      "delta_vs_paired_B_pp": 0.3458932502693357
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G00_s17",
+      "recipe": "G00",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.730782150031942,
+      "delta_vs_paired_B_pp": -2.551513177217013
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G00_s17",
+      "recipe": "G00",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.865709154573677,
+      "delta_vs_paired_B_pp": -5.123637282506676
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "G00_s17",
+      "recipe": "G00",
+      "seed": 17,
+      "physical_gpu": 0,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8456823387512296,
+      "delta_vs_paired_B_pp": 0.08074031570565188
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "Tweak_s17",
+      "recipe": "Tweak",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped1",
+      "frames": 7056,
+      "AUROC": 0.758451275527584,
+      "delta_vs_paired_B_pp": 0.21539937234718032
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "Tweak_s17",
+      "recipe": "Tweak",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.9116462710273626,
+      "delta_vs_paired_B_pp": -0.5299256371381178
+    },
+    {
+      "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+      "arm": "Tweak_s17",
+      "recipe": "Tweak",
+      "seed": 17,
+      "physical_gpu": 1,
+      "checkpoint_step": 5000,
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8435375193217481,
+      "delta_vs_paired_B_pp": -0.1337416272424896
+    }
+  ],
+  "macro_AUROC": {
+    "B_s17": 0.8393725815990097,
+    "S25_s17": 0.8268810765943791,
+    "SR25_s17": 0.8240459402070036,
+    "C7_s17": 0.8359841380627849,
+    "M20_s17": 0.8411358819377995,
+    "MR20_s17": 0.8328390961369072,
+    "U9_s17": 0.8366308886701755,
+    "R50_s17": 0.8294293910740952,
+    "QC03_s17": 0.8332100847577356,
+    "G25_s17": 0.832581288260521,
+    "C3_s17": 0.8294744381399348,
+    "CM7_s17": 0.8312420787413638,
+    "M10_s17": 0.8340746948958122,
+    "F9_s17": 0.8361404657033282,
+    "R100_s17": 0.8304020948243392,
+    "QC01_s17": 0.8388933373924773,
+    "S12_s17": 0.8287097941601651,
+    "S50_s17": 0.8344563811851994,
+    "C1_s17": 0.8356714957240899,
+    "M20W_s17": 0.834757966105602,
+    "G00_s17": 0.8140578811189495,
+    "Tweak_s17": 0.8378783552922315
+  },
+  "screening_table": {
+    "B": {
+      "arm": "B_s17",
+      "AUROC": {
+        "ped1": 0.7562972818041122,
+        "ped2": 0.9169455273987438,
+        "avenue": 0.844874935594173
+      },
+      "target_delta_pp": {
+        "ped1": 0.0,
+        "ped2": 0.0,
+        "avenue": 0.0
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8393725815990097,
+      "macro_delta_pp": 0.0,
+      "all3_targets_complete": true
+    },
+    "S25": {
+      "arm": "S25_s17",
+      "AUROC": {
+        "ped1": 0.7449131716391085,
+        "ped2": 0.892335390946502,
+        "avenue": 0.8433946671975269
+      },
+      "target_delta_pp": {
+        "ped1": -1.1384110165003625,
+        "ped2": -2.461013645224175,
+        "avenue": -0.14802683966461672
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8268810765943791,
+      "macro_delta_pp": -1.2491505004630588,
+      "all3_targets_complete": true
+    },
+    "SR25": {
+      "arm": "SR25_s17",
+      "AUROC": {
+        "ped1": 0.7444015096971633,
+        "ped2": 0.8789275142588983,
+        "avenue": 0.8488087966649491
+      },
+      "target_delta_pp": {
+        "ped1": -1.189577210694881,
+        "ped2": -3.801801313984554,
+        "avenue": 0.393386107077609
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8240459402070036,
+      "macro_delta_pp": -1.5326641392006124,
+      "all3_targets_complete": true
+    },
+    "C7": {
+      "arm": "C7_s17",
+      "AUROC": {
+        "ped1": 0.7524293923286531,
+        "ped2": 0.9049563208432604,
+        "avenue": 0.850566701016441
+      },
+      "target_delta_pp": {
+        "ped1": -0.3867889475459019,
+        "ped2": -1.1989206555483412,
+        "avenue": 0.5691765422268014
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8359841380627849,
+      "macro_delta_pp": -0.33884435362248055,
+      "all3_targets_complete": true
+    },
+    "M20": {
+      "arm": "M20_s17",
+      "AUROC": {
+        "ped1": 0.7574989431023905,
+        "ped2": 0.9153111688686737,
+        "avenue": 0.8505975338423345
+      },
+      "target_delta_pp": {
+        "ped1": 0.1201661298278367,
+        "ped2": -0.16343585300701013,
+        "avenue": 0.5722598248161459
+      },
+      "positive_targets": [
+        "ped1",
+        "avenue"
+      ],
+      "macro_AUROC": 0.8411358819377995,
+      "macro_delta_pp": 0.17633003387897972,
+      "all3_targets_complete": true
+    },
+    "MR20": {
+      "arm": "MR20_s17",
+      "AUROC": {
+        "ped1": 0.7461856608212943,
+        "ped2": 0.906157497653599,
+        "avenue": 0.8461741299358284
+      },
+      "target_delta_pp": {
+        "ped1": -1.0111620982817815,
+        "ped2": -1.0788029745144811,
+        "avenue": 0.12991943416553742
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8328390961369072,
+      "macro_delta_pp": -0.6533485462102528,
+      "all3_targets_complete": true
+    },
+    "U9": {
+      "arm": "U9_s17",
+      "AUROC": {
+        "ped1": 0.7546563813019947,
+        "ped2": 0.9113863619955238,
+        "avenue": 0.8438499227130076
+      },
+      "target_delta_pp": {
+        "ped1": -0.1640900502117404,
+        "ped2": -0.555916540321999,
+        "avenue": -0.10250128811654102
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8366308886701755,
+      "macro_delta_pp": -0.2741692928834194,
+      "all3_targets_complete": true
+    },
+    "R50": {
+      "arm": "R50_s17",
+      "AUROC": {
+        "ped1": 0.7469725373467826,
+        "ped2": 0.8966284022814237,
+        "avenue": 0.8446872335940794
+      },
+      "target_delta_pp": {
+        "ped1": -0.9324744457329559,
+        "ped2": -2.031712511732009,
+        "avenue": -0.01877020000936591
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8294293910740952,
+      "macro_delta_pp": -0.9943190524914547,
+      "all3_targets_complete": true
+    },
+    "QC03": {
+      "arm": "QC03_s17",
+      "AUROC": {
+        "ped1": 0.7476644996005912,
+        "ped2": 0.9087701249007292,
+        "avenue": 0.8431956297718862
+      },
+      "target_delta_pp": {
+        "ped1": -0.8632782203520928,
+        "ped2": -0.8175402498014628,
+        "avenue": -0.1679305822286814
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8332100847577356,
+      "macro_delta_pp": -0.6162496841274123,
+      "all3_targets_complete": true
+    },
+    "G25": {
+      "arm": "G25_s17",
+      "AUROC": {
+        "ped1": 0.7528605345804057,
+        "ped2": 0.900025268933651,
+        "avenue": 0.8448580612675066
+      },
+      "target_delta_pp": {
+        "ped1": -0.343674722370646,
+        "ped2": -1.692025846509282,
+        "avenue": -0.0016874326666416195
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.832581288260521,
+      "macro_delta_pp": -0.6791293338488713,
+      "all3_targets_complete": true
+    },
+    "C3": {
+      "arm": "C3_s17",
+      "AUROC": {
+        "ped1": 0.7469097246275668,
+        "ped2": 0.8922740235362068,
+        "avenue": 0.8492395662560307
+      },
+      "target_delta_pp": {
+        "ped1": -0.938755717654538,
+        "ped2": -2.4671503862537025,
+        "avenue": 0.436463066185766
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8294744381399348,
+      "macro_delta_pp": -0.9898143459074915,
+      "all3_targets_complete": true
+    },
+    "CM7": {
+      "arm": "CM7_s17",
+      "AUROC": {
+        "ped1": 0.7503870383991,
+        "ped2": 0.8915376146126633,
+        "avenue": 0.8518015832123285
+      },
+      "target_delta_pp": {
+        "ped1": -0.5910243405012117,
+        "ped2": -2.5407912786080455,
+        "avenue": 0.6926647618155424
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8312420787413638,
+      "macro_delta_pp": -0.8130502857645938,
+      "all3_targets_complete": true
+    },
+    "M10": {
+      "arm": "M10_s17",
+      "AUROC": {
+        "ped1": 0.7471167285238365,
+        "ped2": 0.9045745794527471,
+        "avenue": 0.8505327767108529
+      },
+      "target_delta_pp": {
+        "ped1": -0.9180553280275672,
+        "ped2": -1.237094794599669,
+        "avenue": 0.5657841116679885
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8340746948958122,
+      "macro_delta_pp": -0.529788670319753,
+      "all3_targets_complete": true
+    },
+    "F9": {
+      "arm": "F9_s17",
+      "AUROC": {
+        "ped1": 0.7537158262616543,
+        "ped2": 0.9251615406829832,
+        "avenue": 0.8295440301653473
+      },
+      "target_delta_pp": {
+        "ped1": -0.2581455542457811,
+        "ped2": 0.8216013284239376,
+        "avenue": -1.5330905428825758
+      },
+      "positive_targets": [
+        "ped2"
+      ],
+      "macro_AUROC": 0.8361404657033282,
+      "macro_delta_pp": -0.3232115895681509,
+      "all3_targets_complete": true
+    },
+    "R100": {
+      "arm": "R100_s17",
+      "AUROC": {
+        "ped1": 0.7530092240641744,
+        "ped2": 0.8946664500758068,
+        "avenue": 0.8435306103330367
+      },
+      "target_delta_pp": {
+        "ped1": -0.32880577399377886,
+        "ped2": -2.227907732293699,
+        "avenue": -0.13443252611363699
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8304020948243392,
+      "macro_delta_pp": -0.8970486774670494,
+      "all3_targets_complete": true
+    },
+    "QC01": {
+      "arm": "QC01_s17",
+      "AUROC": {
+        "ped1": 0.7526109603451363,
+        "ped2": 0.9140540394195364,
+        "avenue": 0.8500150124127593
+      },
+      "target_delta_pp": {
+        "ped1": -0.368632145897585,
+        "ped2": -0.2891487979207352,
+        "avenue": 0.5140076818586303
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8388933373924773,
+      "macro_delta_pp": -0.04792442065324476,
+      "all3_targets_complete": true
+    },
+    "S12": {
+      "arm": "S12_s17",
+      "AUROC": {
+        "ped1": 0.7538230904299507,
+        "ped2": 0.8880432820734965,
+        "avenue": 0.8442630099770481
+      },
+      "target_delta_pp": {
+        "ped1": -0.2474191374161494,
+        "ped2": -2.890224532524732,
+        "avenue": -0.06119256171249754
+      },
+      "positive_targets": [],
+      "macro_AUROC": 0.8287097941601651,
+      "macro_delta_pp": -1.0662787438844634,
+      "all3_targets_complete": true
+    },
+    "S50": {
+      "arm": "S50_s17",
+      "AUROC": {
+        "ped1": 0.7538238265165039,
+        "ped2": 0.9033165475416938,
+        "avenue": 0.8462287694974003
+      },
+      "target_delta_pp": {
+        "ped1": -0.24734552876082283,
+        "ped2": -1.3628979857050028,
+        "avenue": 0.13538339032272972
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8344563811851994,
+      "macro_delta_pp": -0.49162004138103566,
+      "all3_targets_complete": true
+    },
+    "C1": {
+      "arm": "C1_s17",
+      "AUROC": {
+        "ped1": 0.7528737841383653,
+        "ped2": 0.903866146848603,
+        "avenue": 0.8502745561853015
+      },
+      "target_delta_pp": {
+        "ped1": -0.34234976657468996,
+        "ped2": -1.3079380550140796,
+        "avenue": 0.5399620591128418
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8356714957240899,
+      "macro_delta_pp": -0.3701085874919796,
+      "all3_targets_complete": true
+    },
+    "M20W": {
+      "arm": "M20W_s17",
+      "AUROC": {
+        "ped1": 0.7496029426450355,
+        "ped2": 0.9063370875749044,
+        "avenue": 0.8483338680968664
+      },
+      "target_delta_pp": {
+        "ped1": -0.669433915907669,
+        "ped2": -1.060843982383941,
+        "avenue": 0.3458932502693357
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.834757966105602,
+      "macro_delta_pp": -0.4614615493407692,
+      "all3_targets_complete": true
+    },
+    "G00": {
+      "arm": "G00_s17",
+      "AUROC": {
+        "ped1": 0.730782150031942,
+        "ped2": 0.865709154573677,
+        "avenue": 0.8456823387512296
+      },
+      "target_delta_pp": {
+        "ped1": -2.551513177217013,
+        "ped2": -5.123637282506676,
+        "avenue": 0.08074031570565188
+      },
+      "positive_targets": [
+        "avenue"
+      ],
+      "macro_AUROC": 0.8140578811189495,
+      "macro_delta_pp": -2.5314700480060237,
+      "all3_targets_complete": true
+    },
+    "Tweak": {
+      "arm": "Tweak_s17",
+      "AUROC": {
+        "ped1": 0.758451275527584,
+        "ped2": 0.9116462710273626,
+        "avenue": 0.8435375193217481
+      },
+      "target_delta_pp": {
+        "ped1": 0.21539937234718032,
+        "ped2": -0.5299256371381178,
+        "avenue": -0.1337416272424896
+      },
+      "positive_targets": [
+        "ped1"
+      ],
+      "macro_AUROC": 0.8378783552922315,
+      "macro_delta_pp": -0.14942263067782013,
+      "all3_targets_complete": true
+    }
+  },
+  "ranked_macro_candidates": [
+    "M20",
+    "QC01",
+    "Tweak",
+    "U9",
+    "F9",
+    "C7",
+    "C1",
+    "M20W",
+    "S50",
+    "M10",
+    "QC03",
+    "MR20",
+    "G25",
+    "CM7",
+    "R100",
+    "C3",
+    "R50",
+    "S12",
+    "S25",
+    "SR25",
+    "G00"
+  ],
+  "positive_macro_candidates": [
+    "M20"
+  ],
+  "positive_any_domain_candidates": [
+    "SR25",
+    "C7",
+    "M20",
+    "MR20",
+    "C3",
+    "CM7",
+    "M10",
+    "F9",
+    "QC01",
+    "S50",
+    "C1",
+    "M20W",
+    "G00",
+    "Tweak"
+  ],
+  "control_macro_contrasts_pp": {
+    "S25-SR25": 0.28351363873755364,
+    "M20-MR20": 0.8296785800892326,
+    "F9-U9": -0.04904229668473148,
+    "CM7-C7": -0.47420593214211326,
+    "R50-R100": -0.09727037502440528,
+    "QC03-QC01": -0.5683252634741676
+  },
+  "baseline_all3_complete": true,
+  "missing": [],
+  "freeze_sha256": "f1f19ea4db4e0f5cc82b8ff57794a1a11f3ac6762e8a5dc4eafb0d702204d595",
+  "code_release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "no_target_training_or_checkpoint_selection": true,
+  "prior_target_feedback_used_for_design": true,
+  "interpretation": "Fixed single-seed broad screen; every negative, control and missing result retained. Rank only complete3-target candidates versus the same B. Individual-domain gain is distinct from macro gain. Positives need later confirmation."
+}

@@ -1,0 +1,6 @@
+{
+  "phase": "TRAINED",
+  "step": 5000,
+  "config_hash": "7b7f7673773137c5c56e9f775e01f1c3d1a9379e6aa4c4e95b64e29a0de42d64",
+  "checkpoint_sha256": "2675d42fe1b1cc329f98dc9069fc2117d3e2376a383c0aad8fd5c3f326e35513"
+}

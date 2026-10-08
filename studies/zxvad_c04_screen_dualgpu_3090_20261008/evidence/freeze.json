@@ -1,0 +1,311 @@
+{
+  "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+  "author_confirmed": false,
+  "release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "prepared_sha256": "abde2286ceafca334153e07bb4a0f976f03f1c8d96c2cfa6e5bfa320e849fb9e",
+  "worker_preflights": {
+    "0": "302de647b4b59567d1ccdc7c101dbf2619f792d3191ee589d131887b4448ea87",
+    "1": "2c4e6e87e30d273a2f31982c9915256d38e63c79654ed6f7236f112b6787f851"
+  },
+  "cross_card_parity_sha256": "508387626ddee9d5ef158817a0fdba19ecc7e0424b5866c9d7ef3b8857df4c9e",
+  "models": {
+    "B_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "2417f3cb58641a6399ceca1710a49e254416e9db840e6af474a2d2d5a6ffc427",
+      "checkpoint_sha256": "c0b907019a4fa91e08fbc644695445df2de32fc2e52ab3ed94cc7bb73c0fe4f4"
+    },
+    "S25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "f7b855eed2069eb005b8c419a4dc46fa01e619ac2c9e24d4613bb33d0bbf5a40",
+      "checkpoint_sha256": "9261dfea29a908938023ecd48ade83b1f979a1fc6a053048234a7638e84265a4"
+    },
+    "SR25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "2ee41108d631eb492f6af84cff2f20b56732a8fcf83055f7375967be229e824b",
+      "checkpoint_sha256": "b19a86c58c3f3d35475f996d15720b3dd4b0851432464f7686dacf25190dbb05"
+    },
+    "C7_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "ff10097990d30a4e1c1d6223d72dd0c4803573929fb1d138170b3ffba74aea22",
+      "checkpoint_sha256": "9a67bf29326db82a6ad90796073f4e20f92c2639ea1ea6337fdf726136e103e9"
+    },
+    "M20_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "ccbc8ddaa1999eebdc5cfa92b664a697e261e6462588bdc58a450a2879207d6b",
+      "checkpoint_sha256": "7b0c6a2c68c43cd0c5df32c09307799523fe54bc1d036d697ed7eed42c53bebc"
+    },
+    "MR20_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "8b790643d3ee41bef9fab0ab20a8994ca0ee98a5dc6cdc853455f6a1224fbc23",
+      "checkpoint_sha256": "93fa0d4e658dddbfe477bf96e90218dd919fe670fd2d76c3a43b480fd9c7750e"
+    },
+    "U9_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "87880a8e149483b78f0a7c1325c79eecfa122db4b65ffba099cc3587ce145325",
+      "checkpoint_sha256": "ce1c3c02c92728cf23a98c5af70b7ba2342d1b90c531d22eff315fd494c17b82"
+    },
+    "R50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "7b7f7673773137c5c56e9f775e01f1c3d1a9379e6aa4c4e95b64e29a0de42d64",
+      "checkpoint_sha256": "2675d42fe1b1cc329f98dc9069fc2117d3e2376a383c0aad8fd5c3f326e35513"
+    },
+    "QC03_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "d2dc59064b87df3baa462e6eed1a08b46453d02abf7a50fc4b040f7d9dcdc87d",
+      "checkpoint_sha256": "c9b306f2674e3cf34d40acd6719d04860e8d4def6ea674532ad643b435a9d71d"
+    },
+    "G25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "9002af0e0aeceaf9333fb72901be736dbb76a7cfb5a53f628be6aae43752e2a3",
+      "checkpoint_sha256": "cf0ef20871656efd6c28fb9e50fee8189701eaa801d1983806eaaf1f7e2ef531"
+    },
+    "C3_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "5392639b4345a1e30f9157c45c84e6069a97622f3a90e45968f6e45585a075e8",
+      "checkpoint_sha256": "5cbb97fbbe7ef72ae8b212ed20217940a4342612423a2f3f0cd21ede4e4e168c"
+    },
+    "CM7_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "78e27bb5c392af896254cbaf102eb7bbf95dcc07e88e0ca9bf7515e804d1a846",
+      "checkpoint_sha256": "9f25463c9497536a9cc8f5ca277e593202e83f5700fb1ff7facbf5697a43c311"
+    },
+    "M10_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "cb3a8dd74b3630f74cc681e17465581e664576c8e4b74407d860fb44152e68ea",
+      "checkpoint_sha256": "14d7e948fe24b40ff98b6bf2c3f1ba18866964340ac988bb18a84ccd1a59eaa3"
+    },
+    "F9_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "08f70f2737182f3a0086ce3da6e32014fd4420c0f86c8356d9856cf620c6a480",
+      "checkpoint_sha256": "38a2c32f1a9e562f9e2e28c13f79dd93ac89085f11243959cbb88bb49caf81cc"
+    },
+    "R100_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "df33886c5dd763dccb1eb9cb0dad647ff870a8f046c9e9f45128a3ade59c71d7",
+      "checkpoint_sha256": "78019325410c8453371d431801945796fd776fbde4a50fc37f4e237dc35212ca"
+    },
+    "QC01_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "0b7e3c893d1ed773b1ea1f49f170361bb42ceaec5cd9b41dab0264f36587569c",
+      "checkpoint_sha256": "44dd2a20b3a55791941f0cbc339b8ddf3c57834bdbc05e95d92d6f5d6f0c4c1f"
+    },
+    "S12_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "2cf375652c2ace164ec246166ecf3e5058f4312d0ba401649daefc93b9d4d2fe",
+      "checkpoint_sha256": "1891524d911b3320916f2462bb229ca081974b5cbcfa5a04aa3c452c433cc248"
+    },
+    "S50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "3edb209b6ea3fb2d2a780d340d79e0a012b8bb894a7442912b65dba58e139ac5",
+      "checkpoint_sha256": "f7f0e6a6c1bb509c337955a4aae81d14f78095b745b599d6d9aaf0cfff4e0d33"
+    },
+    "C1_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "239f6e9dd96a1f1bbdbd1a10eae7c4753251d4c0390386db9825a230cbcaadae",
+      "checkpoint_sha256": "695328c4bdf7d083786857ac399e1da8466305294133c74c5baac5b646f60862"
+    },
+    "M20W_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "d2f0c18950e612025fc7bfd8eba26c1bac2fc22850157a949da91e5c80ce90b4",
+      "checkpoint_sha256": "c565e3d9519bd3e7823685e1c0e143408c687333b7397acf1cd42e0bfb2a7225"
+    },
+    "G00_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "e1c170907cd18cfa0c070fd57a0133c880f84c0fdb20313739693799b5f56375",
+      "checkpoint_sha256": "adb8f085e1f8efb3359dccb7324cbc82ef0166124870325e406e3efe7c6c14f6"
+    },
+    "Tweak_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "892476fd04c591f91bef13496f3b2a41ec291e1547922e2cd9b4590009194da3",
+      "checkpoint_sha256": "63edb6cb7cd5dec4aacc6c9e216e6f9984e23d7b0f857d5b8ab17c8a24dfe86a"
+    }
+  },
+  "targets": {
+    "ped1": {
+      "frame_metadata_sha256": "bf6a638805724150566b3a0aca5e10848cd08207c33a8c11849005e902924a32",
+      "label_sha256": "920ecf117c2a86c5d282a27e8b4a5b56b1e2191751bdb373464ebcc342e12508",
+      "video_names": [
+        "Test001",
+        "Test002",
+        "Test003",
+        "Test004",
+        "Test005",
+        "Test006",
+        "Test007",
+        "Test008",
+        "Test009",
+        "Test010",
+        "Test011",
+        "Test012",
+        "Test013",
+        "Test014",
+        "Test015",
+        "Test016",
+        "Test017",
+        "Test018",
+        "Test019",
+        "Test020",
+        "Test021",
+        "Test022",
+        "Test023",
+        "Test024",
+        "Test025",
+        "Test026",
+        "Test027",
+        "Test028",
+        "Test029",
+        "Test030",
+        "Test031",
+        "Test032",
+        "Test033",
+        "Test034",
+        "Test035",
+        "Test036"
+      ],
+      "video_total_frames": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "ped2": {
+      "frame_metadata_sha256": "881526872e88cd0d2a1126b368b914c8c41e2d9f4b4c34f4930a08ef732c3101",
+      "label_sha256": "11cacb382b40f2c05a703749d28b94ae1ca63819477f435688252e32594b87a9",
+      "video_names": [
+        "Test001",
+        "Test002",
+        "Test003",
+        "Test004",
+        "Test005",
+        "Test006",
+        "Test007",
+        "Test008",
+        "Test009",
+        "Test010",
+        "Test011",
+        "Test012"
+      ],
+      "video_total_frames": [
+        180,
+        180,
+        150,
+        180,
+        150,
+        180,
+        180,
+        180,
+        120,
+        150,
+        180,
+        180
+      ]
+    },
+    "avenue": {
+      "frame_metadata_sha256": "9abfcd2dfad5790c87cd299770b0ef449a74e0e2f24573b400c6d39e53037956",
+      "label_sha256": "16b8ece2c035cd12c73476c62faf9154a36887293ac3746c6e670e71687fc58c",
+      "video_names": [
+        "Test01",
+        "Test02",
+        "Test03",
+        "Test04",
+        "Test05",
+        "Test06",
+        "Test07",
+        "Test08",
+        "Test09",
+        "Test10",
+        "Test11",
+        "Test12",
+        "Test13",
+        "Test14",
+        "Test15",
+        "Test16",
+        "Test17",
+        "Test18",
+        "Test19",
+        "Test20",
+        "Test21"
+      ],
+      "video_total_frames": [
+        1439,
+        1211,
+        923,
+        947,
+        1007,
+        1283,
+        605,
+        36,
+        1175,
+        841,
+        472,
+        1271,
+        549,
+        507,
+        1001,
+        740,
+        426,
+        294,
+        248,
+        273,
+        76
+      ]
+    }
+  },
+  "evaluation_batch": 16,
+  "metric": "Per-video minmax negative PSNR; pooled frame AUROC; first4 excluded; final5000 only"
+}

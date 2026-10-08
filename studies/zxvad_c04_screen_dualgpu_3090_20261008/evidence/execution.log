@@ -1,0 +1,8 @@
+Release hashes: PASS (41 files)
+All330 source / canonical V2 scored target labels / symlink view: PASS
+Canonical source and target layout: PASS
+COMPLETED trained 22 AUROC rows 66 macro positives ['M20']
+CPU review bundle: /home/xjy/zxvad-c04-screen-dualgpu-v1/outputs/review_bundle.zip
+All22 fits and66 AUROC rows completed; manual publication command is now available.
+Completed22 fits and66 AUROC rows: /home/xjy/zxvad-c04-screen-dualgpu-v1/outputs/results.csv
+Review bundle: /home/xjy/zxvad-c04-screen-dualgpu-v1/outputs/review_bundle.zip

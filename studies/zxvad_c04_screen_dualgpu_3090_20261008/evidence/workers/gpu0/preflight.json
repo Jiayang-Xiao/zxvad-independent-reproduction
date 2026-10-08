@@ -1,0 +1,909 @@
+{
+  "status": "PASS",
+  "physical_gpu": 0,
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "cuda_build": "12.8",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "compiled_arch": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120",
+      "compute_120"
+    ],
+    "physical_gpu": 0,
+    "hardware_identity": "GPU-083cd012-5918-5a50-585c-7fd4be18bd9b, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+    "platform": "Linux-5.13.0-30-generic-x86_64-with-glibc2.39"
+  },
+  "queue": [
+    "B_s17",
+    "S25_s17",
+    "SR25_s17",
+    "C7_s17",
+    "R50_s17",
+    "G25_s17",
+    "CM7_s17",
+    "R100_s17",
+    "S12_s17",
+    "S50_s17",
+    "G00_s17"
+  ],
+  "prepared_sha256": "abde2286ceafca334153e07bb4a0f976f03f1c8d96c2cfa6e5bfa320e849fb9e",
+  "release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "shared_original_initial_hashes": {
+    "17": {
+      "D": "27b4bbe1d45bcb8b45b63452c0125e48ad046aeaf368e5e82878cb0f61f19d1e",
+      "N": "280d85b2eca33b6830a66368b95b32e0cd1cd1fde7d3051c0158978411a747ba",
+      "O": "8d8c275ccc473e01921d65693c352baa46c80262bc3ead5e8b87fe80e86c1622",
+      "Arc": "70fd970004c70164b5639f78b57fd5d551a5fb7916fd47ccc972d835d544f8a9",
+      "G": "b2737c81d056c8cefea15e82b46083a369308391af457339f12ba1901f246971"
+    }
+  },
+  "source_mask_diagnostic": {
+    "B_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "S25_s17": {
+      "source_donor_mask_area": 0.25,
+      "donors": 8
+    },
+    "SR25_s17": {
+      "source_donor_mask_area": 0.25,
+      "donors": 8
+    },
+    "C7_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "R50_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "G25_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "CM7_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "R100_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "S12_s17": {
+      "source_donor_mask_area": 0.125,
+      "donors": 8
+    },
+    "S50_s17": {
+      "source_donor_mask_area": 0.5,
+      "donors": 8
+    },
+    "G00_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    }
+  },
+  "seed17_original_updater_parity": {
+    "status": "PASS",
+    "state_sha256": "da960ecb6b820c958af3d1b0e330d2e2fddb6aec43c181210a825e8d5f1c50ea",
+    "scope": "Full update exact original/B/no-op-variant model,Adam,metrics,RNG"
+  },
+  "recipes": {
+    "B_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "S25_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.384634017944336,
+        "normalcy": 0.45847463607788086,
+        "relative_normalcy": 1.1953091621398926,
+        "attention_affirmation": 0.39072757959365845,
+        "relative_attention": 30.523479461669922,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 0.25,
+        "paste_mask_area": 0.08150291442871094,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "SR25_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.407821655273438,
+        "normalcy": 0.4577997326850891,
+        "relative_normalcy": 1.1949691772460938,
+        "attention_affirmation": 0.4102187752723694,
+        "relative_attention": 30.52785301208496,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 0.25,
+        "paste_mask_area": 0.08138847351074219,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "C7_s17": {
+      "losses": {
+        "g": 0.8484397530555725,
+        "d": 0.7389963269233704,
+        "n": 31.4342041015625,
+        "normalcy": 0.47867053747177124,
+        "relative_normalcy": 1.2539550065994263,
+        "attention_affirmation": 0.4590083360671997,
+        "relative_attention": 30.483985900878906,
+        "mse": 0.13604241609573364,
+        "ssim_loss": 0.394214391708374,
+        "gradient": 0.07634897530078888,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.22376775741577148,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8836163,
+      "inference_batch_parity_max_abs": 7.450580596923828e-09
+    },
+    "R50_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 30.817401885986328,
+        "normalcy": 0.4343123733997345,
+        "relative_normalcy": 1.1202378273010254,
+        "attention_affirmation": 0.3173142671585083,
+        "relative_attention": 30.05457305908203,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0,
+        "real_normal_fraction": 0.5,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.40845149755477905,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "G25_s17": {
+      "losses": {
+        "g": 0.7464882135391235,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_coefficient": 0.25,
+        "query_compact": 0.0,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "CM7_s17": {
+      "losses": {
+        "g": 0.8504797220230103,
+        "d": 0.7386223673820496,
+        "n": 31.447532653808594,
+        "normalcy": 0.48279252648353577,
+        "relative_normalcy": 1.264797329902649,
+        "attention_affirmation": 0.46187716722488403,
+        "relative_attention": 30.490215301513672,
+        "mse": 0.13598164916038513,
+        "ssim_loss": 0.3941435217857361,
+        "gradient": 0.07638192176818848,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.22066226601600647,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8836163,
+      "inference_batch_parity_max_abs": 7.450580596923828e-09
+    },
+    "R100_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 30.904809951782227,
+        "normalcy": 0.43975380063056946,
+        "relative_normalcy": 1.1254429817199707,
+        "attention_affirmation": 0.31696048378944397,
+        "relative_attention": 30.1368408203125,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0,
+        "real_normal_fraction": 1.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.4093664884567261,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "S12_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.495285034179688,
+        "normalcy": 0.4573039710521698,
+        "relative_normalcy": 1.1941540241241455,
+        "attention_affirmation": 0.3965882956981659,
+        "relative_attention": 30.629451751708984,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 0.125,
+        "paste_mask_area": 0.04086875915527344,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "S50_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.381866455078125,
+        "normalcy": 0.45906373858451843,
+        "relative_normalcy": 1.1963104009628296,
+        "attention_affirmation": 0.39961886405944824,
+        "relative_attention": 30.511220932006836,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 0.5,
+        "paste_mask_area": 0.16300392150878906,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "G00_s17": {
+      "losses": {
+        "g": 0.6550321578979492,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_coefficient": 0.0,
+        "query_compact": 0.0,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    }
+  },
+  "scope": "Disposable source-only updates; discarded before fresh step0 research fits"
+}

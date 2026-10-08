@@ -1,0 +1,9 @@
+{
+  "phase": "COMPLETED",
+  "updated_unix": 1791422455.9764893,
+  "completed_fits": 22,
+  "AUROC_rows": 66,
+  "positive_macro_candidates": [
+    "M20"
+  ]
+}

@@ -1,0 +1,3 @@
+# c04 two-GPU single-seed broad screening
+
+22 independent settings, seed17, 5000steps, batch8 FP32; fixed11-fit queues on physical GPU0/1. No wall-time cutoff. Only after all22 fits finish are final checkpoints frozen and66 target AUROC rows computed. See docs/plan.zh.md and protocol.json. Original intervention implementations are unchanged from the single-card screening release. Baseline B is trained on GPU0; GPU1 comparisons carry a recorded cross-card training limitation. Source-only initial-state and first-update exact parity gates precede fitting. Prior target feedback informed development; single-seed positives require confirmation. Independent code is not author-confirmed. Checkpoints stay on the server.

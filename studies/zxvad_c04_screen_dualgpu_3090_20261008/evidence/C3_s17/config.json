@@ -1,0 +1,13 @@
+{
+  "study": "ZXVAD_C04_SCREEN_DUALGPU_3090_20261008",
+  "candidate": "C3_s17",
+  "recipe": "C3",
+  "prepared_sha256": "abde2286ceafca334153e07bb4a0f976f03f1c8d96c2cfa6e5bfa320e849fb9e",
+  "preflight_sha256": "2c4e6e87e30d273a2f31982c9915256d38e63c79654ed6f7236f112b6787f851",
+  "physical_gpu": 1,
+  "hardware_identity": "GPU-678b2aa6-2b47-9f89-eb64-a87a97e6cc05, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59"
+}
