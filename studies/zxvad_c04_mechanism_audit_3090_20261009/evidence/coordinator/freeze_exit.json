@@ -1,0 +1,20 @@
+{
+  "phase": "freeze",
+  "exit": 0,
+  "physical_gpu": null,
+  "started_unix": 1791507556.4348357,
+  "finished_unix": 1791507572.5133789,
+  "signal": null,
+  "child_exit": 0,
+  "child_pid": 1745169,
+  "command": [
+    "/home/xjy/zxvad-c04-combinations-v1/.venv/bin/python",
+    "/home/xjy/zxvad-c04-mechanism-audit-v1/crosscheck.py",
+    "--phase",
+    "freeze",
+    "--workers",
+    "4",
+    "--evaluation-batch",
+    "16"
+  ]
+}

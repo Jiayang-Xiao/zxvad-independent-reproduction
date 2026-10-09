@@ -1,0 +1,384 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_3090_20261009",
+  "author_confirmed": false,
+  "release": "5254a60e91a3ea98a49d3640edb218f360c54df729c7a33b163e08543d4e995b",
+  "prepared_sha256": "e6bcb18cf7f21de043861a7c8e9f37d67781057a54e1b2563f4aa75154a5869f",
+  "worker_preflights": {
+    "0": "c64376b2da5f47b238f1a2efba65c6178985f220e81fafa2bf5bd035cdac0953",
+    "1": "562182582424c07ba9d3ed0555660a734fcb5213c31c29c718be9aaf5e2008d7"
+  },
+  "cross_card_parity_sha256": "fb7e5212ea4cde7415383bb64baf7e2900bcadf606a3f3b90bdebf1c6cecc385",
+  "source_validation_sha256": "8d28281b776cf256a9bee5b175d0a79d183059f2c7ce47ffcfba7ca814b30f60",
+  "source_selection_sha256": "8fc45dd132f106177d992191eaedb5cf2d589adc045a30521cc6a58ee2abde7d",
+  "training_source_videos": 297,
+  "validation_source_videos": 33,
+  "models": {
+    "B0_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "3b2d9cc1208ed88c3e62851211bd5161e309c59fa6b48d04981f983182e9b05e",
+      "checkpoint_sha256": "1327c38e1a7274eccda5f2cda994bd3411ae733548edd5de389b0cc03766822d"
+    },
+    "NC_Y_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "68fe42135a274c4a5a90b64ca8a4e23e5e5a4ac7f4b3954667e01a506f272300",
+      "checkpoint_sha256": "36b53d892d553660e50f1bb2b334edee26cdf089fe68a02934d280601ffa2baa"
+    },
+    "NC_X_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "91d26348566c89ae6727367f387577dbf9c22080bf6b6801f7b827eff35d32ce",
+      "checkpoint_sha256": "5c4d157f5cced56a7a99b6fd758dd4386e2722c1bccef71b3e594155f0f2017d"
+    },
+    "NC_ORIGIN_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "45c1b075f39ab312c9a2a3fc2fc686cc0d3b86b670ba38b96fb46851e35581db",
+      "checkpoint_sha256": "c3d6e1646194a9c11a2ba19246fe5420809ebfd8317ef362e9acc0705e49d4da"
+    },
+    "CF_PHOTO_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "734a6a7b37e386e963ba76cf0e821d8e38aca1a6bf06edda3d33d75397a24a7d",
+      "checkpoint_sha256": "c3bfd9db766b59e434b1688a73eb9a90c97c66ad1fa61eeafe6675594c1251c9"
+    },
+    "CF_NOISE_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "bce876b771074517cc9f080571a3f10d1cd06b207c92b1e6ccff9ae275789144",
+      "checkpoint_sha256": "7d1b1c2c701ada83ad36814a8eaa3b9c8d307751a6a4d5745e9ce5affe0a1a9e"
+    },
+    "CF_SELF_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "ac256ef39bccda5b752031d4df95ff8c45fac279d48127b8aa9ac729a5c68db5",
+      "checkpoint_sha256": "f1094290ced0e875dad8cab369c845e43c581d94cced274f3fd92cfaca20852d"
+    },
+    "CF_STATIC_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "44dfc3cae950041e9262f4f7b0ad661339a15d0e641c10431c647e7e53963863",
+      "checkpoint_sha256": "6d13d60fdf79bcca8e0ee1c36ca96edce6cf1a983ba697f22a0c3c1df82358af"
+    },
+    "CF_MOVE_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "ce8a0f4f6b7b05a7d1e6910cf884b0e28501d64d384eb8386064a9ebb4aa8be6",
+      "checkpoint_sha256": "c7f1a18a66d82a4ad46edc6ec8f985864901b41c64e420b843b573f199ab3a9f"
+    },
+    "CF_SHUFFLE_A10_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "5b44816941468739c317449e501bd7083f189507880fb403a408333946551111",
+      "checkpoint_sha256": "6fc399fd091aadbbdc993d9e3a8f3298d3a86a2026a1b4312974af0fa70ea3c1"
+    },
+    "CF_PHOTO_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "dca88112617893702588718a6de167232c6777e4b4486a2733b711aa9c93a452",
+      "checkpoint_sha256": "4cc77a4e7a6e76c6bb26feab43e93486124d7fc2233b0319fba4619bc2d5dfab"
+    },
+    "CF_NOISE_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "f618f31f163febe827973a56c2be9d06e28c339ff7dce0895000ab0c0407dc8c",
+      "checkpoint_sha256": "28984269a60961c11eef06026f3b53e9d2c113f3ee773095f325669b006553e1"
+    },
+    "CF_SELF_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "c7bcceedec6411fd2c254da9436dadcdf1e122fd07e4bc0e00aedf2bd46e4772",
+      "checkpoint_sha256": "d55b35cb47e946d7f7beac9b922b2aba3f8e844fa8a967d359cb9ec9e5f075f4"
+    },
+    "CF_STATIC_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "ca938af7bc5c109920a73a4a7a54c8f75052fc4cd7479e746ae4b8a51cc40606",
+      "checkpoint_sha256": "3e25e7bfa2ae7ec907395d38a99d630766e8a1ed709b4c23f64a7f5d087aa886"
+    },
+    "CF_MOVE_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "77e308b17128fd082e8a6c8a1f2ede17d26c511751f2b536e87fdaff8cfdbdd4",
+      "checkpoint_sha256": "e1bd9de11f5cf04abaf5298e581835fd8da8116a6b1baad50e46904aa5b92d50"
+    },
+    "CF_SHUFFLE_A10_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "a15d43bdfc9d14ceda624139eff7f8880ec02f6039eef2e13dce121528ec873b",
+      "checkpoint_sha256": "c026aa91aca88579cf6afa107e87910254231ca6ce517ccfdebcf81688ef0ddd"
+    },
+    "B1_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "68034c12cfb8a63b8618bec95a18ff78f64217784884e727a429af656a17c66f",
+      "checkpoint_sha256": "f5ff331a07ae13ac65bd2ca1e8f810f4380238c7108dc32784ffe7b19bd76d5b"
+    },
+    "NC_PRED_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "a07fa2bb270f387bf01ac74d812a310fb47324331c594335dee12497efdbaec2",
+      "checkpoint_sha256": "bfe38124dc2141ea773ef6d024966256854b06374632a0632a3af17475676dc6"
+    },
+    "NC_MIX50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "a48b315f3e1512df898eb03f9f1737b5c205f94a49b8f1fde753383d84d7fe05",
+      "checkpoint_sha256": "ab65a118587930fbf8f6c008f2f0a972bddca93c26e0898d95adccac59237f8a"
+    },
+    "NC_OFF_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "dc31b8d79f5a6c81ab08be674482ca79196fedcea469ecf1de7689c9b0fadfe2",
+      "checkpoint_sha256": "30dc5d44e0485c08ad5da9571ccdf938b14d9d873889b43bbb453afa8826c92c"
+    },
+    "CF_PHOTO_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "3079f819527340a5edc47e74688135c7229e77a58654414c2bfdb5f78a645bd6",
+      "checkpoint_sha256": "c04ca58f2e7de8bc34f3de8f8b875dbcb27ce05e5f48fbc65ff38a963a8ec7e6"
+    },
+    "CF_NOISE_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "1a71f27e7301854c2a1f27d872598172865c61793d3acc3a2c262a91f0916690",
+      "checkpoint_sha256": "79e50446dec3e01b289501e644d9813f04e30b5a7b75e300e7848955fb0fd77e"
+    },
+    "CF_SELF_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "c8ff4a9430f549f2f305f078b7d76b6f012d95ea9acfc60e1a0bfafadeeaef6c",
+      "checkpoint_sha256": "fe17b9ace3cbc4119a9431331b08db78b6062bf70ed2d77b7005db6c736e1844"
+    },
+    "CF_STATIC_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "4ba341d2a689839ebfb192d4cb147fea950bad29eba9c3c9f133581a282e204b",
+      "checkpoint_sha256": "8a0877cf0fa93303bfca7d3b821e2eaf9440170f67c71c70db12139aa8948ce1"
+    },
+    "CF_MOVE_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "3ba13cdd6295e5c4aa40b46a13dcf3964230368741878949a541beba90e91c73",
+      "checkpoint_sha256": "3cd7237195db2510a14594a489902e828f41195871eda090e57ff4480a1506b7"
+    },
+    "CF_SHUFFLE_A20_P25_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "b78cd5256509edb1ed9e3c705aca88731101182d73915e4860970f7179f0a87f",
+      "checkpoint_sha256": "6814fafc50c2c20172913007a56ed3dad8ce68fecb4ddff4a51070ac96c2d7e0"
+    },
+    "CF_PHOTO_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "993bdc8f980e2a8fab3f1941196586fea723cfe3b79882884d35d4b47912f167",
+      "checkpoint_sha256": "48dcd844554c548c8f27c40cdf7fae9ac99be509d76d0f225275f6ccf9765c38"
+    },
+    "CF_NOISE_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "e5b25dcf7574c5b2c273db126b62a48fdc025bae2da8827bfb2477086a502625",
+      "checkpoint_sha256": "379bf5f354fe53a64a67cf53098c1d977b2abdb20e751288de0a767b86ff65f7"
+    },
+    "CF_SELF_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "673d55af606b8410a51603527a62033752c66974d088d915452ab2e5bb77784c",
+      "checkpoint_sha256": "34f7e7154dc16dbced78422aa2e822b0ce5bff83a80efe4ef6b32b85abc9db03"
+    },
+    "CF_STATIC_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "0b64a96250fc963f4574ee30b2b8f7811b3ff7d1a911c5c1a623aef078be4893",
+      "checkpoint_sha256": "85286042559cfba8601bcc9a4945f1d0b3bdf75593eaad87aae9d58e0a0b5237"
+    },
+    "CF_MOVE_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "91d649a7733474984fa8eb9d8d5b318e5a6ad739aca73cdc24864e5ce673875b",
+      "checkpoint_sha256": "1d447ff1a375e0ecdce6c08f4b20ca41022ea0c254e476da4058c57d4ef98a0f"
+    },
+    "CF_SHUFFLE_A20_P50_s17": {
+      "phase": "TRAINED",
+      "step": 5000,
+      "config_hash": "97f084b0e270b15718b06eb522800193e497344911d567b07df1a514e53dfb7c",
+      "checkpoint_sha256": "9941a54f454cb34adc508318292f642c424f7dfcc3f355589fa0f0f1ba436e7c"
+    }
+  },
+  "targets": {
+    "ped1": {
+      "frame_metadata_sha256": "bf6a638805724150566b3a0aca5e10848cd08207c33a8c11849005e902924a32",
+      "label_sha256": "920ecf117c2a86c5d282a27e8b4a5b56b1e2191751bdb373464ebcc342e12508",
+      "video_names": [
+        "Test001",
+        "Test002",
+        "Test003",
+        "Test004",
+        "Test005",
+        "Test006",
+        "Test007",
+        "Test008",
+        "Test009",
+        "Test010",
+        "Test011",
+        "Test012",
+        "Test013",
+        "Test014",
+        "Test015",
+        "Test016",
+        "Test017",
+        "Test018",
+        "Test019",
+        "Test020",
+        "Test021",
+        "Test022",
+        "Test023",
+        "Test024",
+        "Test025",
+        "Test026",
+        "Test027",
+        "Test028",
+        "Test029",
+        "Test030",
+        "Test031",
+        "Test032",
+        "Test033",
+        "Test034",
+        "Test035",
+        "Test036"
+      ],
+      "video_total_frames": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "ped2": {
+      "frame_metadata_sha256": "881526872e88cd0d2a1126b368b914c8c41e2d9f4b4c34f4930a08ef732c3101",
+      "label_sha256": "11cacb382b40f2c05a703749d28b94ae1ca63819477f435688252e32594b87a9",
+      "video_names": [
+        "Test001",
+        "Test002",
+        "Test003",
+        "Test004",
+        "Test005",
+        "Test006",
+        "Test007",
+        "Test008",
+        "Test009",
+        "Test010",
+        "Test011",
+        "Test012"
+      ],
+      "video_total_frames": [
+        180,
+        180,
+        150,
+        180,
+        150,
+        180,
+        180,
+        180,
+        120,
+        150,
+        180,
+        180
+      ]
+    },
+    "avenue": {
+      "frame_metadata_sha256": "9abfcd2dfad5790c87cd299770b0ef449a74e0e2f24573b400c6d39e53037956",
+      "label_sha256": "16b8ece2c035cd12c73476c62faf9154a36887293ac3746c6e670e71687fc58c",
+      "video_names": [
+        "Test01",
+        "Test02",
+        "Test03",
+        "Test04",
+        "Test05",
+        "Test06",
+        "Test07",
+        "Test08",
+        "Test09",
+        "Test10",
+        "Test11",
+        "Test12",
+        "Test13",
+        "Test14",
+        "Test15",
+        "Test16",
+        "Test17",
+        "Test18",
+        "Test19",
+        "Test20",
+        "Test21"
+      ],
+      "video_total_frames": [
+        1439,
+        1211,
+        923,
+        947,
+        1007,
+        1283,
+        605,
+        36,
+        1175,
+        841,
+        472,
+        1271,
+        549,
+        507,
+        1001,
+        740,
+        426,
+        294,
+        248,
+        273,
+        76
+      ]
+    }
+  },
+  "evaluation_batch": 16,
+  "metric": "Primary per-video minmax negative PSNR pooled frame AUROC; first4 excluded; final5000 only",
+  "diagnostic_readouts": [
+    "PSNR",
+    "NC",
+    "NC_GAP",
+    "LOCAL",
+    "FUSION",
+    "PSNR_FROZEN",
+    "FUSION_FROZEN"
+  ]
+}

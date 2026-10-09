@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "kind": "LOCAL_CPU_SYNTHETIC_IMPLEMENTATION_CHECKS_NOT_GPU_EVIDENCE",
+  "GPU_experiments_executed": false,
+  "checks": [
+    "32 updater baseline parity, oneG/fourN, gradients and privateRNG",
+    "source isolation, canonical scoring, source calibration, BN frozen and tamper rejection",
+    "all672 AUROC readouts independently checked against sklearn",
+    "source-selection all32manifest, frozen resume and target-before-choice refusal",
+    "coordinator phase order and incomplete-fit/probe barriers",
+    "actual cached original-module import32arms and splitplan, noCUDA context"
+  ],
+  "limitations": [
+    "No new GPU training or target experiment was run locally",
+    "Fresh server physical-card preflight required before training"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "physical_gpu": 1,
+  "phase": "evaluate",
+  "exit": 0,
+  "attempt_id": "evaluate-1-1791507572514136513",
+  "started_unix": 1791507572.5301898,
+  "finished_unix": 1791511034.6421258,
+  "supervisor_pid": 1745176,
+  "child_pid": 1745187,
+  "child_exit": 0,
+  "signal": null,
+  "already_committed": false,
+  "command": [
+    "/home/xjy/zxvad-c04-combinations-v1/.venv/bin/python",
+    "/home/xjy/zxvad-c04-mechanism-audit-v1/crosscheck.py",
+    "--phase",
+    "evaluate",
+    "--workers",
+    "4",
+    "--evaluation-batch",
+    "16",
+    "--lane",
+    "1"
+  ]
+}

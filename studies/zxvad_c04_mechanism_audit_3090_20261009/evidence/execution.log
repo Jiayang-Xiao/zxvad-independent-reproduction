@@ -1,0 +1,9 @@
+Release hashes and original41 implementation files: PASS (80 files)
+Pinned parent code, data identities and physical-card environments: PASS
+Canonical source and target layout: PASS
+Source-only choice frozen: [] (empty is allowed)
+32 fits, 32 source probes and 96 target score arrays completed; report/export must validate 672 readout rows.
+All GPU work already completed; validated committed artifacts.
+COMPLETED: 32 final fits, 96 primary rows, all 672 AUROC readout rows; source-selected arms=[]
+All GPU work already completed; validated committed artifacts.
+COMPLETED: 32 final fits, 96 primary rows, all 672 AUROC readout rows; source-selected arms=[]

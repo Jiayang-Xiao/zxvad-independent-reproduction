@@ -1,0 +1,160 @@
+{
+  "binding": {
+    "batch_size": 16,
+    "calibration_fit": "clean heldout normal future, median and linear-quantile IQR only",
+    "calibration_floor": 1e-06,
+    "candidate": "CF_MOVE_A10_P50_s17",
+    "checkpoint_sha256": "e1bd9de11f5cf04abaf5298e581835fd8da8116a6b1baad50e46904aa5b92d50",
+    "clips": 256,
+    "fusion_weight": 0.25,
+    "local_tile": 8,
+    "local_top_fraction": 0.1,
+    "normalcy_eval": true,
+    "prepared_sha256": "e6bcb18cf7f21de043861a7c8e9f37d67781057a54e1b2563f4aa75154a5869f",
+    "probe_areas": [
+      0.1
+    ],
+    "probe_modes": [
+      "PHOTO",
+      "NOISE",
+      "SELF",
+      "STATIC",
+      "MOVE",
+      "SHUFFLE"
+    ],
+    "source_only": true,
+    "source_probe_plan_sha256": "ee2fdbfa9d9df93b6655af60c58af5ef47784b41bfe971d182be432158b33700",
+    "source_split_sha256": "d38eaa9d9b2ed42067586a73a5e2249f66d7ee830d325096c657a8b3d04bbbf4",
+    "study": "ZXVAD_C04_MECHANISM_AUDIT_3090_20261009",
+    "target_used": false
+  },
+  "calibration_sha256": "4501678db7b65e2477d084cf8f862414af0eb9ae14b8dbd6432bfbc531de5b26",
+  "clean_mse": 0.000537267406286901,
+  "conditions": {
+    "MOVE_A10": {
+      "future_edit_energy": 0.005681951586950618,
+      "input_edit_energy": 0.00564070821161522,
+      "input_nc_sensitivity": -0.0024974834523163736,
+      "kind": "synthetic edited future; not real anomaly",
+      "prediction_output_delta": 0.002153520813379828,
+      "recovery_mse": 0.0027986272061184536,
+      "recovery_ratio_to_clean": 5.2090023950270785,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.9530792236328125,
+        "raw_fusion": 0.9757232666015625,
+        "raw_local": 0.96624755859375,
+        "raw_nc": 0.49627685546875,
+        "raw_nc_gap": 0.37908935546875
+      }
+    },
+    "NOISE_A10": {
+      "future_edit_energy": 0.0009834094389589154,
+      "input_edit_energy": 0.000983490211865501,
+      "input_nc_sensitivity": -0.012335283012362197,
+      "kind": "synthetic edited future; not real anomaly",
+      "prediction_output_delta": 0.00031509849992517047,
+      "recovery_mse": 0.0008575040228606667,
+      "recovery_ratio_to_clean": 1.5960469829855253,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.8350372314453125,
+        "raw_fusion": 0.9316864013671875,
+        "raw_local": 0.8805999755859375,
+        "raw_nc": 0.4579315185546875,
+        "raw_nc_gap": 0.419464111328125
+      }
+    },
+    "PHOTO_A10": {
+      "future_edit_energy": 0.0004968292163418653,
+      "input_edit_energy": 0.0004971917072058574,
+      "input_nc_sensitivity": -0.001027494465233758,
+      "kind": "benign photometric corruption control",
+      "prediction_output_delta": 0.00044774073033249095,
+      "recovery_mse": 0.0009896459464471263,
+      "recovery_ratio_to_clean": 1.8419988535814047,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.5026397705078125,
+        "raw_fusion": 0.5009765625,
+        "raw_local": 0.5013198852539062,
+        "raw_nc": 0.498016357421875,
+        "raw_nc_gap": 0.4944000244140625
+      }
+    },
+    "SELF_A10": {
+      "future_edit_energy": 0.005583401044674474,
+      "input_edit_energy": 0.005509999987665992,
+      "input_nc_sensitivity": -0.002208035148214549,
+      "kind": "synthetic edited future; not real anomaly",
+      "prediction_output_delta": 0.0021640678309680084,
+      "recovery_mse": 0.0028210144323850272,
+      "recovery_ratio_to_clean": 5.250671079940042,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.8877410888671875,
+        "raw_fusion": 0.922454833984375,
+        "raw_local": 0.90484619140625,
+        "raw_nc": 0.4945220947265625,
+        "raw_nc_gap": 0.397064208984375
+      }
+    },
+    "SHUFFLE_A10": {
+      "future_edit_energy": 0.005681951586950618,
+      "input_edit_energy": 0.005640094047208777,
+      "input_nc_sensitivity": -0.0024974834523163736,
+      "kind": "synthetic edited future; not real anomaly",
+      "prediction_output_delta": 0.0021600904371297247,
+      "recovery_mse": 0.0028075532633238254,
+      "recovery_ratio_to_clean": 5.225616202417816,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.9523162841796875,
+        "raw_fusion": 0.974884033203125,
+        "raw_local": 0.9651336669921875,
+        "raw_nc": 0.49627685546875,
+        "raw_nc_gap": 0.3785247802734375
+      }
+    },
+    "STATIC_A10": {
+      "future_edit_energy": 0.005649690584760947,
+      "input_edit_energy": 0.005651781285337165,
+      "input_nc_sensitivity": -0.0018655164167284966,
+      "kind": "synthetic edited future; not real anomaly",
+      "prediction_output_delta": 0.005029353973299067,
+      "recovery_mse": 0.005709611646409485,
+      "recovery_ratio_to_clean": 10.62713200093242,
+      "support_area": 0.1001129150390625,
+      "synthetic_future_AUROC": {
+        "raw": 0.5647735595703125,
+        "raw_fusion": 0.5841522216796875,
+        "raw_local": 0.5814971923828125,
+        "raw_nc": 0.498199462890625,
+        "raw_nc_gap": 0.463470458984375
+      }
+    }
+  },
+  "copy_last_mse": 0.000539244176442466,
+  "interpretation": "Source heldout synthetic mechanism diagnostics; only target AUROC evaluates cross-domain performance",
+  "normalcy_bn_unchanged": true,
+  "origin": {
+    "mean_scores": {
+      "P": -0.26676272664917633,
+      "TP": -0.28870021205511875,
+      "TY": -0.29671269661048427,
+      "X": -0.2797872742812615,
+      "Y": -0.27984789878246374
+    },
+    "no_event_first0_future1_AUROC": 0.5006332397460938,
+    "no_event_origin_separability_AUROC": 0.5384979248046875,
+    "no_event_pred_minus_real_score": 0.013085172133287415,
+    "no_event_real0_pred1_AUROC": 0.5384979248046875,
+    "same_P_event_AUROC": 0.399505615234375,
+    "same_Y_event_AUROC": 0.4427490234375
+  },
+  "reverse_history_mse_delta": 0.00025526637458028745,
+  "reverse_history_output_delta": 0.00020467992498662824,
+  "scores_sha256": "22472d2b14aef6c2887581c0c97fc25d6dc54c9b658094173f1bf41369f3568b",
+  "source_MOVE_AUROC": 0.9530792236328125,
+  "time_sensitivity": 0.00020467992498662824
+}

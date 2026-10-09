@@ -1,0 +1,13 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_3090_20261009",
+  "candidate": "CF_NOISE_A20_P25_s17",
+  "recipe": "CF_NOISE_A20_P25",
+  "prepared_sha256": "e6bcb18cf7f21de043861a7c8e9f37d67781057a54e1b2563f4aa75154a5869f",
+  "preflight_sha256": "562182582424c07ba9d3ed0555660a734fcb5213c31c29c718be9aaf5e2008d7",
+  "physical_gpu": 1,
+  "hardware_identity": "GPU-678b2aa6-2b47-9f89-eb64-a87a97e6cc05, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "release": "5254a60e91a3ea98a49d3640edb218f360c54df729c7a33b163e08543d4e995b"
+}

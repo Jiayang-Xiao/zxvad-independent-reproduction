@@ -1,0 +1,154 @@
+{
+  "kind": "SINGLE_SEED_CROSS_CARD_SCORE_DIAGNOSTIC",
+  "performance_metric": false,
+  "scope": "B0 versus B1 final score arrays only; not proof of identical training trajectories",
+  "targets": {
+    "ped1": {
+      "scores": {
+        "raw": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_pred": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_gap": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_local": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_fusion": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        }
+      },
+      "readout_AUROC_delta_pp": {
+        "PSNR": 0.0,
+        "NC": 0.0,
+        "NC_GAP": 0.0,
+        "LOCAL": 0.0,
+        "FUSION": 0.0,
+        "PSNR_FROZEN": 0.0,
+        "FUSION_FROZEN": 0.0
+      }
+    },
+    "ped2": {
+      "scores": {
+        "raw": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_pred": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_gap": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_local": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_fusion": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        }
+      },
+      "readout_AUROC_delta_pp": {
+        "PSNR": 0.0,
+        "NC": 0.0,
+        "NC_GAP": 0.0,
+        "LOCAL": 0.0,
+        "FUSION": 0.0,
+        "PSNR_FROZEN": 0.0,
+        "FUSION_FROZEN": 0.0
+      }
+    },
+    "avenue": {
+      "scores": {
+        "raw": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_pred": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_nc_gap": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_local": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        },
+        "raw_fusion": {
+          "array_equal": true,
+          "different_elements": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        }
+      },
+      "readout_AUROC_delta_pp": {
+        "PSNR": 0.0,
+        "NC": 0.0,
+        "NC_GAP": 0.0,
+        "LOCAL": 0.0,
+        "FUSION": 0.0,
+        "PSNR_FROZEN": 0.0,
+        "FUSION_FROZEN": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "kind": "LOCAL_CPU_IMPLEMENTATION_DIAGNOSTIC",
+  "arms": 32,
+  "checks": [
+    "frozen_baseline_alias_exact_state_parity",
+    "one_G_forward_four_N_BN_passes",
+    "raw_guidance_and_detached_N_gradients",
+    "normalcy_positive_negative_pairing",
+    "future_target_and_D_target_preserved",
+    "private_rng_global_state_preservation",
+    "same_step_mode_geometry_and_shuffle_pairing",
+    "training_static_vs_straight_and_source_heldout_turn_geometry",
+    "zero_probability_exact_noop"
+  ],
+  "gpu_training_executed": false
+}

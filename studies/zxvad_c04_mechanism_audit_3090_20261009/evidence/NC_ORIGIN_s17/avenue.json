@@ -1,0 +1,9 @@
+{
+  "calibration_sha256": "eaf551f905524f3b0e9a18ce36ee3432434606c48064d65bccdd568c05fa7bda",
+  "freeze_sha256": "e453ab8548adb67c66a7320657591be4078c8fa444a0e553f796c339ee616085",
+  "normalcy_bn_unchanged": true,
+  "normalcy_eval": true,
+  "scored_frames": 15240,
+  "scores_sha256": "fd68b44707decb412ae01867fcd624f39e9d90c070f7984ccac084078b986cc7",
+  "source_selection_sha256": "8fc45dd132f106177d992191eaedb5cf2d589adc045a30521cc6a58ee2abde7d"
+}

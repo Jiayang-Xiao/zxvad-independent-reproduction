@@ -1,0 +1,921 @@
+{
+  "status": "PASS",
+  "physical_gpu": 1,
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "cuda_build": "12.8",
+    "kornia": "0.6.9",
+    "pml": "1.6.3",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "compiled_arch": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120",
+      "compute_120"
+    ],
+    "physical_gpu": 1,
+    "hardware_identity": "GPU-678b2aa6-2b47-9f89-eb64-a87a97e6cc05, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+    "platform": "Linux-5.13.0-30-generic-x86_64-with-glibc2.39"
+  },
+  "queue": [
+    "M20_s17",
+    "MR20_s17",
+    "U9_s17",
+    "QC03_s17",
+    "C3_s17",
+    "M10_s17",
+    "F9_s17",
+    "QC01_s17",
+    "C1_s17",
+    "M20W_s17",
+    "Tweak_s17"
+  ],
+  "prepared_sha256": "abde2286ceafca334153e07bb4a0f976f03f1c8d96c2cfa6e5bfa320e849fb9e",
+  "release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "shared_original_initial_hashes": {
+    "17": {
+      "D": "27b4bbe1d45bcb8b45b63452c0125e48ad046aeaf368e5e82878cb0f61f19d1e",
+      "N": "280d85b2eca33b6830a66368b95b32e0cd1cd1fde7d3051c0158978411a747ba",
+      "O": "8d8c275ccc473e01921d65693c352baa46c80262bc3ead5e8b87fe80e86c1622",
+      "Arc": "70fd970004c70164b5639f78b57fd5d551a5fb7916fd47ccc972d835d544f8a9",
+      "G": "b2737c81d056c8cefea15e82b46083a369308391af457339f12ba1901f246971"
+    }
+  },
+  "source_mask_diagnostic": {
+    "M20_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "MR20_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "U9_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "QC03_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "C3_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "M10_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "F9_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "QC01_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "C1_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "M20W_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    },
+    "Tweak_s17": {
+      "source_donor_mask_area": 1.0,
+      "donors": 8
+    }
+  },
+  "seed17_original_updater_parity": {
+    "status": "PASS",
+    "state_sha256": "da960ecb6b820c958af3d1b0e330d2e2fddb6aec43c181210a825e8d5f1c50ea",
+    "scope": "Full update exact original/B/no-op-variant model,Adam,metrics,RNG"
+  },
+  "recipes": {
+    "M20_s17": {
+      "losses": {
+        "g": 0.8724442720413208,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "weighted_mse": 0.17102466523647308,
+        "motion_roi_area": 0.2012653350830078,
+        "weight_mean": 1.0,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09
+    },
+    "MR20_s17": {
+      "losses": {
+        "g": 0.8165594339370728,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "weighted_mse": 0.11513978242874146,
+        "motion_roi_area": 0.2012653350830078,
+        "weight_mean": 1.0,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "U9_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.320114135742188,
+        "normalcy": 0.4577663540840149,
+        "relative_normalcy": 1.1965181827545166,
+        "attention_affirmation": 0.4185786247253418,
+        "relative_attention": 30.431804656982422,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.3205622136592865,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "QC03_s17": {
+      "losses": {
+        "g": 0.8380435109138489,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.003308609127998352,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 9.313225746154785e-09
+    },
+    "C3_s17": {
+      "losses": {
+        "g": 0.8451846837997437,
+        "d": 0.7374653816223145,
+        "n": 31.429244995117188,
+        "normalcy": 0.4728785753250122,
+        "relative_normalcy": 1.2396252155303955,
+        "attention_affirmation": 0.45707839727401733,
+        "relative_attention": 30.486892700195312,
+        "mse": 0.1361069679260254,
+        "ssim_loss": 0.39406734704971313,
+        "gradient": 0.07629310339689255,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.225974902510643,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8818243,
+      "inference_batch_parity_max_abs": 7.450580596923828e-09
+    },
+    "M10_s17": {
+      "losses": {
+        "g": 0.8828728199005127,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "weighted_mse": 0.18145322799682617,
+        "motion_roi_area": 0.10023880004882812,
+        "weight_mean": 1.0,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "F9_s17": {
+      "losses": {
+        "g": 0.8379442691802979,
+        "d": 0.7371734380722046,
+        "n": 31.30068588256836,
+        "normalcy": 0.45676153898239136,
+        "relative_normalcy": 1.1955829858779907,
+        "attention_affirmation": 0.41724905371665955,
+        "relative_attention": 30.414718627929688,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.0,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.3205622136592865,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "QC01_s17": {
+      "losses": {
+        "g": 0.8379773497581482,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "guidance_coefficient": 0.5,
+        "query_compact": 0.003308609127998352,
+        "real_normal_fraction": 0.0,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "C1_s17": {
+      "losses": {
+        "g": 0.8509647846221924,
+        "d": 0.7380820512771606,
+        "n": 31.43819236755371,
+        "normalcy": 0.4832531809806824,
+        "relative_normalcy": 1.2659844160079956,
+        "attention_affirmation": 0.46242254972457886,
+        "relative_attention": 30.479856491088867,
+        "mse": 0.13619586825370789,
+        "ssim_loss": 0.39426082372665405,
+        "gradient": 0.07622812688350677,
+        "memory_entropy": 6.914496421813965,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.21996696293354034,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8814211,
+      "inference_batch_parity_max_abs": 7.450580596923828e-09
+    },
+    "M20W_s17": {
+      "losses": {
+        "g": 0.8551942110061646,
+        "d": 0.7371734380722046,
+        "n": 31.319509506225586,
+        "normalcy": 0.4578414261341095,
+        "relative_normalcy": 1.196770429611206,
+        "attention_affirmation": 0.4199860095977783,
+        "relative_attention": 30.42971420288086,
+        "mse": 0.13652461767196655,
+        "ssim_loss": 0.39392364025115967,
+        "gradient": 0.07596936821937561,
+        "memory_entropy": 6.914496421813965,
+        "weighted_mse": 0.15377464890480042,
+        "motion_roi_area": 0.2012653350830078,
+        "weight_mean": 1.0,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.26971912384033203,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    },
+    "Tweak_s17": {
+      "losses": {
+        "g": 0.8393380045890808,
+        "d": 0.7372877597808838,
+        "n": 31.313358306884766,
+        "normalcy": 0.4568207263946533,
+        "relative_normalcy": 1.1913111209869385,
+        "attention_affirmation": 0.4216457009315491,
+        "relative_attention": 30.4229793548584,
+        "mse": 0.1378091424703598,
+        "ssim_loss": 0.39391446113586426,
+        "gradient": 0.0755816102027893,
+        "memory_entropy": 6.914475440979004,
+        "object_mask_area": 1.0,
+        "paste_mask_area": 0.32619667053222656,
+        "n_attention_mean": 0.2694760859012604,
+        "n_attention_zero_fraction": 0.0,
+        "n_bn_updates": 4,
+        "boxes": [
+          [
+            17,
+            44,
+            256,
+            256
+          ],
+          [
+            114,
+            119,
+            256,
+            256
+          ],
+          [
+            120,
+            0,
+            256,
+            78
+          ],
+          [
+            134,
+            0,
+            256,
+            84
+          ],
+          [
+            0,
+            0,
+            134,
+            180
+          ],
+          [
+            32,
+            39,
+            186,
+            193
+          ],
+          [
+            114,
+            0,
+            256,
+            149
+          ],
+          [
+            169,
+            25,
+            256,
+            152
+          ]
+        ]
+      },
+      "G_parameters": 8728195,
+      "inference_batch_parity_max_abs": 1.1175870895385742e-08
+    }
+  },
+  "scope": "Disposable source-only updates; discarded before fresh step0 research fits"
+}

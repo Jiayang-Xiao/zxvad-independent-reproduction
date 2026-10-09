@@ -1,0 +1,46 @@
+{
+  "binding": {
+    "batch_size": 16,
+    "calibration_fit": "clean heldout normal future, median and linear-quantile IQR only",
+    "calibration_floor": 1e-06,
+    "candidate": "CF_SHUFFLE_A10_P25_s17",
+    "checkpoint_sha256": "6fc399fd091aadbbdc993d9e3a8f3298d3a86a2026a1b4312974af0fa70ea3c1",
+    "clips": 256,
+    "fusion_weight": 0.25,
+    "local_tile": 8,
+    "local_top_fraction": 0.1,
+    "normalcy_eval": true,
+    "prepared_sha256": "e6bcb18cf7f21de043861a7c8e9f37d67781057a54e1b2563f4aa75154a5869f",
+    "probe_areas": [
+      0.1
+    ],
+    "probe_modes": [
+      "PHOTO",
+      "NOISE",
+      "SELF",
+      "STATIC",
+      "MOVE",
+      "SHUFFLE"
+    ],
+    "source_only": true,
+    "source_probe_plan_sha256": "ee2fdbfa9d9df93b6655af60c58af5ef47784b41bfe971d182be432158b33700",
+    "source_split_sha256": "d38eaa9d9b2ed42067586a73a5e2249f66d7ee830d325096c657a8b3d04bbbf4",
+    "study": "ZXVAD_C04_MECHANISM_AUDIT_3090_20261009",
+    "target_used": false
+  },
+  "normalcy_bn_unchanged": true,
+  "statistics": {
+    "raw": {
+      "iqr": 3.9844822883605957,
+      "median": -34.53787422180176
+    },
+    "raw_local": {
+      "iqr": 0.002729719039052725,
+      "median": 0.001986823743209243
+    },
+    "raw_nc": {
+      "iqr": 0.1246497891843319,
+      "median": -0.2901648133993149
+    }
+  }
+}
