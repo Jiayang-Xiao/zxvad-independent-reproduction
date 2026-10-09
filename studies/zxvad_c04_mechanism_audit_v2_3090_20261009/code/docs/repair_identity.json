@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "invalidated_commit": "61f9232ea11e5238ed65b7dfa7fc1636f457f3c1",
+  "invalidated_study": "studies/zxvad_c04_mechanism_audit_3090_20261009",
+  "invalidated_nonbaseline_fits": 30,
+  "valid_baseline_fits_in_original": 2,
+  "old_experiment_update_sha256": "d761d4a51fc507a0e44542711144489c9d9d2c2484b706646e395fb39c3ba57a",
+  "frozen_original_bytes_changed": false,
+  "scientific_arm_parameters_changed": false,
+  "fresh_fit_count": 32,
+  "prior_weights_used": false,
+  "server_root": "/home/xjy/zxvad-c04-mechanism-audit-v2",
+  "publication_branch": "c04-mechanism-audit-v2-3090-20261009"
+}

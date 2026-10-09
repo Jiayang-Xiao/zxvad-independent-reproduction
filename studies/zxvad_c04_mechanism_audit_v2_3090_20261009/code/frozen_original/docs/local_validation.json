@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "unchanged_intervention_files_sha256": {
+    "src/model.py": "368e29a2266efb168bef2c5575e89a36deba6f7bab18b8002b24145ce4ecca2c",
+    "src/baseline_model.py": "1274e8aa71cf2c72f3a9bad055c552aa7ca63531d63dcaef637cf05aa2e19443",
+    "src/variant_update.py": "ad21d4b4ed20a40f7d6d9a1aa6773c1e3d08bb78cd82ec764eb2c9e9dd197ff9",
+    "src/common.py": "255cb64b8e2976b0043a65ce7febede5d93a64add6a8178cc498923616b1a677",
+    "src/parity.py": "6147789f68efc90fd3138984ea97f6b4550b2d2a043c1b9602f739acd42c7acd",
+    "src/boundary_blend.py": "b87c49942a305eab983ba346def14ec694ce93684d4c058ecca72a28e8b20dcd",
+    "src/interventions.py": "a8b3c05b1821aedd6185bf3f35ab507ec484266e0ec0c95c66c34365c768a023",
+    "src/motion_loss.py": "5b74d2eea2ae9c93ad8826f155333e59fa2b0cbb54613ab7d090fe424502702d"
+  },
+  "cached_original_cpu_validation": "docs/cached_single_card_cpu_validation.json",
+  "two_workers_launched_before_wait_with_isolated_logs": true,
+  "worker_failure_propagates_after_other_lane_finishes": true,
+  "cross_card_mismatch_blocks_formal_fitting": true,
+  "actual_fit_resume_from_checkpoint250_to5000": true,
+  "completed_fit_skipped_and_wrong_lane_rejected": true,
+  "all22_fit_barrier_and_immutable_freeze": true,
+  "all22_fits_66_AUROC_rows_single_seed_and_card_record": true,
+  "AUROC_ties_match_sklearn": true,
+  "positive_macro_distinguished_from_single_target_gain": true,
+  "evidence_hashes_weights_excluded_materialize_idempotent": true,
+  "failed_lane_wrong_card_or_label_tamper_rejected": true,
+  "server_GPU_execution": false,
+  "offline_publication": {
+    "status": "PASS",
+    "scope": "Local bare Git repo, fake authentication and materialization; no network publish",
+    "new_branch_push": true,
+    "main_unchanged": true,
+    "failed_push_retry_preserves_local_commit": true,
+    "idempotent_retry": true,
+    "source_publish_script_sha256": "7cb6e4d55a8926ea49555bed263fcb9a3d239acbe51a8cbaa12daf93bec791a6"
+  }
+}

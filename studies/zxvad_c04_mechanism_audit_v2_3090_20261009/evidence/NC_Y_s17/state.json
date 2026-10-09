@@ -1,0 +1,7 @@
+{
+  "phase": "TRAINED",
+  "step": 5000,
+  "checkpoint_step": 5000,
+  "elapsed_seconds": 1452.6124002640136,
+  "config_hash": "18771c4fc450fbe54bf9813815e59a1cc45584323f3cc04bf751c71f7fa1c74f"
+}

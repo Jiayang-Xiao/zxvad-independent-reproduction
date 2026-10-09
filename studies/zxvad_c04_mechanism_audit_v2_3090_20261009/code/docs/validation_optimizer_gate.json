@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "kind": "LOCAL_CPU_SYNTHETIC_RECEIPT_AND_INTEGRATION_TESTS_NOT_GPU_EVIDENCE",
+  "repository": "G:\\科研\\NMT\\NMT_V2 Decision\\research_notes\\zxvad_critical_review_20261009\\repository_v2",
+  "python": "3.10.7",
+  "torch": "2.4.1+cpu",
+  "numpy": "1.26.4",
+  "actual_CUDA_updates_executed": false,
+  "actual_server_preflight_executed": false,
+  "research_checkpoints_written": false,
+  "target_data_read": false,
+  "production_files_modified_by_tests": false,
+  "checks_total": 57,
+  "checks_passed": 57,
+  "checks": [
+    {
+      "name": "CPU_three_step_direct_and_wrapped_full_state_metrics_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "valid_three_step_receipt_schema",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_direct_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_direct_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_direct_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_direct_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_direct_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_wrapped_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_wrapped_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_wrapped_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_wrapped_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_wrapped_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step0_unequal_full_state_digest",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_direct_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_direct_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_direct_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_direct_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_direct_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_wrapped_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_wrapped_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_wrapped_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_wrapped_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_wrapped_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step1_unequal_full_state_digest",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_direct_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_direct_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_direct_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_direct_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_direct_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_wrapped_N_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_wrapped_Arc_parameters_changed_false",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_wrapped_G_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_wrapped_D_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_wrapped_N_Adam_counter_stale",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_step2_unequal_full_state_digest",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_parameter_step_record_missing",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_final_digest_wrong",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_plan_row_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_prepared_binding_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_card_binding_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_hardware_binding_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_p0_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_regression_arm_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_target_used",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_original_metrics_not_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_malformed_pixel_batch_digest",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_live_preflight_card_changed",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_live_plan_even_if_binding_recomputed",
+      "status": "PASS"
+    },
+    {
+      "name": "CPU_run_cannot_create_GPU_receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "crosscheck_commit_and_unchanged_reuse_without_updates_or_writes",
+      "status": "PASS"
+    },
+    {
+      "name": "crosscheck_missing_bound_receipt_refused",
+      "status": "PASS"
+    },
+    {
+      "name": "crosscheck_changed_bound_receipt_refused",
+      "status": "PASS"
+    },
+    {
+      "name": "support_validate_preflight_accepts_bound_valid_receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "support_validate_preflight_requires_receipt_SHA_binding",
+      "status": "PASS"
+    },
+    {
+      "name": "support_validate_preflight_rejects_missing_receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "support_validate_preflight_rejects_changed_receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "support_semantic_validation_rejects_invalid_receipt_even_if_SHA_rebound",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real CPU tiny-network 3-step parity plus disposable GPU-shaped receipt schema and coordinator/preflight guards. Initial GPU run is replaced with a schema-valid CPU fixture; reused receipts use the real validator."
+}

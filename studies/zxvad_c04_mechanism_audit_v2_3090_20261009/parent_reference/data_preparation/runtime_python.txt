@@ -1,0 +1,1 @@
+/home/xjy/zxvad-c04-combinations-v1/.venv/bin/python

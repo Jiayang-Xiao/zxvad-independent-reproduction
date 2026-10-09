@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "kind": "ACTUAL_CACHED_MODULE_CPU_IMPORT_AND_FACTORY_PARAMETER_COVERAGE",
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "arms": 32,
+  "source_train_videos": 297,
+  "source_validation_videos": 33,
+  "source_train_plan_rows": 40000,
+  "source_probe_plan_rows": 256,
+  "actual_model_factory_optimizer_parameter_mapping_exact": true,
+  "CUDA_context_initialized": false,
+  "actual_GPU_executed": false
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "parent_binding_sha256": "c29473a10b788abdcc9d2a33c84ebb0203cc3b2cb95ba9159990d9883061d4ce",
+  "shared_initial_tensors_exact": true,
+  "first_source_baseline_model_Adam_RNG_exact": true,
+  "worker_preflights": {
+    "0": "1a56c168a36caf777e48b02b2486c131afda4a18caadabf5b90f9943402904c8",
+    "1": "9becb64d4f15755f278c9f8dd171d97ef9515aa9560dc2a89f685064ce87f782"
+  },
+  "scope": "Disposable first source batch only; no assertion of identical complete5000-step cross-GPU training trajectories"
+}

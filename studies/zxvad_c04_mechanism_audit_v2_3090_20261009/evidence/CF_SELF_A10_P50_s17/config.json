@@ -1,0 +1,13 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "candidate": "CF_SELF_A10_P50_s17",
+  "recipe": "CF_SELF_A10_P50",
+  "prepared_sha256": "be0b87fddaf7c75dd785cdbcb59d7f41f32f4fe9a156fed42460e9ac8a844f4d",
+  "preflight_sha256": "1a56c168a36caf777e48b02b2486c131afda4a18caadabf5b90f9943402904c8",
+  "physical_gpu": 0,
+  "hardware_identity": "GPU-083cd012-5918-5a50-585c-7fd4be18bd9b, NVIDIA GeForce RTX 3090, 580.178.04, 24576",
+  "seed": 17,
+  "iterations": 5000,
+  "batch_size": 8,
+  "release": "7f75b719d6f9e8e7bdd6e07b466e1ea8c312b388b3ba29d3dfd7470312f88323"
+}

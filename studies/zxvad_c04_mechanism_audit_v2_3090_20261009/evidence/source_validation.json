@@ -1,0 +1,200 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "prepared_sha256": "be0b87fddaf7c75dd785cdbcb59d7f41f32f4fe9a156fed42460e9ac8a844f4d",
+  "source_split_sha256": "1824303de62e38123ca8b4af5a5f558d53e4702687ed1820f018fb3f340136eb",
+  "source_probe_plan_sha256": "ee2fdbfa9d9df93b6655af60c58af5ef47784b41bfe971d182be432158b33700",
+  "artifacts": {
+    "B0_s17": {
+      "source_probe.json": "62dbcbc3043498d4eba6f0a64d3aa700850b12035c938225d5ab1ed1dd715394",
+      "source_probe.npz": "1c1b39aa15f3dc597dc8cbfad40bd20567e561d93e553924b066fc549fc66070",
+      "calibration.json": "4e0618575c357fa19a3ab1e92907fe0a2216090d9c5e0695d7bf3e5f32cd8d0e",
+      "completed.json": "7d0c3e3e70afb3075a72a9f896fc2770df200ce0d923af8d06f92a839ba55df1"
+    },
+    "NC_Y_s17": {
+      "source_probe.json": "1f454cc124efe4822218949977ad374c57b3c5f3031d94b262938fc5b95e31bc",
+      "source_probe.npz": "43511c4f3dee1a417b5aaedc31f787be4b79ed5359e2b66a34905ebce6a27de8",
+      "calibration.json": "2034ace0eab1d258731f8feff438c3da2891fe80766dc861cb2109711d63035f",
+      "completed.json": "23626b4d708aa2a811fc81f66d901741052168391cda5effebd13fc096b64319"
+    },
+    "NC_X_s17": {
+      "source_probe.json": "189ad1c2ec31e8d1a163c39d2f091812f356cecd79370b46e29fb0991712f17a",
+      "source_probe.npz": "5cc3da642611c5fa33e0688d80c5bed307475973859896de5dfcb8904d9e59db",
+      "calibration.json": "32e27867b5739166e4fde1a2f47e701aaba5d4598b959f2517b8884a8120db09",
+      "completed.json": "f5c9406ef70cd1f45aaec912aaa2e7a10d9b45faffb30dbcb95f9d2cc2c64479"
+    },
+    "NC_ORIGIN_s17": {
+      "source_probe.json": "b2d67bedee2162c3c300491af7c059f9edc9009a471e454de68afbc25e46a105",
+      "source_probe.npz": "30f28bc7d7aa3db66d736654d4f5997ab0a923eb8faa519244c3f0e17916ebc0",
+      "calibration.json": "9490e69d34c83a6a8e402c09e527e051c4b122ddb9d731d1fe7a21b929bfa8a2",
+      "completed.json": "9428bd5e9ea878a2a41abaae34f16959037e3db02a97183a4df14ca115a13391"
+    },
+    "CF_PHOTO_A10_P25_s17": {
+      "source_probe.json": "c43649b3e09311166682b2f49094d72701c138ada2d121e1b6515e3b68e73124",
+      "source_probe.npz": "4692239e8db4f7ea712854303d8f059c0c550c2737a997fd5f4b854e55be2cfc",
+      "calibration.json": "9c39ba56975ba26f4f0f88401faa31fe5eb2657ea712867b8d2bba83587c9075",
+      "completed.json": "830be3503202dc22037ad577cd58cbfe21e0e8d688151e058c57871bbabf888c"
+    },
+    "CF_NOISE_A10_P25_s17": {
+      "source_probe.json": "580f05839e1ee99a83e3b82b2efa5c16ae89f99ae96053493f1f981510f9c7e0",
+      "source_probe.npz": "ddfcfeefb9c3798f3da7c7a8e047ec9ec35014e6f31616c27d867570e5c315f5",
+      "calibration.json": "2693c877d8ef5921099e66c49c97533da40c521547cd2eb4a09a6dfb38906747",
+      "completed.json": "0e64269dabf2fe568c37e1c2ce35923f81619c322dfe5255fb8956e386f5b7a2"
+    },
+    "CF_SELF_A10_P25_s17": {
+      "source_probe.json": "5c4bf1ac1bfebd175fcff4e978bd335d4ccc3b8322dd72f4b0f5dba8587f06f2",
+      "source_probe.npz": "9652b1dc8f239b6159002076f948107478a2fbbdbec180090992733690ad8e8f",
+      "calibration.json": "9fcedf3415d1912e7aebd9face0dbaa997af278ca5a045e576b844643eacc13f",
+      "completed.json": "cf1d45acfbbeef85d91c3ba4aeed90967ad7cb8129411c1175201709ccbcc229"
+    },
+    "CF_STATIC_A10_P25_s17": {
+      "source_probe.json": "385fe259bd5cd308a8047a5caf285a19e77f21289f95850bff33367a3eb3f5c1",
+      "source_probe.npz": "9e106c7e052fdc388f06f7531c12e2f54e6edec5dc1d9c9a89e933d2f0bff859",
+      "calibration.json": "1eb3d0548ee04cd78be1f0994ebcfa4310626e3822b044b820f61707ee51b65a",
+      "completed.json": "6be606b050635283b1d4b4d1d6a7f416d2a209607b9aefc87aaf5004c032664e"
+    },
+    "CF_MOVE_A10_P25_s17": {
+      "source_probe.json": "cee2a28d0d056c913296b2e7bd28279cdaca96493bd8834790ce64c2deb1ed2c",
+      "source_probe.npz": "b83a0994f78fca34572aeda177b7a763db2e0c667938793dfd906e18fb49dadf",
+      "calibration.json": "8b4167d6c097b05a12bd96ce5fedd74c2cb75b4b23254350b38af9115f2268e5",
+      "completed.json": "3f339df9386a7b2be9d3b5925648202a34cb82db9fdac0b71a8968d9e2638c92"
+    },
+    "CF_SHUFFLE_A10_P25_s17": {
+      "source_probe.json": "9b9e48e941774b7af2f34839d06a6ae096989e0712eead2402718a92328d72fa",
+      "source_probe.npz": "a1f65d1f91b435fc0a3f8fd54986909122deb57a1f0f1b07dff89338ac37d8a3",
+      "calibration.json": "7f16ecfa3afa44fc4a850a306e40dce9fde72c32f1c21b6f9a3cddd700a4db9d",
+      "completed.json": "ef4ef1dbdd3ffca40ab0e2d60805f0ff84494ef635184efa9aef890c01360a3a"
+    },
+    "CF_PHOTO_A10_P50_s17": {
+      "source_probe.json": "6cfbe9f76b90dc1deb6f44f177a555ac2acc42978e9f4be376463b8c205de59a",
+      "source_probe.npz": "903a74bbaafd608541463752154e751cc062016f52c190062c12eff19988d4c1",
+      "calibration.json": "ede37071822323cf0884fe25035ff052c32d52c1a5ab41db416dc41ba8fed859",
+      "completed.json": "2a3f1856816b82e51e384df6e77218e4ac7230c8f482f539942c158273f3ffe5"
+    },
+    "CF_NOISE_A10_P50_s17": {
+      "source_probe.json": "b16daeb9990551654f3183938d43c80bf45c0f5cae2dda98431bb5f36b7ac72c",
+      "source_probe.npz": "fbf11d696b5ad8e267d6c7624b654fa11d4f429c428b4627c95bda11b1ef9b38",
+      "calibration.json": "ddfe0299a8589607aebfc6ad13d54c0129a559a01e0a5d4c071c06118e71b3fa",
+      "completed.json": "e9feb3b84b3f627a5a5d44106088de241040f7be62b96f2ddbb34e2b792b635b"
+    },
+    "CF_SELF_A10_P50_s17": {
+      "source_probe.json": "cb64749e6ee8c01d6319bbf55f514a26c1f3bff4031d80897582fb78d31482e4",
+      "source_probe.npz": "8f24912546cbbe01b9f5c05950da28358166ab65bb7486517aa89208ae81f23d",
+      "calibration.json": "e30f5bd59b5c1b51809e1ece9f2f20efd0d8ea611e5e0572ad61bf1207342263",
+      "completed.json": "9242ff31330591062631de1acb46c9f74580f156c31f33711ad1de7debb36164"
+    },
+    "CF_STATIC_A10_P50_s17": {
+      "source_probe.json": "28bbe0b135d3311853fae7cc5f66ea964ce95bdf0d11e4c679d266d2e5a564e4",
+      "source_probe.npz": "d1519ce217b6c88cac1d68bbfc7a0ec996961d60a55a1cb8dcbfa4567765b992",
+      "calibration.json": "ef71ed11104b1fef69cd3e7d9def98102174d284d0ec2bafb7eedcbb22801dde",
+      "completed.json": "74cd9e02e1d56612b4aa78f944da244ac0bc4195c1533c52785333fc425ea1ca"
+    },
+    "CF_MOVE_A10_P50_s17": {
+      "source_probe.json": "9fb03864ad4df412de371f0c43812b02007c82ab5c8b8e62b2138cdeb6bf43c5",
+      "source_probe.npz": "7ac6eaf7096f60cebdd5cc9d87b0b8536bcca56f83dadb26f8798c039e6a95d9",
+      "calibration.json": "594dbb36033a8ff94f67d71485af8442e6b9637a7f6911aec76f95f962b7a6d5",
+      "completed.json": "caee534068d145108f1c12019013374824c6372613672d394766d54ed2b585fe"
+    },
+    "CF_SHUFFLE_A10_P50_s17": {
+      "source_probe.json": "a40a74f8dab68c4efcc8930aebb914d329788f5ad215881d7d58b8db20f68226",
+      "source_probe.npz": "d670083a99d7991d18106380f7efb68e1eb2c2acedc430c1439ccd2ec256c865",
+      "calibration.json": "2fce04e0f0de6a2fb3fab19c7230c9a9429ac07dc3bd848ec41503910817ef0f",
+      "completed.json": "d68ab45cf8cfbf4a5158759c5c3ca233311438711fe10a546de160b1518323d9"
+    },
+    "B1_s17": {
+      "source_probe.json": "883bf133a37b6fa3f3fb98d77163cfdad025fdaa9a2dc63d5a5f586b3662201d",
+      "source_probe.npz": "1c1b39aa15f3dc597dc8cbfad40bd20567e561d93e553924b066fc549fc66070",
+      "calibration.json": "88985bae9ed5c32ba2c7b078c91974da446ab48fb0a69d7be1a985056793c97b",
+      "completed.json": "f99fa9ae76e711428fd44317f2207f36ec1764a3afdfd716322dab3385357a94"
+    },
+    "NC_PRED_s17": {
+      "source_probe.json": "5ba40f00eb192d22e29ca9f544e102c3c54315623c0147e788b36053778ee9b0",
+      "source_probe.npz": "45e534e08b3b5860dec3f102eec24b4835be4d4fad5344c4f92eb81d0bd1b440",
+      "calibration.json": "410b0dc53f8c6072b760e87749416d5eda07f06b58bed457cd6f63cad16f9607",
+      "completed.json": "8d39e6044bd6867387941d5d590ef7a1aab5ccdd0bb3041e65212e0869c41db3"
+    },
+    "NC_MIX50_s17": {
+      "source_probe.json": "83329cc4a4279fe1ab79ca79c5c9973f6b19270573dbd877663c6593fa3f3a22",
+      "source_probe.npz": "1ad676af7355438f525f220fde3abaa983790df035265a7c4cd3db3f82448942",
+      "calibration.json": "ad599ede7786f9156a553f3b056c3643c8b8bee2d74d189e996c79195af5b08e",
+      "completed.json": "cda0ee6ac133dc438076494a525bf2308c3110ced8f378e654c06eebb858e57f"
+    },
+    "NC_OFF_s17": {
+      "source_probe.json": "ff00049b6e851d0e45d4d5c9d7f56cec950d1a10ec757fdba7ca90a6723f6e5f",
+      "source_probe.npz": "834d178b6eb3b8fd5004ac1f1846b33c7fb27454cde701236fecf97ebb348f0c",
+      "calibration.json": "25a9189b9d69c9c108867e90ed45157e946e61f197dcb90115beb228c8d129ad",
+      "completed.json": "80bed2a77248a4684a2c6ade5708e7c0a83e0700adc391757f67e1a540023cd1"
+    },
+    "CF_PHOTO_A20_P25_s17": {
+      "source_probe.json": "cdd9ca34167cad30a119c930735543f0a2c63a43ec26e422d40f01f5d4bd87ef",
+      "source_probe.npz": "e1cc67058597466f91eb67ac867f4afc35188ec71a490a496cd5f1f897e70687",
+      "calibration.json": "d9a9f4d8f15874eb47c8f1191bad5a8b382f8b4ea9a79df9a2a8851f2f642f2a",
+      "completed.json": "fcdd47c2a4951eeab8047e8431451b75d1e2c971e05fd2a7d49934635428d2eb"
+    },
+    "CF_NOISE_A20_P25_s17": {
+      "source_probe.json": "831de4300d5a79330b94b0788f2ab9f3229feb76e07a8bf048f2e514affdff08",
+      "source_probe.npz": "5bbd594ed44cd44ce0830a3eb59d9799ccae6221c9b9b1f94e1dc3a1e7f13d80",
+      "calibration.json": "27e81d1759f75c667e1d85ad1afc0d93d62c6582ef080ce15e142ce684e4d6d2",
+      "completed.json": "733cab02d64bbbbde58925fa3f621d6b2e472174dfcd95c35bbd5ee68aafef8b"
+    },
+    "CF_SELF_A20_P25_s17": {
+      "source_probe.json": "5930b19c194b1f90e72be80604e4d7d7451ad60f6539d90088653a1a9fd079d8",
+      "source_probe.npz": "a18858bbfd48980774b63e5ece4cfdb394763cebe7b82bc628d00816634b7972",
+      "calibration.json": "bf734538206d1c7f6f27e99ca208c313e6c78cac20aa34b35ad3f2b7189005ac",
+      "completed.json": "b5cc40cdcb03afe4cc3de9fd482a2ed7dd9c3b3d8ee0e64a4e0f06e2fa88b7f7"
+    },
+    "CF_STATIC_A20_P25_s17": {
+      "source_probe.json": "ce607dafbfd17d30a07eb2872cd04fa93ddb2b737233c42635a44267ed803ade",
+      "source_probe.npz": "b01a7f2b27201d43424f5b0d6ce946fcffeda9a4a04c2f3c7d02aaab989b1337",
+      "calibration.json": "785228547098abfa467b2520ef8769a96f1aa8754dd5f3e342b7280b740cb744",
+      "completed.json": "fa1bf6ce5a4899b7ec28d0bc18d83d47408fc1aa08ba0c7b5be96587ad9990e8"
+    },
+    "CF_MOVE_A20_P25_s17": {
+      "source_probe.json": "4e4b8dc74df21af0a32e6f719c36fa08628d8ebc5b2d9c9bafd510fe2221762f",
+      "source_probe.npz": "ba84b7e3896f4430ffd5ef270cf223d3588f53a136b3e48baa7c601d567456cd",
+      "calibration.json": "ff8acc6a4bb338c20d4aae994a1367238b98d818a617de9ad591e80225b32d47",
+      "completed.json": "904f7d8d6671bb79e6ae695b3a43ad982c93ad4752e0ab894889bad408ade148"
+    },
+    "CF_SHUFFLE_A20_P25_s17": {
+      "source_probe.json": "b9f766be3fad3ca477c9a79ca2ed49e98baef98c866ccd88e1e190383c28e878",
+      "source_probe.npz": "24c8373da179cba0fe7d36acb4e3a1b59bd194b612508d1493900cde1285d1a3",
+      "calibration.json": "b86e642d178eeb27889c6aa4de35108ab1536d88af8cc7117855c3408e19b9de",
+      "completed.json": "63437fc2bfc946808fbdf1a19700339f28c1e62a2df0c63557c770c4c7820902"
+    },
+    "CF_PHOTO_A20_P50_s17": {
+      "source_probe.json": "999e8a4cef1ce104309a97f49482b35c4c455d288a2281fbf5954bb63ebca108",
+      "source_probe.npz": "c4c04888e0af3308b4793d86515fae44f8b46c8531ad63523aeef3aec8f35eb3",
+      "calibration.json": "a072b58a62314a65dc65b9c6a939508552a8a271e5dca545a66fcf0c1d6c9548",
+      "completed.json": "36baec8dd4f8fac0f888d843e7e02b1a4cce8c1602d9e7c41bdd34e7d2b84394"
+    },
+    "CF_NOISE_A20_P50_s17": {
+      "source_probe.json": "68cae881194f2a48867776e540880740ee56af95d3930090f372def8c3e382c3",
+      "source_probe.npz": "2b74d37d821af3a786881f6a74b04605bbaaf3e84b750056a3f8660c46817ae1",
+      "calibration.json": "3b4819d959d0684c17ce2f84874727e79a0b654da34976afd948f9c4bdfe6529",
+      "completed.json": "90ff418f0c8d8426626e1b4b3a548216fe19b5be72697d784b116ade3f31b04d"
+    },
+    "CF_SELF_A20_P50_s17": {
+      "source_probe.json": "c060f54c52c7b61fab2adf9754cde4e18ee75c277c0bcaa977edcf4598f473ad",
+      "source_probe.npz": "5914c5f71a0d067c1c68692b0b1aa968bc7ae886f66ebd04174244ff9aa7d918",
+      "calibration.json": "8f8ba495cbe3829919ee567bf56c6bce1c6d139de28688b2fcbe351eef5df665",
+      "completed.json": "4846500314417bc28fb6b7ce4bb9c7156fc104d2f862e3107f8c2784451d47c1"
+    },
+    "CF_STATIC_A20_P50_s17": {
+      "source_probe.json": "d6046c6f8428e6858b5b2e9a267bf1088e619baa0183853ac92085f3d768f296",
+      "source_probe.npz": "967dd7efc90aa4adc7b00d3e202bf08978cd9845d5f49119fcc50ce27e2be1cd",
+      "calibration.json": "85ab3951a56fbbe1bb0003d66f93671511a8629cd23f7217ddb17a42c6ef8d2c",
+      "completed.json": "212f320da9b83005656c8470fb1a745567706f6a1969f9766e386da4398bec7f"
+    },
+    "CF_MOVE_A20_P50_s17": {
+      "source_probe.json": "45bc2ed1177538221accb1e7a1c0d8ea2617c193040662995777cc59f85dd6b6",
+      "source_probe.npz": "28a5d1ed205402c94429777cc9062fe785aee72bb05bdd6f2def53b198d29613",
+      "calibration.json": "a7c3e5f378c158542c8cf3b5745f71a3c8832bef0f7fd58cf4a4380b8bdcee8a",
+      "completed.json": "e94dbddbd104b6f8ee36ef7d2a6985ab77d11bf5323569f1b7eb49e576581801"
+    },
+    "CF_SHUFFLE_A20_P50_s17": {
+      "source_probe.json": "cbf0d1394293173b85ba626666c6c63c12df76367e11dbdb2323c84c0b08fe3f",
+      "source_probe.npz": "f5beda3dddf0a197d1d75108fbf6681efc9a53ce168e6d80b0eb02446de7e175",
+      "calibration.json": "fa06df60f577f7c6b6def3b6748d9eb942106cad7007ec2a4f651c840f4771fd",
+      "completed.json": "b9bd62c6991388d65a24dabf037ecad6a150ce2dfc4742a69a96aac5e11fd8fe"
+    }
+  }
+}

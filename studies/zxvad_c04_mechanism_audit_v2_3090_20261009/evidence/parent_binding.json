@@ -1,0 +1,60 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "parent_commit": "b57560884471b9807e2f475de9c38e757cfdefc0",
+  "parent_results_commit": "486efe336a879a361eb4a0df62b9e4bbf0a8e7a3",
+  "contract_sha256": "ecff612929928ed8f7aa547b85447b5b6211cff350531454c153fa83e2941e6c",
+  "parent_export_manifest_sha256": "fdb755747547e9a08c63c94d6cc336418661840be11dfdcc7ff17113c4129c22",
+  "parent_reference_files": {
+    "evidence/prepared.json": "abde2286ceafca334153e07bb4a0f976f03f1c8d96c2cfa6e5bfa320e849fb9e",
+    "evidence/freeze.json": "f1f19ea4db4e0f5cc82b8ff57794a1a11f3ac6762e8a5dc4eafb0d702204d595",
+    "evidence/source_plan.npy": "af3be5402ed16dc7d515bbf6033c58fc78ee19897bb65d43025e53181a23ec99",
+    "evidence/workers/gpu0/preflight.json": "302de647b4b59567d1ccdc7c101dbf2619f792d3191ee589d131887b4448ea87",
+    "evidence/workers/gpu1/preflight.json": "2c4e6e87e30d273a2f31982c9915256d38e63c79654ed6f7236f112b6787f851",
+    "data_preparation/import_record.json": "8e65891ced056b20a4b59f23bce28586f8b45c7e557bfa04c1e21e28c5c531ec",
+    "data_preparation/data_config.json": "6f39f605eddba6581da50a614a38e728354c7ef6fa296f327cfaf675b4ec4f8b",
+    "data_preparation/runtime_python.txt": "706270fa47a2ca02225f10fa7ea3935e1a7834a261dde94b8adff2d6cd6978fb"
+  },
+  "parent_release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "queues": {
+    "0": [
+      "B0_s17",
+      "NC_Y_s17",
+      "NC_X_s17",
+      "NC_ORIGIN_s17",
+      "CF_PHOTO_A10_P25_s17",
+      "CF_NOISE_A10_P25_s17",
+      "CF_SELF_A10_P25_s17",
+      "CF_STATIC_A10_P25_s17",
+      "CF_MOVE_A10_P25_s17",
+      "CF_SHUFFLE_A10_P25_s17",
+      "CF_PHOTO_A10_P50_s17",
+      "CF_NOISE_A10_P50_s17",
+      "CF_SELF_A10_P50_s17",
+      "CF_STATIC_A10_P50_s17",
+      "CF_MOVE_A10_P50_s17",
+      "CF_SHUFFLE_A10_P50_s17"
+    ],
+    "1": [
+      "B1_s17",
+      "NC_PRED_s17",
+      "NC_MIX50_s17",
+      "NC_OFF_s17",
+      "CF_PHOTO_A20_P25_s17",
+      "CF_NOISE_A20_P25_s17",
+      "CF_SELF_A20_P25_s17",
+      "CF_STATIC_A20_P25_s17",
+      "CF_MOVE_A20_P25_s17",
+      "CF_SHUFFLE_A20_P25_s17",
+      "CF_PHOTO_A20_P50_s17",
+      "CF_NOISE_A20_P50_s17",
+      "CF_SELF_A20_P50_s17",
+      "CF_STATIC_A20_P50_s17",
+      "CF_MOVE_A20_P50_s17",
+      "CF_SHUFFLE_A20_P50_s17"
+    ]
+  },
+  "parent_weights_used": false,
+  "parent_checkpoint_availability_at_binding": {},
+  "historic_inputs_frozen_before_new_fits": true,
+  "source_image_identity": "Exact original paths and metadata; historic image bytes were not separately hashed"
+}

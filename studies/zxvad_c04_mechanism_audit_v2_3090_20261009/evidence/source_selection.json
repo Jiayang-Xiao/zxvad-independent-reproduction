@@ -1,0 +1,496 @@
+{
+  "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+  "metric": "AUROC only",
+  "source_validation_sha256": "4e0453d1d039b215b194da5a5bd8441086dc297c9b2dce19071935785879d407",
+  "target_used": false,
+  "rules": {
+    "clean_mse_max_ratio": 1.1,
+    "time_sensitivity_min_ratio": 0.8,
+    "source_move_AUROC_min_delta": 0.005,
+    "nc_origin_bias_min_reduction": 0.02,
+    "matched_CF_controls": [
+      "PHOTO",
+      "NOISE",
+      "SELF",
+      "STATIC",
+      "SHUFFLE"
+    ],
+    "max_choices_per_family": 1,
+    "tie_break": "source_MOVE_AUROC descending, then arm lexical",
+    "scope": "Source synthetic mechanism preference only; does not imply real-target superiority"
+  },
+  "chosen_arms": [
+    "CF_MOVE_A20_P50_s17"
+  ],
+  "eligible_arms": [
+    "CF_MOVE_A10_P50_s17",
+    "CF_MOVE_A20_P50_s17"
+  ],
+  "candidates": {
+    "B0_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 1.0,
+      "time_sensitivity_ratio": 1.0,
+      "source_MOVE_AUROC": 0.916168212890625,
+      "origin_bias": 0.0843963623046875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_Y_s17": {
+      "eligible": false,
+      "reasons": [
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Origin-bias reduction guard failed"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.6202676999081931,
+      "time_sensitivity_ratio": 1.310166879539604,
+      "source_MOVE_AUROC": 0.9126434326171875,
+      "origin_bias": 0.1767730712890625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_X_s17": {
+      "eligible": false,
+      "reasons": [
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Origin-bias reduction guard failed"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.6194148955329722,
+      "time_sensitivity_ratio": 1.3687796485393393,
+      "source_MOVE_AUROC": 0.915283203125,
+      "origin_bias": 0.17742919921875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_ORIGIN_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.7836079194711729,
+      "time_sensitivity_ratio": 1.4120101516718484,
+      "source_MOVE_AUROC": 0.9315185546875,
+      "origin_bias": 0.2230682373046875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_PHOTO_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.8033797369603409,
+      "time_sensitivity_ratio": 1.0890242064517048,
+      "source_MOVE_AUROC": 0.922027587890625,
+      "origin_bias": 0.1126556396484375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_NOISE_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.7776440394332983,
+      "time_sensitivity_ratio": 1.434525209618245,
+      "source_MOVE_AUROC": 0.9167938232421875,
+      "origin_bias": 0.041290283203125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_SELF_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.6518463165410879,
+      "time_sensitivity_ratio": 1.652711827605165,
+      "source_MOVE_AUROC": 0.936767578125,
+      "origin_bias": 0.26873779296875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_STATIC_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Clean prediction guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 1.166847198149545,
+      "time_sensitivity_ratio": 1.0906656980967084,
+      "source_MOVE_AUROC": 0.902557373046875,
+      "origin_bias": 0.0512237548828125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_MOVE_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Temporal dependency guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Does not exceed matched PHOTO repair control on source MOVE AUROC",
+        "Does not exceed matched NOISE repair control on source MOVE AUROC",
+        "Does not exceed matched SELF repair control on source MOVE AUROC"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.8351153196931236,
+      "time_sensitivity_ratio": 0.7152795676390846,
+      "source_MOVE_AUROC": 0.9197540283203125,
+      "origin_bias": 0.1666717529296875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {
+        "CF_PHOTO_A10_P25_s17": -0.0022735595703125,
+        "CF_NOISE_A10_P25_s17": 0.002960205078125,
+        "CF_SELF_A10_P25_s17": -0.0170135498046875,
+        "CF_STATIC_A10_P25_s17": 0.0171966552734375,
+        "CF_SHUFFLE_A10_P25_s17": 0.01239013671875
+      }
+    },
+    "CF_SHUFFLE_A10_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Clean prediction guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 1.1958224631187782,
+      "time_sensitivity_ratio": 1.1235580637665976,
+      "source_MOVE_AUROC": 0.9073638916015625,
+      "origin_bias": 0.0132598876953125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_PHOTO_A10_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.6723356153187765,
+      "time_sensitivity_ratio": 0.9956931646430093,
+      "source_MOVE_AUROC": 0.9273681640625,
+      "origin_bias": 0.267242431640625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_NOISE_A10_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.7470947972910486,
+      "time_sensitivity_ratio": 1.4560340970710848,
+      "source_MOVE_AUROC": 0.9074249267578125,
+      "origin_bias": 0.0120086669921875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_SELF_A10_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Temporal dependency guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 1.0329864166649,
+      "time_sensitivity_ratio": 0.7864447064745415,
+      "source_MOVE_AUROC": 0.9150390625,
+      "origin_bias": 0.1906890869140625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_STATIC_A10_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.871036215916206,
+      "time_sensitivity_ratio": 1.0654063970429237,
+      "source_MOVE_AUROC": 0.918212890625,
+      "origin_bias": 0.0150146484375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_MOVE_A10_P50_s17": {
+      "eligible": true,
+      "reasons": [],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.8710626200542908,
+      "time_sensitivity_ratio": 1.4655538757972868,
+      "source_MOVE_AUROC": 0.948577880859375,
+      "origin_bias": 0.18341064453125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {
+        "CF_PHOTO_A10_P50_s17": 0.021209716796875,
+        "CF_NOISE_A10_P50_s17": 0.0411529541015625,
+        "CF_SELF_A10_P50_s17": 0.033538818359375,
+        "CF_STATIC_A10_P50_s17": 0.030364990234375,
+        "CF_SHUFFLE_A10_P50_s17": 0.016021728515625
+      }
+    },
+    "CF_SHUFFLE_A10_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B0_s17",
+      "clean_mse_ratio": 0.7129370569193977,
+      "time_sensitivity_ratio": 2.1021337394233734,
+      "source_MOVE_AUROC": 0.93255615234375,
+      "origin_bias": 0.417572021484375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "B1_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 1.0,
+      "time_sensitivity_ratio": 1.0,
+      "source_MOVE_AUROC": 0.916168212890625,
+      "origin_bias": 0.0843963623046875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_PRED_s17": {
+      "eligible": false,
+      "reasons": [
+        "Clean prediction guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Origin-bias reduction guard failed"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 1.5864157505735141,
+      "time_sensitivity_ratio": 1.0329083015748466,
+      "source_MOVE_AUROC": 0.8369598388671875,
+      "origin_bias": 0.315277099609375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_MIX50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Origin-bias reduction guard failed"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.7896009575023687,
+      "time_sensitivity_ratio": 1.380571283607249,
+      "source_MOVE_AUROC": 0.89923095703125,
+      "origin_bias": 0.1014556884765625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "NC_OFF_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.4002864837175433,
+      "time_sensitivity_ratio": 1.5549630886185053,
+      "source_MOVE_AUROC": 0.9348907470703125,
+      "origin_bias": 0.0113525390625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_PHOTO_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.640746893131445,
+      "time_sensitivity_ratio": 1.0843036966739792,
+      "source_MOVE_AUROC": 0.93109130859375,
+      "origin_bias": 0.4739837646484375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_NOISE_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.8748024452198768,
+      "time_sensitivity_ratio": 1.2679196705391673,
+      "source_MOVE_AUROC": 0.9073333740234375,
+      "origin_bias": 0.0475006103515625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_SELF_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.9028359816575592,
+      "time_sensitivity_ratio": 0.8017154456009775,
+      "source_MOVE_AUROC": 0.931884765625,
+      "origin_bias": 0.156341552734375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_STATIC_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.8964030577874508,
+      "time_sensitivity_ratio": 1.198690896422549,
+      "source_MOVE_AUROC": 0.9168548583984375,
+      "origin_bias": 0.0187835693359375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_MOVE_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Clean prediction guard failed",
+        "Temporal dependency guard failed",
+        "Insufficient source MOVE AUROC gain over same-card baseline",
+        "Does not exceed matched PHOTO repair control on source MOVE AUROC",
+        "Does not exceed matched SELF repair control on source MOVE AUROC",
+        "Does not exceed matched STATIC repair control on source MOVE AUROC",
+        "Does not exceed matched SHUFFLE repair control on source MOVE AUROC"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 1.1209450474205436,
+      "time_sensitivity_ratio": 0.7578474810837722,
+      "source_MOVE_AUROC": 0.913665771484375,
+      "origin_bias": 0.0915374755859375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {
+        "CF_PHOTO_A20_P25_s17": -0.017425537109375,
+        "CF_NOISE_A20_P25_s17": 0.0063323974609375,
+        "CF_SELF_A20_P25_s17": -0.018218994140625,
+        "CF_STATIC_A20_P25_s17": -0.0031890869140625,
+        "CF_SHUFFLE_A20_P25_s17": -0.015869140625
+      }
+    },
+    "CF_SHUFFLE_A20_P25_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.904827256150533,
+      "time_sensitivity_ratio": 5.4626805481285645,
+      "source_MOVE_AUROC": 0.929534912109375,
+      "origin_bias": 0.1768646240234375,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_PHOTO_A20_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.6902197659338998,
+      "time_sensitivity_ratio": 1.480108842309729,
+      "source_MOVE_AUROC": 0.9244232177734375,
+      "origin_bias": 0.09332275390625,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_NOISE_A20_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate",
+        "Insufficient source MOVE AUROC gain over same-card baseline"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.9906759331527099,
+      "time_sensitivity_ratio": 1.3644852805430059,
+      "source_MOVE_AUROC": 0.8976287841796875,
+      "origin_bias": 0.00469970703125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_SELF_A20_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.9594493063118549,
+      "time_sensitivity_ratio": 1.57575925787748,
+      "source_MOVE_AUROC": 0.9479827880859375,
+      "origin_bias": 0.1038055419921875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_STATIC_A20_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.7396724136169615,
+      "time_sensitivity_ratio": 1.075067294131765,
+      "source_MOVE_AUROC": 0.9245147705078125,
+      "origin_bias": 0.1547088623046875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    },
+    "CF_MOVE_A20_P50_s17": {
+      "eligible": true,
+      "reasons": [],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 1.044322877754625,
+      "time_sensitivity_ratio": 0.8836748497062225,
+      "source_MOVE_AUROC": 0.966766357421875,
+      "origin_bias": 0.14764404296875,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {
+        "CF_PHOTO_A20_P50_s17": 0.0423431396484375,
+        "CF_NOISE_A20_P50_s17": 0.0691375732421875,
+        "CF_SELF_A20_P50_s17": 0.0187835693359375,
+        "CF_STATIC_A20_P50_s17": 0.0422515869140625,
+        "CF_SHUFFLE_A20_P50_s17": 0.022216796875
+      }
+    },
+    "CF_SHUFFLE_A20_P50_s17": {
+      "eligible": false,
+      "reasons": [
+        "Baseline, diagnostic or matched control; not a functional candidate"
+      ],
+      "same_card_baseline": "B1_s17",
+      "clean_mse_ratio": 0.8547179921461654,
+      "time_sensitivity_ratio": 7.101182507390291,
+      "source_MOVE_AUROC": 0.944549560546875,
+      "origin_bias": 0.178955078125,
+      "baseline_origin_bias": 0.0843963623046875,
+      "matched_source_AUROC_deltas": {}
+    }
+  }
+}

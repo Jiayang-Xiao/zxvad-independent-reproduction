@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "kind": "DISPOSABLE_SOURCE_GPU_OPTIMIZER_REGRESSION",
+  "binding": {
+    "study": "ZXVAD_C04_MECHANISM_AUDIT_V2_3090_20261009",
+    "prepared_sha256": "be0b87fddaf7c75dd785cdbcb59d7f41f32f4fe9a156fed42460e9ac8a844f4d",
+    "source_plan_sha256": "0f296460c3348765ec2f9a897393d4f40349bc64ba3955f34d91f7fa506d65ec",
+    "source_split_sha256": "1824303de62e38123ca8b4af5a5f558d53e4702687ed1820f018fb3f340136eb",
+    "release": "7f75b719d6f9e8e7bdd6e07b466e1ea8c312b388b3ba29d3dfd7470312f88323",
+    "physical_gpu": 0,
+    "hardware_identity": "GPU-083cd012-5918-5a50-585c-7fd4be18bd9b, NVIDIA GeForce RTX 3090, 580.178.04, 24576"
+  },
+  "steps": 3,
+  "batch_size": 8,
+  "seed": 17,
+  "comparison": "direct frozen c04 versus new CF_PHOTO_A10_P25 with private p=0",
+  "regression_arm": "CF_PHOTO_A10_P25_s17",
+  "private_edit_probability": 0.0,
+  "source_plan_first8": [
+    [
+      41,
+      615,
+      169,
+      242
+    ],
+    [
+      36,
+      219,
+      17,
+      27
+    ],
+    [
+      75,
+      212,
+      163,
+      3
+    ],
+    [
+      109,
+      317,
+      95,
+      276
+    ],
+    [
+      187,
+      218,
+      32,
+      57
+    ],
+    [
+      90,
+      290,
+      188,
+      654
+    ],
+    [
+      8,
+      266,
+      163,
+      181
+    ],
+    [
+      195,
+      599,
+      130,
+      624
+    ]
+  ],
+  "source_batch_sha256": "23ce1742fbf6a564475825797daba1c6bdf69d506ceb921f65f2d6f022b0bea2",
+  "full_state_sha256": "f6e03413a0f759675a7d4772aec49bae529f6b328c7e32d8da3feb571cef40ae",
+  "full_state_exact": true,
+  "original_metrics_exact": true,
+  "step_records": [
+    {
+      "step": 0,
+      "N_BN_updates": 4,
+      "direct_full_state_sha256": "e48f9f0d6a3dc87ab9d87ee0d2453df09edcc80150a23bc909b24e76b5c5296e",
+      "wrapped_full_state_sha256": "e48f9f0d6a3dc87ab9d87ee0d2453df09edcc80150a23bc909b24e76b5c5296e",
+      "full_state_exact": true,
+      "original_metrics_exact": true,
+      "original_metric_keys": [
+        "attention_affirmation",
+        "boxes",
+        "d",
+        "g",
+        "gradient",
+        "memory_entropy",
+        "mse",
+        "n",
+        "n_attention_mean",
+        "n_attention_zero_fraction",
+        "n_bn_updates",
+        "normalcy",
+        "object_mask_area",
+        "paste_mask_area",
+        "relative_attention",
+        "relative_normalcy",
+        "ssim_loss"
+      ],
+      "direct_adam_steps": {
+        "G": 1,
+        "D": 1,
+        "N": 1
+      },
+      "direct_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "direct_N_parameters_changed": true,
+      "direct_Arc_parameters_changed": true,
+      "wrapped_adam_steps": {
+        "G": 1,
+        "D": 1,
+        "N": 1
+      },
+      "wrapped_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "wrapped_N_parameters_changed": true,
+      "wrapped_Arc_parameters_changed": true
+    },
+    {
+      "step": 1,
+      "N_BN_updates": 8,
+      "direct_full_state_sha256": "f1141121cc032044b07a726fb1cb668913c9bc90f690bd00696dc7c93bc5e13c",
+      "wrapped_full_state_sha256": "f1141121cc032044b07a726fb1cb668913c9bc90f690bd00696dc7c93bc5e13c",
+      "full_state_exact": true,
+      "original_metrics_exact": true,
+      "original_metric_keys": [
+        "attention_affirmation",
+        "boxes",
+        "d",
+        "g",
+        "gradient",
+        "memory_entropy",
+        "mse",
+        "n",
+        "n_attention_mean",
+        "n_attention_zero_fraction",
+        "n_bn_updates",
+        "normalcy",
+        "object_mask_area",
+        "paste_mask_area",
+        "relative_attention",
+        "relative_normalcy",
+        "ssim_loss"
+      ],
+      "direct_adam_steps": {
+        "G": 2,
+        "D": 2,
+        "N": 2
+      },
+      "direct_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "direct_N_parameters_changed": true,
+      "direct_Arc_parameters_changed": true,
+      "wrapped_adam_steps": {
+        "G": 2,
+        "D": 2,
+        "N": 2
+      },
+      "wrapped_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "wrapped_N_parameters_changed": true,
+      "wrapped_Arc_parameters_changed": true
+    },
+    {
+      "step": 2,
+      "N_BN_updates": 12,
+      "direct_full_state_sha256": "f6e03413a0f759675a7d4772aec49bae529f6b328c7e32d8da3feb571cef40ae",
+      "wrapped_full_state_sha256": "f6e03413a0f759675a7d4772aec49bae529f6b328c7e32d8da3feb571cef40ae",
+      "full_state_exact": true,
+      "original_metrics_exact": true,
+      "original_metric_keys": [
+        "attention_affirmation",
+        "boxes",
+        "d",
+        "g",
+        "gradient",
+        "memory_entropy",
+        "mse",
+        "n",
+        "n_attention_mean",
+        "n_attention_zero_fraction",
+        "n_bn_updates",
+        "normalcy",
+        "object_mask_area",
+        "paste_mask_area",
+        "relative_attention",
+        "relative_normalcy",
+        "ssim_loss"
+      ],
+      "direct_adam_steps": {
+        "G": 3,
+        "D": 3,
+        "N": 3
+      },
+      "direct_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "direct_N_parameters_changed": true,
+      "direct_Arc_parameters_changed": true,
+      "wrapped_adam_steps": {
+        "G": 3,
+        "D": 3,
+        "N": 3
+      },
+      "wrapped_adam_state_entries": {
+        "G": 37,
+        "D": 13,
+        "N": 14
+      },
+      "wrapped_N_parameters_changed": true,
+      "wrapped_Arc_parameters_changed": true
+    }
+  ],
+  "source_only": true,
+  "target_used": false,
+  "disposable": true,
+  "checkpoint_written": false,
+  "models_discarded": true,
+  "state_scope": "All G/D/N/O/Arc state_dict tensors, all Adam states, CPU and visible CUDA Torch RNG",
+  "scope": "First eight frozen297-plan samples repeated for three disposable updates; not research training"
+}

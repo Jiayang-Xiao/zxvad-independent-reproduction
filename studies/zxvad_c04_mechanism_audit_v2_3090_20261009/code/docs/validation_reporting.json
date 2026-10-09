@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "AUROC_ties_sklearn",
+    "all672_readouts_sklearn",
+    "all96_primary",
+    "negative_controls_retained",
+    "same_device_control_direction",
+    "incomplete_barrier",
+    "BN_calibration_freeze_receipt_rejection",
+    "source_selection_immutable",
+    "exact_whitelist_materialize_retry",
+    "ZIP1980",
+    "snapshot_mutation_rejection"
+  ],
+  "kind": "CPU_SYNTHETIC_FIXTURE_NOT_GPU_EVIDENCE",
+  "status": "PASS"
+}

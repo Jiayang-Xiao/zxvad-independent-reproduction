@@ -1,0 +1,19 @@
+{
+  "22 unique seed17 settings, one family each, immutable c04 and syntax": true,
+  "Support strengths/ties, all motion strengths/static fallback, feather/uniform independent oracle": true,
+  "Original hard deadline retained;90min evaluation reserve": true,
+  "Original/B/no-op variant full-update exact parity": {
+    "status": "PASS",
+    "state_sha256": "3b7da05d9440c4df44a23ced96758cc4dcf9ccd6eb5ece7ddc9945236a44b7bd",
+    "scope": "Full update exact original/B/no-op-variant model,Adam,metrics,RNG"
+  },
+  "All22 updates gradients/shared tensors/RNG/Oeval and recipe effects": true,
+  "QC03 real checkpoint optimizer/RNG exact continuation; hook cleanup": true,
+  "Superseded selection excludes DataLoader children, unrelated jobs and unrelated same-path processes": true,
+  "runtime": {
+    "torch": "2.4.1+cpu",
+    "numpy": "1.26.4"
+  },
+  "elapsed_seconds": 91.0,
+  "scope": "CPU engineering only, no server result; server source-only CUDA preflight mandatory"
+}

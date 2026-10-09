@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+outputs/
+parent_reference/
+data_view/
+data_config.json
+runtime_python.txt
+.publish/
+.private/
+*.pt

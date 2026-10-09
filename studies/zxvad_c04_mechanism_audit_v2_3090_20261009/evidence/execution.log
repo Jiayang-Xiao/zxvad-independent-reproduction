@@ -1,0 +1,190 @@
+Release hashes and original41 implementation files: PASS (87 files)
+{"status": "FAIL", "kind": "CPU_TINY_UPDATE_REGRESSION_NOT_RESEARCH_RESULTS", "error": "NC_Y/NC_X G did not diverge after 2 updates"}
+Traceback (most recent call last):
+  File "/home/xjy/zxvad-c04-mechanism-audit-v2/regression.py", line 416, in <module>
+    main()
+  File "/home/xjy/zxvad-c04-mechanism-audit-v2/regression.py", line 389, in main
+    all_arms(clips, donors)
+  File "/home/xjy/zxvad-c04-mechanism-audit-v2/regression.py", line 267, in all_arms
+    require(any(not torch.equal(a, b) for a, b in zip(left, right)),
+  File "/home/xjy/zxvad-c04-mechanism-audit-v2/regression.py", line 31, in require
+    raise RuntimeError(message)
+RuntimeError: NC_Y/NC_X G did not diverge after 2 updates
+Release hashes and original41 implementation files: PASS (88 files)
+{
+  "status": "PASS",
+  "kind": "CPU_TINY_UPDATE_REGRESSION_NOT_RESEARCH_RESULTS",
+  "planned_arms": 32,
+  "consecutive_updates_per_arm": 3,
+  "zero_probability_CF_arms": 24,
+  "torch_threads": 1,
+  "checks": [
+    "all_G_D_N_Adam_parameter_steps_1_2_3",
+    "N_and_Arc_actual_parameter_change_each_update",
+    "one_G_forward_four_N_BN_passes_each_update",
+    "original_baseline_exact_models_optimizers_gradients_RNG_three_steps",
+    "all_CF_p0_exact_original_full_state_three_steps_CONFIG_restored",
+    "all_four_N_inputs_exact_actual_G_positive_negative_augmented_source_routes",
+    "controlled_N_logit_shift_affects_active_G_gradient_and_not_NC_OFF",
+    "NC_Y_X_trajectory_difference_recorded_without_pass_fail_assumption",
+    "O_frozen_D_future_target_preserved_CF_clean_future_preserved",
+    "fresh_and_initialized_skipped_N_step_mutations_rejected_without_audit",
+    "optimizer_identity_coverage_missing_G_D_N_Arc_duplicate_foreign_rejected"
+  ],
+  "mutation_rejections": {
+    "B0_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_OFF_s17": "Optimizer did not initialize all parameter states: N",
+    "CF_MOVE_A10_P25_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17/second_step": "Optimizer N did not step exactly once: [1], expected2",
+    "missing_G_parameter": "Optimizer G parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['G.conv.weight']",
+    "missing_D_parameter": "Optimizer D parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['D.conv.weight']",
+    "missing_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['N.conv.weight']",
+    "missing_Arc_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['Arc.linear.weight']",
+    "duplicate_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=0, duplicates=1); missing_names=[]",
+    "foreign_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=1, duplicates=0); missing_names=[]"
+  },
+  "NC_Y_X_trajectory_diagnostic": [
+    {
+      "updates": 1,
+      "max_absolute_parameter_delta": {
+        "G": 0.0,
+        "N": 3.451108932495117e-05
+      },
+      "parameters_exact": {
+        "G": true,
+        "N": false
+      }
+    },
+    {
+      "updates": 2,
+      "max_absolute_parameter_delta": {
+        "G": 0.0,
+        "N": 6.258487701416016e-05
+      },
+      "parameters_exact": {
+        "G": true,
+        "N": false
+      }
+    },
+    {
+      "updates": 3,
+      "max_absolute_parameter_delta": {
+        "G": 1.6530975699424744e-08,
+        "N": 9.000301361083984e-05
+      },
+      "parameters_exact": {
+        "G": false,
+        "N": false
+      }
+    }
+  ],
+  "controlled_guidance_influence": {
+    "status": "PASS",
+    "kind": "CONTROLLED_CPU_TOY_N_LOGIT_SHIFT_NOT_RESEARCH_EDIT",
+    "active_G_gradient_max_absolute_change": 0.008496126160025597,
+    "disabled_G_gradients_exactly_unchanged": true
+  },
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4"
+  },
+  "wall_seconds": 3.253,
+  "gpu_training_executed": false,
+  "experiment_artifacts_written": false
+}
+Pinned parent code, data identities and physical-card environments: PASS
+Canonical source and target layout: PASS
+Release hashes and original41 implementation files: PASS (88 files)
+{
+  "status": "PASS",
+  "kind": "CPU_TINY_UPDATE_REGRESSION_NOT_RESEARCH_RESULTS",
+  "planned_arms": 32,
+  "consecutive_updates_per_arm": 3,
+  "zero_probability_CF_arms": 24,
+  "torch_threads": 1,
+  "checks": [
+    "all_G_D_N_Adam_parameter_steps_1_2_3",
+    "N_and_Arc_actual_parameter_change_each_update",
+    "one_G_forward_four_N_BN_passes_each_update",
+    "original_baseline_exact_models_optimizers_gradients_RNG_three_steps",
+    "all_CF_p0_exact_original_full_state_three_steps_CONFIG_restored",
+    "all_four_N_inputs_exact_actual_G_positive_negative_augmented_source_routes",
+    "controlled_N_logit_shift_affects_active_G_gradient_and_not_NC_OFF",
+    "NC_Y_X_trajectory_difference_recorded_without_pass_fail_assumption",
+    "O_frozen_D_future_target_preserved_CF_clean_future_preserved",
+    "fresh_and_initialized_skipped_N_step_mutations_rejected_without_audit",
+    "optimizer_identity_coverage_missing_G_D_N_Arc_duplicate_foreign_rejected"
+  ],
+  "mutation_rejections": {
+    "B0_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_OFF_s17": "Optimizer did not initialize all parameter states: N",
+    "CF_MOVE_A10_P25_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17/second_step": "Optimizer N did not step exactly once: [1], expected2",
+    "missing_G_parameter": "Optimizer G parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['G.conv.weight']",
+    "missing_D_parameter": "Optimizer D parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['D.conv.weight']",
+    "missing_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['N.conv.weight']",
+    "missing_Arc_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['Arc.linear.weight']",
+    "duplicate_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=0, duplicates=1); missing_names=[]",
+    "foreign_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=1, duplicates=0); missing_names=[]"
+  },
+  "NC_Y_X_trajectory_diagnostic": [
+    {
+      "updates": 1,
+      "max_absolute_parameter_delta": {
+        "G": 0.0,
+        "N": 3.451108932495117e-05
+      },
+      "parameters_exact": {
+        "G": true,
+        "N": false
+      }
+    },
+    {
+      "updates": 2,
+      "max_absolute_parameter_delta": {
+        "G": 0.0,
+        "N": 6.258487701416016e-05
+      },
+      "parameters_exact": {
+        "G": true,
+        "N": false
+      }
+    },
+    {
+      "updates": 3,
+      "max_absolute_parameter_delta": {
+        "G": 1.6530975699424744e-08,
+        "N": 9.000301361083984e-05
+      },
+      "parameters_exact": {
+        "G": false,
+        "N": false
+      }
+    }
+  ],
+  "controlled_guidance_influence": {
+    "status": "PASS",
+    "kind": "CONTROLLED_CPU_TOY_N_LOGIT_SHIFT_NOT_RESEARCH_EDIT",
+    "active_G_gradient_max_absolute_change": 0.008496126160025597,
+    "disabled_G_gradients_exactly_unchanged": true
+  },
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4"
+  },
+  "wall_seconds": 4.006,
+  "gpu_training_executed": false,
+  "experiment_artifacts_written": false
+}
+Pinned parent code, data identities and physical-card environments: PASS
+Canonical source and target layout: PASS
+Source-only choice frozen: ['CF_MOVE_A20_P50_s17'] (empty is allowed)
+32 fits, 32 source probes and 96 target score arrays completed; report/export must validate 672 readout rows.
+All GPU work already completed; validated committed artifacts.
+COMPLETED: 32 final fits, 96 primary rows, all 672 AUROC readout rows; source-selected arms=['CF_MOVE_A20_P50_s17']
+All GPU work already completed; validated committed artifacts.
+COMPLETED: 32 final fits, 96 primary rows, all 672 AUROC readout rows; source-selected arms=['CF_MOVE_A20_P50_s17']

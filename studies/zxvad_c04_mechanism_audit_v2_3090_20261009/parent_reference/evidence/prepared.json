@@ -1,0 +1,45 @@
+{
+  "release": "8cab7174d8c659260ad3e7c2b25bc834084851f83ea22f66297b5ed70c82de59",
+  "view_record_sha256": "8e65891ced056b20a4b59f23bce28586f8b45c7e557bfa04c1e21e28c5c531ec",
+  "protocol_sha256": "32aab667ef58461030afd32da91a0c2a37597d8beedaf3d2ab8aa0f8e93cc383",
+  "data": {
+    "source_frames": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/shanghai/training/frames",
+    "source_metadata_sha256": "4c7cbcda3b03d800edf34016682f30b226ff773ffe08fe23f214341e88e94393",
+    "source_videos": 330,
+    "source_total_frames": 274515,
+    "targets": {
+      "ped1": {
+        "frame_root": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/ped1/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/ped1/testing/scored_labels.npy",
+        "metadata_sha256": "bf6a638805724150566b3a0aca5e10848cd08207c33a8c11849005e902924a32",
+        "labels_sha256": "920ecf117c2a86c5d282a27e8b4a5b56b1e2191751bdb373464ebcc342e12508",
+        "videos": 36,
+        "total_frames": 7200
+      },
+      "ped2": {
+        "frame_root": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/ped2/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/ped2/testing/scored_labels.npy",
+        "metadata_sha256": "881526872e88cd0d2a1126b368b914c8c41e2d9f4b4c34f4930a08ef732c3101",
+        "labels_sha256": "11cacb382b40f2c05a703749d28b94ae1ca63819477f435688252e32594b87a9",
+        "videos": 12,
+        "total_frames": 2010
+      },
+      "avenue": {
+        "frame_root": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/avenue/testing/frames",
+        "label_path": "/home/xjy/zxvad-c04-screen-dualgpu-v1/data_view/avenue/testing/scored_labels.npy",
+        "metadata_sha256": "9abfcd2dfad5790c87cd299770b0ef449a74e0e2f24573b400c6d39e53037956",
+        "labels_sha256": "16b8ece2c035cd12c73476c62faf9154a36887293ac3746c6e670e71687fc58c",
+        "videos": 21,
+        "total_frames": 15324
+      }
+    }
+  },
+  "plan_sha256": "af3be5402ed16dc7d515bbf6033c58fc78ee19897bb65d43025e53181a23ec99",
+  "precision": "FP32; AMP/TF32 disabled",
+  "seeds": [
+    17
+  ],
+  "sampling_plan_seed": 17,
+  "iterations": 5000,
+  "batch_size": 8
+}

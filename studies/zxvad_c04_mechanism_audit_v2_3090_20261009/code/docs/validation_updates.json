@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "kind": "CPU_TINY_UPDATE_REGRESSION_NOT_RESEARCH_RESULTS",
+  "planned_arms": 32,
+  "consecutive_updates_per_arm": 3,
+  "zero_probability_CF_arms": 24,
+  "torch_threads": 1,
+  "checks": [
+    "all_G_D_N_Adam_parameter_steps_1_2_3",
+    "N_and_Arc_actual_parameter_change_each_update",
+    "one_G_forward_four_N_BN_passes_each_update",
+    "original_baseline_exact_models_optimizers_gradients_RNG_three_steps",
+    "all_CF_p0_exact_original_full_state_three_steps_CONFIG_restored",
+    "all_four_N_inputs_exact_actual_G_positive_negative_augmented_source_routes",
+    "controlled_N_logit_shift_affects_active_G_gradient_and_not_NC_OFF",
+    "NC_Y_X_trajectory_difference_recorded_without_pass_fail_assumption",
+    "O_frozen_D_future_target_preserved_CF_clean_future_preserved",
+    "fresh_and_initialized_skipped_N_step_mutations_rejected_without_audit",
+    "optimizer_identity_coverage_missing_G_D_N_Arc_duplicate_foreign_rejected"
+  ],
+  "mutation_rejections": {
+    "B0_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_OFF_s17": "Optimizer did not initialize all parameter states: N",
+    "CF_MOVE_A10_P25_s17": "Optimizer did not initialize all parameter states: N",
+    "NC_Y_s17/second_step": "Optimizer N did not step exactly once: [1], expected2",
+    "missing_G_parameter": "Optimizer G parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['G.conv.weight']",
+    "missing_D_parameter": "Optimizer D parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['D.conv.weight']",
+    "missing_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['N.conv.weight']",
+    "missing_Arc_parameter": "Optimizer N parameter identity coverage mismatch (missing=1, foreign=0, duplicates=0); missing_names=['Arc.linear.weight']",
+    "duplicate_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=0, duplicates=1); missing_names=[]",
+    "foreign_N_parameter": "Optimizer N parameter identity coverage mismatch (missing=0, foreign=1, duplicates=0); missing_names=[]"
+  },
+  "NC_Y_X_trajectory_diagnostic": [
+    {
+      "updates": 1,
+      "max_absolute_parameter_delta": {
+        "G": 0.0,
+        "N": 3.4689903259277344e-05
+      },
+      "parameters_exact": {
+        "G": true,
+        "N": false
+      }
+    },
+    {
+      "updates": 2,
+      "max_absolute_parameter_delta": {
+        "G": 3.725290298461914e-09,
+        "N": 5.179643630981445e-05
+      },
+      "parameters_exact": {
+        "G": false,
+        "N": false
+      }
+    },
+    {
+      "updates": 3,
+      "max_absolute_parameter_delta": {
+        "G": 1.664739102125168e-08,
+        "N": 6.240606307983398e-05
+      },
+      "parameters_exact": {
+        "G": false,
+        "N": false
+      }
+    }
+  ],
+  "controlled_guidance_influence": {
+    "status": "PASS",
+    "kind": "CONTROLLED_CPU_TOY_N_LOGIT_SHIFT_NOT_RESEARCH_EDIT",
+    "active_G_gradient_max_absolute_change": 0.008496125228703022,
+    "disabled_G_gradients_exactly_unchanged": true
+  },
+  "runtime": {
+    "python": "3.10.7",
+    "torch": "2.4.1+cpu",
+    "numpy": "1.26.4"
+  },
+  "wall_seconds": 3.964,
+  "gpu_training_executed": false,
+  "experiment_artifacts_written": false
+}

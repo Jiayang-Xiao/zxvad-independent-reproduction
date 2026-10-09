@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "kind": "LOCAL_CPU_IMPLEMENTATION_AND_SYNTHETIC_FIXTURE_CHECKS_NOT_GPU_EVIDENCE",
+  "GPU_experiments_executed": false,
+  "checks": [
+    "32 updater arms ×3 consecutive updates;24 CF p0 ×3 exact original full-state parity; NC_Y/X cross-arm trajectory differences diagnostic only",
+    "N/Arc parameter changes, G/D/N exact parameter coverage and all Adam counters",
+    "missing first/second N step, omitted G/D/N/Arc, duplicate/foreign parameter mutations refused",
+    "actual cached original modules/factory CPU import and32arm adaptation withoutCUDA",
+    "297/33 recipient/donor isolated global source index plans unchanged",
+    "source selection immutable reuse/tamper and target-before-choice refusal",
+    "coordinator fit/source/freeze/target ordering and incomplete barriers",
+    "all672 AUROC readouts independently checked on CPU synthetic fixture; safe export/ZIP/retry",
+    "57 CPU optimizer-gate integration checks; receipt semantic/SHA/plan/card/counter mutation refusal, unchanged reuse and mandatory receipt binding",
+    "all4Ninputs from actualGprediction and declared positive/negative/augmented sources exactly verified",
+    "controlled N-logit shift changes active actualGgradients; NC_OFF actualGgradients exactly unchanged",
+    "forced-equal G diagnostic snapshots accepted while actual model/Adam/gradient validation remains unchanged"
+  ],
+  "limitations": [
+    "No actualCUDA gate or research training ran locally",
+    "Mandatory per-card real source three-step optimizer gate executes before fresh fits",
+    "Toy update fixtures cannot establish production CUDA/ArcFace/Kornia numerical behavior"
+  ],
+  "receipt_files": [
+    "docs/validation_updates.json",
+    "docs/validation_reporting.json",
+    "docs/validation_import.json",
+    "docs/validation_optimizer_gate.json"
+  ],
+  "verification_gate_repair": "Removed invalid two-step cross-armG parameter-divergence assertion; no research updater/configuration changes"
+}

@@ -1,0 +1,9 @@
+outputs/
+data_view/
+.venv/
+.private/
+.publish/
+runtime_python.txt
+data_config.json
+__pycache__/
+*.pyc

@@ -1,0 +1,16 @@
+# CPU回归门的跨环境修复（训练前）
+
+原V2 release身份：73a5c2202b99956df7eb89db73bee1cfe6bb3bb0412f3938eb4891de172e5548。
+原manifest字节SHA：bb8b03123427941f141edfa86248f8e2af5782877538f555c1c8fb1675c507e9。
+原regression.py SHA：7cfb9c680f2c83b4db6d233c8adba961089b493c7eada46d82507105d20fd7a1。
+修订regression.py SHA：aa1e8278c7f4b4d4c91fe03dff93e874ca3d8875c6a1ba944d0a35a31f4f20e3
+
+服务器停在VERIFYING中的CPU夹具检查，错误是NC_Y/NC_X G did not diverge after 2 updates。按照函数顺序，32组×3次N/Arc参数变化、G/D/N参数覆盖和Adam计数检查已完成，失败发生在之后的跨组轨迹断言；尚未执行真实GPU更新或正式训练。
+
+这条断言把“更新正确”与“两步内出现跨组可见差异”混为一谈。Adam归一化及FP32舍入允许不同训练来源暂时得到完全相同的G参数。本地Torch2.4.1 CPU夹具第二步G最大差异3.72529e-9；这种微小差异不适合作为跨PyTorch/CPU环境的通行条件。未在本地复现服务器完整数值环境，不能将其具体底层舍入路径当作已经证实。
+
+修复仅调整CPU验证与说明：所有自然轨迹差异记录max_abs与精确相等，不设通过阈值。直接检查一次真实G输出对应的N引导输入，以及按NC方案定义的正、负、私有随机增强正样本四次输入。保持N/Arc真实参数变化、完整优化器参数归属和每step Adam计数检查。增加同初始模型/随机状态的N.logit bias+1控制干预：实际G梯度在引导开启时响应，在NC_OFF时完全不变。本地最大梯度变化0.0084961，远大于早期自然轨迹差异；这是CPU夹具验证，绝不用于科研模型或改变超参数。
+
+11项缺失更新/参数覆盖突变仍须失败，24个CF零概率三步完整模型/Adam/梯度/RNG一致性仍须通过。真实GPU三步一致性、source-only、source heldout、fit→source→freeze→target顺序等门全部保留。
+
+不修改experiment_update.py、train_audit.py、gpu_regression.py、spec.py、protocol.json、源划分/计划或frozen_original中的任何文件。没有训练产物需要作废或重跑。离线补丁仅能作用于尚未prepared或训练的目录，保存原字节和READY日志，逐文件原子替换，manifest最后提交，支持中断后相同补丁继续。旧错误记录保留。服务器实际新CPU/GPU检查仍由用户执行，不以本地PASS替代。

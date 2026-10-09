@@ -1,0 +1,440 @@
+{
+  "kind": "AUDITED_V2_SCORED_LABEL_VIEW",
+  "source_all330": true,
+  "source_frames": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/shanghai/training/frames",
+  "source_total_frames": 274515,
+  "target_root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data",
+  "images_copied": false,
+  "images_modified": false,
+  "scored_labels_source": "Fixed audited c04 at 3eb129ec5362ebd0575f9531d6ab178f4149e879",
+  "first4_labels": "Unknown/unscored: -1 sentinel; never used as ground truth",
+  "legacy_lab_labels_used": false,
+  "reference_sha256": {
+    "ped1": "9bf0e88b118410979e00a57f056c71cb37ebcb63569bae484dbef89ddc371e45",
+    "ped2": "644ec52972698918c048eb396b6ec1768a4673d5036483b5a899b2fdbfb59f72",
+    "avenue": "4a862c2ad8411e7965e621af5227e1d4897ccd543c05c42be209ef45ac44e43a"
+  },
+  "view_builder_sha256": "9ac5d1099bcf430724cee1b56dc4ff4cc6c6092c56d48c0d48d1420ba6461b19",
+  "target_mappings": {
+    "ped1": [
+      {
+        "canonical_video": "Test001",
+        "original_video": "test001",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test001",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test002",
+        "original_video": "test002",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test002",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test003",
+        "original_video": "test003",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test003",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test004",
+        "original_video": "test004",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test004",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test005",
+        "original_video": "test005",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test005",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test006",
+        "original_video": "test006",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test006",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test007",
+        "original_video": "test007",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test007",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test008",
+        "original_video": "test008",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test008",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test009",
+        "original_video": "test009",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test009",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test010",
+        "original_video": "test010",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test010",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test011",
+        "original_video": "test011",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test011",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test012",
+        "original_video": "test012",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test012",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test013",
+        "original_video": "test013",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test013",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test014",
+        "original_video": "test014",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test014",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test015",
+        "original_video": "test015",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test015",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test016",
+        "original_video": "test016",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test016",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test017",
+        "original_video": "test017",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test017",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test018",
+        "original_video": "test018",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test018",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test019",
+        "original_video": "test019",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test019",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test020",
+        "original_video": "test020",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test020",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test021",
+        "original_video": "test021",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test021",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test022",
+        "original_video": "test022",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test022",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test023",
+        "original_video": "test023",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test023",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test024",
+        "original_video": "test024",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test024",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test025",
+        "original_video": "test025",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test025",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test026",
+        "original_video": "test026",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test026",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test027",
+        "original_video": "test027",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test027",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test028",
+        "original_video": "test028",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test028",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test029",
+        "original_video": "test029",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test029",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test030",
+        "original_video": "test030",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test030",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test031",
+        "original_video": "test031",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test031",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test032",
+        "original_video": "test032",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test032",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test033",
+        "original_video": "test033",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test033",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test034",
+        "original_video": "test034",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test034",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test035",
+        "original_video": "test035",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test035",
+        "frames": 200
+      },
+      {
+        "canonical_video": "Test036",
+        "original_video": "test036",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped1/testing/frames/test036",
+        "frames": 200
+      }
+    ],
+    "ped2": [
+      {
+        "canonical_video": "Test001",
+        "original_video": "test001",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test001",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test002",
+        "original_video": "test002",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test002",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test003",
+        "original_video": "test003",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test003",
+        "frames": 150
+      },
+      {
+        "canonical_video": "Test004",
+        "original_video": "test004",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test004",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test005",
+        "original_video": "test005",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test005",
+        "frames": 150
+      },
+      {
+        "canonical_video": "Test006",
+        "original_video": "test006",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test006",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test007",
+        "original_video": "test007",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test007",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test008",
+        "original_video": "test008",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test008",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test009",
+        "original_video": "test009",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test009",
+        "frames": 120
+      },
+      {
+        "canonical_video": "Test010",
+        "original_video": "test010",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test010",
+        "frames": 150
+      },
+      {
+        "canonical_video": "Test011",
+        "original_video": "test011",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test011",
+        "frames": 180
+      },
+      {
+        "canonical_video": "Test012",
+        "original_video": "test012",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames/test012",
+        "frames": 180
+      }
+    ],
+    "avenue": [
+      {
+        "canonical_video": "Test01",
+        "original_video": "test_01",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_01",
+        "frames": 1439
+      },
+      {
+        "canonical_video": "Test02",
+        "original_video": "test_02",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_02",
+        "frames": 1211
+      },
+      {
+        "canonical_video": "Test03",
+        "original_video": "test_03",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_03",
+        "frames": 923
+      },
+      {
+        "canonical_video": "Test04",
+        "original_video": "test_04",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_04",
+        "frames": 947
+      },
+      {
+        "canonical_video": "Test05",
+        "original_video": "test_05",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_05",
+        "frames": 1007
+      },
+      {
+        "canonical_video": "Test06",
+        "original_video": "test_06",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_06",
+        "frames": 1283
+      },
+      {
+        "canonical_video": "Test07",
+        "original_video": "test_07",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_07",
+        "frames": 605
+      },
+      {
+        "canonical_video": "Test08",
+        "original_video": "test_08",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_08",
+        "frames": 36
+      },
+      {
+        "canonical_video": "Test09",
+        "original_video": "test_09",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_09",
+        "frames": 1175
+      },
+      {
+        "canonical_video": "Test10",
+        "original_video": "test_10",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_10",
+        "frames": 841
+      },
+      {
+        "canonical_video": "Test11",
+        "original_video": "test_11",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_11",
+        "frames": 472
+      },
+      {
+        "canonical_video": "Test12",
+        "original_video": "test_12",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_12",
+        "frames": 1271
+      },
+      {
+        "canonical_video": "Test13",
+        "original_video": "test_13",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_13",
+        "frames": 549
+      },
+      {
+        "canonical_video": "Test14",
+        "original_video": "test_14",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_14",
+        "frames": 507
+      },
+      {
+        "canonical_video": "Test15",
+        "original_video": "test_15",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_15",
+        "frames": 1001
+      },
+      {
+        "canonical_video": "Test16",
+        "original_video": "test_16",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_16",
+        "frames": 740
+      },
+      {
+        "canonical_video": "Test17",
+        "original_video": "test_17",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_17",
+        "frames": 426
+      },
+      {
+        "canonical_video": "Test18",
+        "original_video": "test_18",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_18",
+        "frames": 294
+      },
+      {
+        "canonical_video": "Test19",
+        "original_video": "test_19",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_19",
+        "frames": 248
+      },
+      {
+        "canonical_video": "Test20",
+        "original_video": "test_20",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_20",
+        "frames": 273
+      },
+      {
+        "canonical_video": "Test21",
+        "original_video": "test_21",
+        "original_directory": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames/test_21",
+        "frames": 76
+      }
+    ]
+  }
+}
